@@ -1,0 +1,14 @@
+# Private AI instructions
+_skills/
+CLAUDE.md
+.env
+.env.local
+*.env
+
+# Private config
+/instructions/
+/prompts/
+
+# System files
+.DS_Store
+node_modules/
