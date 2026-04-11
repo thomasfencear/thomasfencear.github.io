@@ -1,6 +1,5 @@
 # Private AI instructions
 _skills/
-CLAUDE.md
 .env
 .env.local
 *.env
