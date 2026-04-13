@@ -1,0 +1,71 @@
+# Thomas Fence 301 Redirects
+# Generated April 13, 2026
+# Nicole Jolie | Socially Smashing, LLC
+
+# -----------------------------------------------
+# BLOG → PUBLICATIONS (renamed section)
+# -----------------------------------------------
+/blog/ /publications/ 301
+/blog/not-all-cedar-fences-are-created-equal-what-you-need-to-know-before-you-buy/ /publications/not-all-cedar-fences-are-created-equal-what-you-need-to-know-before-you-buy/ 301
+/blog/more-than-a-boundary-a-guide-to-temporary-fences-in-springdale-arkansas/ /publications/more-than-a-boundary-a-guide-to-temporary-fences-in-springdale-arkansas/ 301
+/blog/what-is-the-7-year-fence-law-in-northwest-arkansas/ /publications/what-is-the-7-year-fence-law-in-northwest-arkansas/ 301
+
+# -----------------------------------------------
+# SIX CITY PAGES
+# Old /arkansas-fence-company/CITY/ → new /CITY/
+# -----------------------------------------------
+/arkansas-fence-company/springdale-arkansas-fence-company/ /springdale/ 301
+/arkansas-fence-company/bentonville-arkansas-fence-company/ /bentonville/ 301
+/arkansas-fence-company/rogers-arkansas-fence-company/ /rogers/ 301
+/arkansas-fence-company/fayetteville-arkansas-fence-company/ /fayetteville/ 301
+/arkansas-fence-company/bella-vista-arkansas-fence-company/ /bella-vista/ 301
+/arkansas-fence-company/siloam-springs-arkansas-fence-company/ /siloam-springs/ 301
+
+# -----------------------------------------------
+# 23 THIN GEO PAGES → /service-area/
+# -----------------------------------------------
+/arkansas-fence-company/lowell-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/johnson-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/cave-springs-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/elm-springs-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/gravette-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/centerton-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/prairie-grove-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/lincoln-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/farmington-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/little-flock-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/huntsville-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/highfill-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/tontitown-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/garfield-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/avoca-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/washington-county-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/goshen-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/gentry-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/pea-ridge-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/greenland-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/elkins-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/bethel-heights-arkansas-fence-company/ /service-area/ 301
+/arkansas-fence-company/benton-county-arkansas-fence-company/ /service-area/ 301
+
+# -----------------------------------------------
+# CAREERS — external job board
+# -----------------------------------------------
+/careers/ https://thomasfencear.hireclick.com/jobboard/ 301
+
+# -----------------------------------------------
+# LEGACY SYSTEM FILES
+# -----------------------------------------------
+/network.cfm / 301
+/terms.cfm /terms/ 301
+
+# -----------------------------------------------
+# PHOTO GALLERY CFM VARIANT
+# -----------------------------------------------
+/resources/photo-gallery/index.cfm /resources/photo-gallery/ 301
+
+# -----------------------------------------------
+# TRAILING SLASH CANONICALIZATION
+# -----------------------------------------------
+/company/about-us /company/about-us/ 301
+/contact /contact/ 301
