@@ -133,11 +133,11 @@ for structure, schema, and content rules. Never guess on schema types or redirec
 - `/resources/warranty/`
 - `/resources/photo-gallery/`
 
-**Blog**
-- `/blog/`
-- `/blog/not-all-cedar-fences-are-created-equal-what-you-need-to-know-before-you-buy/`
-- `/blog/more-than-a-boundary-a-guide-to-temporary-fences-in-springdale-arkansas/`
-- `/blog/what-is-the-7-year-fence-law-in-northwest-arkansas/`
+**Publications**
+- `/publications/`
+- `/publications/not-all-cedar-fences-are-created-equal-what-you-need-to-know-before-you-buy/`
+- `/publications/more-than-a-boundary-a-guide-to-temporary-fences-in-springdale-arkansas/`
+- `/publications/what-is-the-7-year-fence-law-in-northwest-arkansas/`
 
 **Authority hub — keep, do not redirect**
 - `/arkansas-fence-company/`
@@ -194,11 +194,11 @@ The six real city pages redirect FROM the old /arkansas-fence-company/ versions:
 ### Drop entirely — no redirect needed
 
 These pages are dropped. No redirect destination required.
-- `/blog/category/commercial-fencing/` — noindex on live site
-- `/blog/category/permits-regulations/` — noindex on live site
-- `/blog/category/wood-fence/` — noindex on live site
-- `/blog/category/residential-fencing/` — noindex on live site
-- `/blog/category/general/` — noindex on live site
+- `/blog/category/commercial-fencing/` — noindex on live site (old URL, no redirect needed)
+- `/blog/category/permits-regulations/` — noindex on live site (old URL, no redirect needed)
+- `/blog/category/wood-fence/` — noindex on live site (old URL, no redirect needed)
+- `/blog/category/residential-fencing/` — noindex on live site (old URL, no redirect needed)
+- `/blog/category/general/` — noindex on live site (old URL, no redirect needed)
 - `/network.cfm` — noindex on live site, legacy file
 - `/terms.cfm` — replaced by `/terms/`
 
@@ -221,7 +221,7 @@ See `tf-schema.md` for the full schema blocks. This is the map only.
 | City pages | LocalBusiness (city-specific) |
 | `/arkansas-fence-company/` | LocalBusiness, Service, FAQPage |
 | `/service-area/` | LocalBusiness with areaServed array |
-| Blog posts | BlogPosting, BreadcrumbList |
+| Publications posts | BlogPosting, BreadcrumbList |
 | `/resources/faqs/` | FAQPage |
 | `/company/testimonials/` | Review |
 | All pages | BreadcrumbList |
@@ -237,6 +237,36 @@ Schema is always inline JSON-LD in `<head>`. Never external. Never minified.
 - US Federal Contractor Registration
 - AFA Certified Fence Contractor
 - CGAT (Certified Gate Automation Technician)
+
+---
+
+## Button Destination Map — Locked. Use Exactly This Everywhere.
+
+Every CTA button on every page must link to exactly these destinations. No variations.
+
+| Button / CTA Text | Destination |
+|---|---|
+| Get a Free Estimate | `/contact/` |
+| Contact Us | `/contact/` |
+| Instant Fence Estimator / Get a Quote | `https://thomasfence.mybudgetquote.com/budget` |
+| Apply for Financing / Get Started (financing) | `https://app.gethearth.com/partners/thomas-fence/darrell/apply` |
+| Join Our Team | `https://thomasfencear.hireclick.com/jobboard/` (opens in new tab) |
+| Directions / map pin / Find Us | `https://goo.gl/maps/iofQNA6qrftW2DpL9` (opens in new tab) |
+| Email | `mailto:Sales@ThomasFenceAR.com` |
+| Phone | `tel:+14796364732` — always formatted as `(479) 636-4732` in display text |
+
+Notes:
+- Join Our Team and Directions always open in a new tab (`target="_blank" rel="noopener noreferrer"`)
+- The estimator and financing links also open in a new tab — they are third-party tools
+- `/contact/` stays internal — never opens in a new tab
+
+---
+
+## Business Hours — Locked
+
+Monday–Friday: 8:00am – 4:00pm
+Closed Saturday and Sunday.
+Use exactly this format everywhere: **Mon–Fri, 8am–4pm**
 
 ---
 
