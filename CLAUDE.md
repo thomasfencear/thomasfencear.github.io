@@ -72,10 +72,12 @@ Do not substitute #C1121F where #F01B24 is correct.
 
 ### Stealth build phase (use these until DNS switches)
 - Logo: `https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg`
+- Favicon: `https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-favicon.svg`
 - Images base: `https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev`
 
 ### After DNS switch (run swap commands before switching)
 - Logo: `https://logo.thomasfencear.com/thomas-fence-logo.svg`
+- Favicon: `https://logo.thomasfencear.com/thomas-fence-favicon.svg`
 - Images base: `https://images.thomasfencear.com`
 
 ### URL swap commands — run from project root BEFORE switching DNS
