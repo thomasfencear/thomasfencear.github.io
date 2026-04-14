@@ -1007,6 +1007,7 @@ a:hover {
 }
 
 .sidebar-cta h3 {
+  color: var(--color-navy);
   margin-bottom: 12px;
 }
 
