@@ -1,56 +1,151 @@
 # tf-nav-footer.md — Thomas Fence Nav & Footer Skill
 
-Load this file before building any new page or touching nav/footer on any existing page.
-This is the locked standard for both the site navigation and the site footer.
+Load this file before building any new page or editing nav/footer on any existing page.
+This is the locked standard. Do not deviate from these structures.
 
 ---
 
-## Site Navigation — Locked Structure
+## Two Nav Variants — Know Which One You're Building
 
-Every page uses the same nav HTML block. Copy exactly. Do not add or remove items without updating this file and every existing page.
+| Page | Nav variant |
+|---|---|
+| Homepage (`/`) | Old Pattern A (dark, two-row). Do NOT convert. It uses a special floating pill style. |
+| Every other page | Pattern B (white single-bar). Use the template below. |
 
-### Nav items and destinations
+---
 
-| Label | Destination | Has Dropdown |
+## Pattern B Navigation — Every Non-Homepage Page
+
+### What it looks like
+```
+[Logo] | Fencing▾  Gates▾  FAQs▾  Contact | (479) 636-4732 | [Get a Free Estimate]
+```
+
+### Nav items — sub-pages only (no Home, no Publications)
+
+| Item | Destination | Dropdown |
 |---|---|---|
-| Home | `/` | No |
-| Fences | `/fences/` | Yes |
-| Gates | `/gates/` | Yes |
-| Who We Are | `/company/about-us/` | Yes |
-| FAQs | `/faqs/` | No |
-| Publications | `/publications/` | No |
-| Contact | `/contact/` | No — CTA button (red) |
+| Fencing ▾ | `/fences/` | Yes |
+| Gates ▾ | `/gates/` | Yes |
+| FAQs ▾ | `/faqs/` | Yes |
+| Contact | `/contact/` | No |
 
-### Fences dropdown
-- All Fencing Services → `/fences/`
+### Fencing dropdown
+- Residential Fencing → `/fences/residential-fencing/`
+- Commercial Fencing → `/fences/commercial-fencing/`
 - Vinyl Fence → `/fences/vinyl-fence/`
 - Wood Fence → `/fences/wood-fence/`
 - Chain Link Fence → `/fences/chain-link-fence/`
-- Ornamental Steel → `/fences/ornamental-steel-fence/`
-- Residential Fencing → `/fences/residential-fencing/`
-- Commercial Fencing → `/fences/commercial-fencing/`
+- Ornamental Steel Fence → `/fences/ornamental-steel-fence/`
 - Farm Fencing → `/fences/farm-fencing/`
-- Temporary Fencing → `/fences/temporary-fences/`
+- Temporary Fences → `/fences/temporary-fences/`
 
 ### Gates dropdown
-- All Gate Services → `/gates/`
 - Gate Automation → `/gates/gate-automation/`
 - Estate Gates → `/gates/estate-gates/`
 
-### Who We Are dropdown
-- About Us → `/company/about-us/`
-- Testimonials → `/company/testimonials/`
-- Join Our Team → `https://thomasfencear.hireclick.com/jobboard/` (new tab)
-- Contact Us → `/contact/`
+### FAQs dropdown
+- Get The Answers → `/faqs/`
+- Warranty → `/warranty/`
+- Financing → `/financing/`
+- Fence Permits → `/permits/`
+- Photo Gallery → `/photo-gallery/`
+
+### Right side of nav bar (in order)
+1. `(479) 636-4732` → `tel:+14796364732` — class `site-nav__phone`
+2. `Get a Free Estimate` → `/contact/` — class `btn-primary site-nav__cta`
+
+---
+
+## Pattern B Header HTML — Copy This Exactly for Any New Page
+
+```html
+  <header class="site-header">
+    <div class="container">
+      <nav class="site-nav" aria-label="Main navigation">
+
+        <a href="/" class="site-nav__logo" aria-label="Thomas Fence — Home">
+          <img
+            src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg"
+            alt="Thomas Fence logo"
+            width="180"
+            height="auto"
+            loading="eager"
+          >
+        </a>
+
+        <ul class="site-nav__links">
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/fences/">Fencing <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
+              <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
+              <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
+              <li><a href="/fences/wood-fence/">Wood Fence</a></li>
+              <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
+              <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
+              <li><a href="/fences/farm-fencing/">Farm Fencing</a></li>
+              <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/gates/">Gates <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/gates/gate-automation/">Gate Automation</a></li>
+              <li><a href="/gates/estate-gates/">Estate Gates</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/faqs/">FAQs <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/faqs/">Get The Answers</a></li>
+              <li><a href="/warranty/">Warranty</a></li>
+              <li><a href="/financing/">Financing</a></li>
+              <li><a href="/permits/">Fence Permits</a></li>
+              <li><a href="/photo-gallery/">Photo Gallery</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item"><a href="/contact/">Contact</a></li>
+        </ul>
+
+        <a href="tel:+14796364732" class="site-nav__phone">(479) 636-4732</a>
+
+        <a href="/contact/" class="btn-primary site-nav__cta">Get a Free Estimate</a>
+
+        <input type="checkbox" id="nav-toggle" class="site-nav__toggle-input" aria-hidden="true">
+        <label for="nav-toggle" class="site-nav__toggle-label" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </label>
+
+      </nav>
+    </div>
+  </header>
+```
+
+---
+
+## CSS Requirements for New Pages
+
+Every new non-homepage page **must** load styles.css. Place this link just before `</head>`,
+after any inline `<style>` blocks so styles.css wins on cascade conflicts:
+
+```html
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+```
+
+styles.css contains all nav styles (`.site-header`, `.site-nav`, `.site-nav__phone`,
+`.site-nav__cta`, dropdowns, hamburger, mobile responsive). No extra nav CSS needed in
+inline `<style>` blocks for new pages.
 
 ---
 
 ## Site Footer — Locked Structure
 
-Three columns. One consistent footer on all 44 pages. No JS. All inline in HTML.
+Three columns. One consistent footer on all pages. No JS. All inline in HTML.
 
 ### Column 1 — NAP + Hours + Social
-- Logo (white, filtered): `https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg`
+- Logo: `https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg`
   - After DNS switch: `https://logo.thomasfencear.com/thomas-fence-logo.svg`
 - Name: Thomas Fence
 - Address: 653 Kawneer Dr, Springdale, AR 72764
@@ -166,17 +261,9 @@ Three columns. One consistent footer on all 44 pages. No JS. All inline in HTML.
 
 ---
 
-## CSS Notes
-
-- Pages that load `/css/styles.css` get footer styles automatically — no extra CSS needed.
-- Pages with inline CSS get `<style id="tf-footer-css">` injected before `</head>` — this block contains all footer styles with hardcoded values (no CSS vars).
-- The `.site-footer__inner` wrapper is used on ALL pages (replaces `.container` inside footer). This is defined in both styles.css and the inline CSS block.
-
----
-
 ## LinkedIn — When URL Is Ready
 
-When the LinkedIn page is live, change the `<span>` to an `<a>` tag:
+When the LinkedIn page is live, swap the `<span>` to an `<a>` sitewide:
 
 ```html
 <!-- Before (pending) -->
@@ -186,4 +273,4 @@ When the LinkedIn page is live, change the `<span>` to an `<a>` tag:
 <a href="https://www.linkedin.com/company/thomas-fence" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on LinkedIn">
 ```
 
-Run a sitewide find-and-replace across all 44 pages when ready.
+Run a sitewide find-and-replace across all pages when ready.
