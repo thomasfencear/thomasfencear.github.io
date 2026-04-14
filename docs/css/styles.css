@@ -322,7 +322,7 @@ a:hover {
 .site-nav__dropdown {
   display: none;
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
   min-width: 210px;
@@ -330,7 +330,7 @@ a:hover {
   border-top: 2px solid var(--color-red-primary);
   box-shadow: var(--shadow-md);
   list-style: none;
-  padding: 8px 0;
+  padding: 12px 0 8px;
   z-index: 300;
 }
 
@@ -338,7 +338,7 @@ a:hover {
 .site-nav__dropdown::before {
   content: '';
   position: absolute;
-  top: -8px;
+  top: -6px;
   left: 50%;
   transform: translateX(-50%);
   border-left: 7px solid transparent;
@@ -377,7 +377,7 @@ a:hover {
 
 /* Homepage pill — dropdown aligns correctly inside pill */
 .page-home .site-nav__dropdown {
-  top: calc(100% + 16px);
+  top: 100%;
 }
 
 
