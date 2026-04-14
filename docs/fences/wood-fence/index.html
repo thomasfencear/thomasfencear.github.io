@@ -222,6 +222,22 @@
     .site-footer__list--legal a { font-size: 0.82rem; }
     .site-footer__logo { margin-bottom: 4px; opacity: 0.9; }
     .site-footer__bottom { border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 0; text-align: center; font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+  
+    /* ── service page photos ───────────────────────────────────────── */
+    .service-hero-image { line-height: 0; }
+    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
+    .content-photo { margin: 28px 0; }
+    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    .type-photo { margin: 10px 0 4px; }
+    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
+    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
+      .gate-pair { grid-template-columns: 1fr; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -349,6 +365,9 @@
       </ul>
     </div>
   </section>
+  <section class="service-hero-image">
+    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/springdale-arkansas-wood-fence-company.png" alt="Wood fence installation in Springdale, Arkansas" width="1200" loading="lazy">
+  </section>
 
   <section class="page-content">
     <div class="container">
@@ -376,30 +395,40 @@
               <p>Thickness, width, and density all matter. We use quality pickets that are straight, properly dried, and free of defects that lead to warping and cupping over time.</p>
             </div>
           </div>
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/features-wood-fence-panel.png" alt="Wood fence panel construction showing quality posts, rails, and pickets" width="1200" loading="lazy">
+          </div>
 
           <h2>Wood Fence Styles</h2>
           <p>We build custom wood fences in a wide range of styles to match your property and preferences.</p>
 
-          <div class="styles-grid">
-            <div class="style-tag">Board-on-Board</div>
-            <div class="style-tag">Stockade</div>
-            <div class="style-tag">Shadowbox</div>
-            <div class="style-tag">Picket</div>
-            <div class="style-tag">Post and Rail</div>
-            <div class="style-tag">Horizontal</div>
+
+          <div class="styles-photo-grid">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-board-on-board-fence.png" alt="Board-on-board wood privacy fence" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/stockade-style-wood-privacy-fence.png" alt="Stockade-style wood privacy fence" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-shadowbox-fence.png" alt="Shadowbox wood fence" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-picket-fence-flat-tops.png" alt="Wood picket fence" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-post-and-rail-fence.png" alt="Wood post and rail fence" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-horizontal-privacy-fence.png" alt="Horizontal wood privacy fence" width="1200" loading="lazy">
           </div>
 
           <h2>Custom Top Finishes</h2>
           <p>Add character to your wood fence with a custom top finish. Options include:</p>
-          <ul>
-            <li>French Gothic Pickets</li>
-            <li>Gothic Pickets</li>
-            <li>Dog Ear Finish Top</li>
-            <li>Convex Top</li>
-            <li>Concave Top</li>
-            <li>Cap and Trim</li>
-          </ul>
 
+          <div class="styles-photo-grid">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-french-gothic-pickets-wood-fence.png" alt="French Gothic picket top finish" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-gothic-pickets-wood-fence.png" alt="Gothic picket top finish" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-dog-ear-wood-fence.png" alt="Dog ear top finish" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-convex-wood-fence.png" alt="Convex top finish" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-concave-wood-fence.png" alt="Concave top finish" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/top-finish-cap-and-trim-wood-fence.png" alt="Cap and trim top finish" width="1200" loading="lazy">
+          </div>
+
+          <div class="styles-photo-grid">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/postmaster-posts-intro.png" alt="PostMaster steel fence post system" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/rot-prevention-for-fence-posts.png" alt="Rot prevention for wood fence posts" width="1200" loading="lazy">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/posts-for-all-wood-fence-styles.png" alt="Posts for all wood fence styles" width="1200" loading="lazy">
+          </div>
           <h2>Wood Fence Benefits</h2>
 
           <h3>Naturally Beautiful</h3>
@@ -443,6 +472,10 @@
           <h2>Wood Fence Warranty</h2>
           <p>Thomas Fence provides a 1-year workmanship warranty on all wood fence installations. We use top-quality fencing materials that often come with impressive manufacturer warranties for even greater protection.</p>
 
+
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/wood-fence/images/wood-fence-faqs.png" alt="Wood fence FAQ — Thomas Fence Northwest Arkansas" width="1200" loading="lazy">
+          </div>
           <h2>Wood Fence FAQs</h2>
 
           <details class="faq-item">

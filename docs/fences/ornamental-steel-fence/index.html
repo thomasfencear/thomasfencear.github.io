@@ -186,6 +186,22 @@
     .site-footer__list--legal a { font-size: 0.82rem; }
     .site-footer__logo { margin-bottom: 4px; opacity: 0.9; }
     .site-footer__bottom { border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 0; text-align: center; font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+  
+    /* ── service page photos ───────────────────────────────────────── */
+    .service-hero-image { line-height: 0; }
+    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
+    .content-photo { margin: 28px 0; }
+    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    .type-photo { margin: 10px 0 4px; }
+    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
+    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
+      .gate-pair { grid-template-columns: 1fr; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -313,6 +329,9 @@
       </ul>
     </div>
   </section>
+  <section class="service-hero-image">
+    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/ornamental-steel-fence/images/springdale-arkansas-ornamental-steel-fence-company.png" alt="Ornamental steel fence installation in Springdale, Arkansas" width="1200" loading="lazy">
+  </section>
 
   <section class="page-content">
     <div class="container">
@@ -339,6 +358,9 @@
               <h3>Premium Pickets with ProFusion Welding</h3>
               <p>Our pickets are manufactured with ProFusion welding technology, which hides the hardware and creates a strong, sleek, finished look that elevates the appearance of any property.</p>
             </div>
+          </div>
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/ornamental-steel-fence/images/features-ornamental-steel-fence-panel.png" alt="Ornamental steel fence panel with ProFusion welded pickets" width="1200" loading="lazy">
           </div>
 
           <h2>Ornamental Steel Fence Advantages</h2>
@@ -387,6 +409,14 @@
           <h2>Ornamental Steel Fence Warranty</h2>
           <p>Our ornamental steel fences are protected by a lifetime warranty for residential properties. Thomas Fence also provides a 1-year workmanship warranty on all installations.</p>
 
+
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/ornamental-steel-fence/images/ornamental-steel-fencing-options-springdale-arkansas.png" alt="Ornamental steel fencing options in Northwest Arkansas" width="1200" loading="lazy">
+          </div>
+
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/ornamental-steel-fence/images/ornamental-steel-fence-faqs.png" alt="Ornamental steel fence FAQ — Thomas Fence" width="1200" loading="lazy">
+          </div>
           <h2>Ornamental Steel Fence FAQs</h2>
 
           <details class="faq-item">

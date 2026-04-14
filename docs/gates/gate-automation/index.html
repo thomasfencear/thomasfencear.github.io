@@ -790,6 +790,22 @@
       .site-header__actions .btn--red { display: none; }
       .trust-bar__inner { justify-content: flex-start; }
     }
+  
+    /* ── service page photos ───────────────────────────────────────── */
+    .service-hero-image { line-height: 0; }
+    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
+    .content-photo { margin: 28px 0; }
+    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    .type-photo { margin: 10px 0 4px; }
+    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
+    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
+      .gate-pair { grid-template-columns: 1fr; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -914,6 +930,9 @@
       <div class="trust-bar__item">Bonded &amp; Insured</div>
     </div>
   </div>
+  <section class="service-hero-image">
+    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/springdale-arkansas-gate-automation-company.jpg" alt="Gate automation installation in Springdale, Arkansas" width="1200" loading="lazy">
+  </section>
 
   <!-- PAGE CONTENT -->
   <main class="page-content">
@@ -932,31 +951,41 @@
           </div>
         </div>
 
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/springdale-arkansas-gate-features.png" alt="Gate automation features — CGAT certified installation" width="1200" loading="lazy">
+          </div>
+
         <h2>Gate Automation for Every Property Type</h2>
         <p>We design and install automated gate systems scaled to match the specific demands of your property — residential privacy, commercial access management, or high-traffic industrial use.</p>
 
         <div class="gate-types-grid">
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/residential-gates-springdale-arkansas.png" alt="Residential automated gate in Springdale, Arkansas" width="1200" loading="lazy"></div>
             <h3>Residential</h3>
             <p>Automated driveway gates that add security, curb appeal, and convenience to your home. Works with any gate material — ornamental steel, vinyl, wood, or chain link.</p>
           </div>
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/light-commercial-gates-springdale-arkansas.png" alt="Light commercial automated gate in Northwest Arkansas" width="1200" loading="lazy"></div>
             <h3>Light Commercial</h3>
             <p>Ideal for small businesses, storage facilities, and retail locations needing controlled entry without full commercial infrastructure.</p>
           </div>
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/commercial-gates-springdale-arkansas.png" alt="Commercial automated gate in Springdale, Arkansas" width="1200" loading="lazy"></div>
             <h3>Commercial</h3>
             <p>Heavy-duty gate systems for warehouses, distribution centers, office parks, and multi-tenant properties with higher traffic demands.</p>
           </div>
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/industrial-gates-springdale-arkansas.png" alt="Industrial automated gate in Northwest Arkansas" width="1200" loading="lazy"></div>
             <h3>Industrial</h3>
             <p>High-cycle operators and reinforced gate systems designed for continuous use at manufacturing facilities, utilities, and large industrial sites.</p>
           </div>
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/access-control-systems-springdale-arkansas.png" alt="Access control systems for automated gates" width="1200" loading="lazy"></div>
             <h3>Access Control</h3>
             <p>Keypads, card readers, remote controls, phone entry systems, and intercom integration — we match the access control method to your security requirements.</p>
           </div>
           <div class="gate-type-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/custom-gates-springdale-arkansas.png" alt="Custom gate automation applications" width="1200" loading="lazy"></div>
             <h3>Custom Applications</h3>
             <p>Unusual site geometry, special security requirements, or unique materials? We engineer custom solutions for properties that don't fit standard configurations.</p>
           </div>
@@ -967,10 +996,12 @@
 
         <div class="feature-cards">
           <div class="feature-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/swing-gate-installation-company-in-springdale-arkansas-1.png" alt="Swing gate installation diagram" width="1200" loading="lazy"></div>
             <h3>Swing Gate</h3>
             <p>The classic automated gate — one or two panels swing inward or outward. Best for properties with adequate driveway depth behind the gate line and relatively level terrain.</p>
           </div>
           <div class="feature-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/cantilever-slide-gate-installation-company-in-springdale-arkansas-1.png" alt="Cantilever slide gate installation diagram" width="1200" loading="lazy"></div>
             <h3>Cantilever Slide Gate</h3>
             <p>Slides horizontally without ground contact — preferred where track drainage is an issue or where the driveway surface can't support a V-track. Handles heavy gate weights reliably.</p>
           </div>
@@ -982,6 +1013,7 @@
 
         <div class="feature-cards">
           <div class="feature-card">
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/Vertical-Pivot-Gate-installation-company-in-springdale-arkansas-1.png" alt="Vertical pivot gate installation diagram" width="1200" loading="lazy"></div>
             <h3>Vertical Pivot Gate</h3>
             <p>Pivots vertically — opens by tilting upward rather than swinging or sliding. Useful for sites with restricted lateral space or narrow driveways where swing clearance isn't available.</p>
           </div>
@@ -996,6 +1028,7 @@
         </div>
 
         <div class="highlight-box">
+          <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/gate-automation/images/springdale-arkansas-gate-automation-repair.png" alt="Gate automation repair service in Springdale, Arkansas" width="1200" loading="lazy"></div>
           <h3>Automated Gate Repair Service</h3>
           <p>Thomas Fence also repairs existing automated gate systems — regardless of who installed them. If your gate operator has stopped working, a loop detector is failing, or an access control component needs replacement, we can diagnose and fix it.</p>
           <ul>
