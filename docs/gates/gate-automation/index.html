@@ -826,62 +826,70 @@
     @media (max-width: 768px) { .site-footer { margin-top: 64px; } .site-footer__grid { grid-template-columns: 1fr; gap: 44px; } }
     @media (max-width: 480px) { .site-footer { padding: 48px 0 0; margin-top: 52px; } }
   </style>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
-    <div class="site-header__inner">
-      <a class="site-header__logo" href="/">
-        <img src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg" alt="Thomas Fence logo" width="180" height="48">
-      </a>
-      <div class="site-header__actions">
-        <a class="site-header__phone" href="tel:+14796364732">(479) 636-4732</a>
-        <a class="btn btn--red" href="/contact/">Get a Free Estimate</a>
-      </div>
+    <div class="container">
+      <nav class="site-nav" aria-label="Main navigation">
+
+        <a href="/" class="site-nav__logo" aria-label="Thomas Fence — Home">
+          <img
+            src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg"
+            alt="Thomas Fence logo"
+            width="180"
+            height="auto"
+            loading="eager"
+          >
+        </a>
+
+        <ul class="site-nav__links">
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/fences/">Fencing <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
+              <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
+              <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
+              <li><a href="/fences/wood-fence/">Wood Fence</a></li>
+              <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
+              <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
+              <li><a href="/fences/farm-fencing/">Farm Fencing</a></li>
+              <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/gates/">Gates <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/gates/gate-automation/">Gate Automation</a></li>
+              <li><a href="/gates/estate-gates/">Estate Gates</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item site-nav__item--has-dropdown">
+            <a href="/faqs/">FAQs <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <ul class="site-nav__dropdown">
+              <li><a href="/faqs/">Get The Answers</a></li>
+              <li><a href="/warranty/">Warranty</a></li>
+              <li><a href="/financing/">Financing</a></li>
+              <li><a href="/permits/">Fence Permits</a></li>
+              <li><a href="/photo-gallery/">Photo Gallery</a></li>
+            </ul>
+          </li>
+          <li class="site-nav__item"><a href="/contact/">Contact</a></li>
+        </ul>
+
+        <a href="tel:+14796364732" class="site-nav__phone">(479) 636-4732</a>
+
+        <a href="/contact/" class="btn-primary site-nav__cta">Get a Free Estimate</a>
+
+        <input type="checkbox" id="nav-toggle" class="site-nav__toggle-input" aria-hidden="true">
+        <label for="nav-toggle" class="site-nav__toggle-label" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </label>
+
+      </nav>
     </div>
   </header>
-
-  <!-- NAV -->
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="site-nav__inner">
-      <label class="site-nav__toggle-label" for="nav-toggle" aria-label="Toggle navigation">&#9776;</label>
-      <input class="site-nav__toggle-input" type="checkbox" id="nav-toggle">
-      <ul class="site-nav__links">
-        <li class="site-nav__item site-nav__item--has-dropdown">
-          <a class="site-nav__link" href="/fences/">Fencing &#9662;</a>
-          <ul class="site-nav__dropdown">
-            <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
-            <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
-            <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
-            <li><a href="/fences/wood-fence/">Wood Fence</a></li>
-            <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
-            <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
-            <li><a href="/fences/farm-fencing/">Farm Fencing</a></li>
-            <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
-          </ul>
-        </li>
-        <li class="site-nav__item site-nav__item--has-dropdown">
-          <a class="site-nav__link" href="/gates/">Gates &#9662;</a>
-          <ul class="site-nav__dropdown">
-            <li><a href="/gates/gate-automation/">Gate Automation</a></li>
-            <li><a href="/gates/estate-gates/">Estate Gates</a></li>
-          </ul>
-        </li>
-        <li class="site-nav__item site-nav__item--has-dropdown">
-          <a class="site-nav__link" href="/faqs/">FAQs &#9662;</a>
-          <ul class="site-nav__dropdown">
-            <li><a href="/faqs/">Get The Answers</a></li>
-            <li><a href="/warranty/">Warranty</a></li>
-            <li><a href="/financing/">Financing</a></li>
-            <li><a href="/permits/">Fence Permits</a></li>
-            <li><a href="/photo-gallery/">Photo Gallery</a></li>
-          </ul>
-        </li>
-        <li class="site-nav__item"><a class="site-nav__link" href="/contact/">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
 
   <!-- PAGE HERO -->
   <section class="page-hero">
