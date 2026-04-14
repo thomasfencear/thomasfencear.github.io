@@ -1,0 +1,64 @@
+<svg viewBox="0 0 400 160" xmlns="http://www.w3.org/2000/svg" width="400" height="160">
+
+  <!-- Full red background -->
+  <rect width="400" height="160" fill="#C1121F"/>
+
+  <!-- White border inset -->
+  <rect x="6" y="6" width="388" height="148" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+
+  <!-- "Thomas" in white script-style text -->
+  <text
+    x="200"
+    y="58"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="52"
+    font-style="italic"
+    font-weight="400"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="1"
+  >Thomas</text>
+
+  <!-- Thin white rule between Thomas and FENCE -->
+  <line x1="24" y1="68" x2="376" y2="68" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- "FENCE" in white bold caps -->
+  <text
+    x="200"
+    y="103"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="38"
+    font-weight="700"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="6"
+  >FENCE</text>
+
+  <!-- Thin white rule between FENCE and phone -->
+  <line x1="24" y1="112" x2="376" y2="112" stroke="#FFFFFF" stroke-width="1.5"/>
+
+  <!-- Phone number -->
+  <text
+    x="200"
+    y="134"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="18"
+    font-weight="700"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="1.5"
+  >479-636-4732</text>
+
+  <!-- Website URL -->
+  <text
+    x="200"
+    y="152"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="12"
+    font-weight="400"
+    fill="#FFFFFF"
+    text-anchor="middle"
+    letter-spacing="0.5"
+  >ThomasFenceAR.com</text>
+
+</svg>
