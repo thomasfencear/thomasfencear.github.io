@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:thomasfencear.com)",
+      "Bash(xargs sed:*)",
+      "Bash(find public:*)",
+      "Bash(grep '/blog/' _skills/*.md)",
+      "Bash(aws --version)",
+      "Bash(python3 --version)",
+      "Bash(python --version)",
+      "Bash(bash /tmp/legal_template.sh \"dmca-policy\" \"DMCA Policy\" \"Thomas Fence DMCA takedown policy for copyright infringement claims.\" \"Thomas Fence \\(Paschal Enterprises, Inc.\\) respects the intellectual property of others. This DMCA Policy explains the procedure for submitting a notice of claimed copyright infringement with respect to content published on thomasfencear.com.\")",
+      "Bash(bash /tmp/legal_template.sh \"refund-policy\" \"Refund &amp; Cancellation Policy\" \"Thomas Fence refund and cancellation policy for fence and gate installation services.\" \"This policy describes the terms under which Thomas Fence \\(Paschal Enterprises, Inc.\\) handles cancellations, refunds, and modifications to contracted work. No deposit is required for standard residential fence installations. Special-order and custom metalwork may require a deposit as specified in your written estimate.\")",
+      "Bash(bash /tmp/legal_template.sh \"optin-agreement\" \"Opt-in Agreement\" \"Opt-in agreement for communications from Thomas Fence via web form, phone, or email.\" \"By submitting a contact form, requesting an estimate, or otherwise providing your contact information on thomasfencear.com, you consent to receive communications from Thomas Fence \\(Paschal Enterprises, Inc.\\) regarding your inquiry, including by phone, email, or text message.\")",
+      "Bash(bash /tmp/legal_template.sh \"anti-class-action\" \"Anti-Class Action\" \"Anti-class action clause governing dispute resolution with Thomas Fence.\" \"Any claim or dispute arising out of or relating to thomasfencear.com or the services of Thomas Fence \\(Paschal Enterprises, Inc.\\) must be resolved on an individual basis only, and not as part of any purported class, collective, coordinated, or representative proceeding.\")",
+      "Bash(bash /tmp/legal_template.sh \"cookie-policy\" \"Cookie Policy\" \"Thomas Fence cookie policy describing how cookies are used on thomasfencear.com.\" \"This Cookie Policy explains how thomasfencear.com uses cookies and similar tracking technologies when you visit our website. By continuing to use this site, you consent to the use of cookies as described in this policy.\")"
+    ]
+  }
+}
