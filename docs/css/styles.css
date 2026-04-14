@@ -1277,9 +1277,15 @@ a:hover {
   margin-top: 88px;
 }
 
+.site-footer__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
 .site-footer__grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr;
   gap: 48px;
   padding-bottom: 52px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1375,30 +1381,16 @@ a:hover {
 
 /* Column 2 — Site */
 .site-footer__col--site {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 32px;
-  row-gap: 0;
-  align-content: start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .site-footer__heading {
   font-family: var(--font-heading);
   font-size: 1rem;
   color: var(--color-white);
-  margin-bottom: 4px;
-  grid-column: 1 / -1;
-}
-
-.site-footer__section-label {
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.09em;
-  color: var(--color-steel);
-  margin-top: 20px;
-  margin-bottom: 6px;
+  margin: 0 0 8px;
 }
 
 .site-footer__list {
@@ -1518,7 +1510,7 @@ a:hover {
   }
 
   .site-footer__grid {
-    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-columns: 1.2fr 1fr 1fr;
     gap: 36px;
   }
 
@@ -1773,9 +1765,6 @@ a:hover {
     gap: 44px;
   }
 
-  .site-footer__col--site {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 
 
@@ -1827,10 +1816,6 @@ a:hover {
 
   .page-hero {
     padding: 40px 0;
-  }
-
-  .site-footer__col--site {
-    grid-template-columns: 1fr;
   }
 
   .site-footer {

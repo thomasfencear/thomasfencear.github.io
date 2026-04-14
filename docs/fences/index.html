@@ -639,6 +639,41 @@
       .site-header__actions .btn--red { display: none; }
     }
   </style>
+  <style id="tf-footer-css">
+    /* Thomas Fence — Unified Footer */
+    .site-footer { background: #003049; color: #fff; padding: 64px 0 0; margin-top: 88px; font-family: 'DM Sans', sans-serif; }
+    .site-footer__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 52px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .site-footer__col--contact { display: flex; flex-direction: column; gap: 20px; }
+    .site-footer__logo { height: 46px; width: auto; display: block; filter: brightness(0) invert(1); }
+    .site-footer__nap { font-size: 0.9rem; line-height: 1.75; color: rgba(255,255,255,0.8); font-style: normal; }
+    .site-footer__nap strong { color: #fff; }
+    .site-footer__nap a { color: #FDF0D5; text-decoration: none; font-weight: 600; }
+    .site-footer__nap a:hover { color: #fff; }
+    .site-footer__hours { font-size: 0.875rem; color: rgba(255,255,255,0.7); line-height: 1.5; margin: 0; }
+    .site-footer__hours strong { color: rgba(255,255,255,0.9); }
+    .site-footer__contact-btn { display: inline-block; background: #F01B24; color: #fff; padding: 10px 20px; border-radius: 6px; font-size: 0.875rem; font-weight: 600; text-decoration: none; align-self: flex-start; transition: background 0.2s; }
+    .site-footer__contact-btn:hover { background: #780000; color: #fff; }
+    .site-footer__socials { display: flex; gap: 10px; flex-wrap: wrap; }
+    .site-footer__social-link { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.75); text-decoration: none; transition: background 0.2s, color 0.2s; }
+    .site-footer__social-link:hover { background: #F01B24; color: #fff; }
+    .site-footer__social-link--pending { opacity: 0.4; cursor: not-allowed; }
+    .site-footer__social-link--pending:hover { background: rgba(255,255,255,0.1) !important; color: rgba(255,255,255,0.75) !important; }
+    .site-footer__col--site, .site-footer__col--legal { display: flex; flex-direction: column; gap: 8px; }
+    .site-footer__heading { font-family: 'DM Serif Display', serif; font-size: 1rem; color: #fff; margin: 0 0 8px; }
+    .site-footer__list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 5px; }
+    .site-footer__list a { font-size: 0.85rem; color: rgba(255,255,255,0.7); text-decoration: none; line-height: 1.4; transition: color 0.2s; }
+    .site-footer__list a:hover { color: #fff; }
+    .site-footer__list--legal a { font-size: 0.8rem; color: rgba(255,255,255,0.5); }
+    .site-footer__list--legal a:hover { color: #fff; }
+    .site-footer__bottom { padding: 20px 0; font-size: 0.78rem; color: rgba(255,255,255,0.38); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+    .site-footer__bottom-legal { display: flex; gap: 20px; }
+    .site-footer__bottom-legal a { color: rgba(255,255,255,0.38); text-decoration: none; transition: color 0.2s; }
+    .site-footer__bottom-legal a:hover { color: #FDF0D5; }
+    @media (max-width: 1024px) { .site-footer__grid { grid-template-columns: 1.2fr 1fr 1fr; gap: 36px; } }
+    @media (max-width: 768px) { .site-footer { margin-top: 64px; } .site-footer__grid { grid-template-columns: 1fr; gap: 44px; } }
+    @media (max-width: 480px) { .site-footer { padding: 48px 0 0; margin-top: 52px; } }
+  </style>
 </head>
 <body>
 
@@ -896,61 +931,78 @@
   <footer class="site-footer">
     <div class="site-footer__inner">
       <div class="site-footer__grid">
-        <div class="site-footer__col">
-          <h3>Thomas Fence</h3>
-          <address class="site-footer__address">
+
+        <!-- Column 1: NAP + Hours + Social -->
+        <div class="site-footer__col site-footer__col--contact">
+          <a href="/" aria-label="Thomas Fence — Home">
+            <img
+              src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg"
+              alt="Thomas Fence logo"
+              width="160"
+              height="auto"
+              loading="lazy"
+              class="site-footer__logo"
+            >
+          </a>
+          <address class="site-footer__nap">
+            <strong>Thomas Fence</strong><br>
             653 Kawneer Dr<br>
-            Springdale, AR 72764<br><br>
+            Springdale, AR 72764<br>
             <a href="tel:+14796364732">(479) 636-4732</a><br>
-            <a href="mailto:Sales@ThomasFenceAR.com">Sales@ThomasFenceAR.com</a><br><br>
-            Mon–Fri, 8am–4pm
+            <a href="mailto:Sales@ThomasFenceAR.com">Sales@ThomasFenceAR.com</a>
           </address>
-          <div class="site-footer__social">
-            <span class="site-footer__social-link--pending">LinkedIn (coming soon)</span>
+          <p class="site-footer__hours"><strong>Hours:</strong> Mon–Fri, 8am–4pm</p>
+          <a href="/contact/" class="btn-primary site-footer__contact-btn">Get a Free Estimate</a>
+          <div class="site-footer__socials">
+            <a href="https://www.facebook.com/ThomasFenceAR" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.pinterest.com/thomasfencear/_saved/" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Pinterest">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/thomasfencear/" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <span class="site-footer__social-link site-footer__social-link--pending" aria-label="Thomas Fence on LinkedIn (coming soon)" title="LinkedIn — coming soon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
           </div>
         </div>
-        <div class="site-footer__col">
-          <h3>Services</h3>
-          <ul>
-            <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
-            <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
-            <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
-            <li><a href="/fences/wood-fence/">Wood Fence</a></li>
-            <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
-            <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
-            <li><a href="/fences/farm-fencing/">Farm Fencing</a></li>
-            <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
-            <li><a href="/gates/gate-automation/">Gate Automation</a></li>
-            <li><a href="/gates/estate-gates/">Estate Gates</a></li>
-          </ul>
-        </div>
-        <div class="site-footer__col">
-          <h3>Company</h3>
-          <ul>
-            <li><a href="/company/about-us/">About Us</a></li>
-            <li><a href="https://thomasfencear.hireclick.com/jobboard/" target="_blank" rel="noopener noreferrer">Join Our Team</a></li>
-            <li><a href="/company/testimonials/">Testimonials</a></li>
-            <li><a href="/contact/">Contact Us</a></li>
+
+        <!-- Column 2: Site Navigation -->
+        <div class="site-footer__col site-footer__col--site">
+          <h3 class="site-footer__heading">Site</h3>
+          <ul class="site-footer__list">
+            <li><a href="/fences/">Fences</a></li>
+            <li><a href="/gates/">Gates</a></li>
             <li><a href="/faqs/">FAQs</a></li>
-            <li><a href="/financing/">Financing</a></li>
-            <li><a href="/permits/">Permits</a></li>
             <li><a href="/warranty/">Warranty</a></li>
-            <li><a href="/photo-gallery/">Photo Gallery</a></li>
-            <li><a href="/publications/">Publications</a></li>
+            <li><a href="/financing/">Financing</a></li>
+            <li><a href="/company/about-us/">Who We Are</a></li>
             <li><a href="/contact/">Contact</a></li>
-            <li><a href="/arkansas-fence-company/">Service Area</a></li>
           </ul>
         </div>
-      </div>
-      <div class="site-footer__bottom">
-        <div class="site-footer__copy">
-          &copy; 2026 Paschal Enterprises, Inc. dba Thomas Fence. All rights reserved.
+
+        <!-- Column 3: Legal -->
+        <div class="site-footer__col site-footer__col--legal">
+          <h3 class="site-footer__heading">Legal</h3>
+          <ul class="site-footer__list site-footer__list--legal">
+            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/legal/terms-of-service/">Terms of Service</a></li>
+            <li><a href="/warranty/">Warranty</a></li>
+            <li><a href="/legal/">Legal (All Pages)</a></li>
+          </ul>
         </div>
-        <div class="site-footer__legal">
+
+      </div>
+
+      <div class="site-footer__bottom">
+        <span>&copy; 2026 Paschal Enterprises, Inc. dba Thomas Fence. All rights reserved.</span>
+        <nav class="site-footer__bottom-legal" aria-label="Legal">
           <a href="/legal/privacy-policy/">Privacy Policy</a>
           <a href="/legal/terms-of-service/">Terms</a>
           <a href="/legal/">Legal</a>
-        </div>
+        </nav>
       </div>
     </div>
   </footer>
