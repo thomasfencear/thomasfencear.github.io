@@ -60,12 +60,32 @@
 /terms.cfm /terms/ 301
 
 # -----------------------------------------------
+# RESOURCES → CLEAN ROOT URLs (April 14, 2026)
+# -----------------------------------------------
+/resources/faqs/ /faqs/ 301
+/resources/financing/ /financing/ 301
+/resources/permits/ /permits/ 301
+/resources/warranty/ /warranty/ 301
+/resources/photo-gallery/ /photo-gallery/ 301
+
+# -----------------------------------------------
 # PHOTO GALLERY CFM VARIANT
 # -----------------------------------------------
-/resources/photo-gallery/index.cfm /resources/photo-gallery/ 301
+/resources/photo-gallery/index.cfm /photo-gallery/ 301
+
+# -----------------------------------------------
+# LEGACY LEGAL PAGES
+# -----------------------------------------------
+/privacy/ /legal/privacy-policy/ 301
+/terms/ /legal/terms-of-service/ 301
 
 # -----------------------------------------------
 # TRAILING SLASH CANONICALIZATION
 # -----------------------------------------------
 /company/about-us /company/about-us/ 301
 /contact /contact/ 301
+/faqs /faqs/ 301
+/financing /financing/ 301
+/permits /permits/ 301
+/warranty /warranty/ 301
+/photo-gallery /photo-gallery/ 301

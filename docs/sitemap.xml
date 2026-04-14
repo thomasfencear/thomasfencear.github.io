@@ -135,27 +135,27 @@
 
   <!-- RESOURCES -->
   <url>
-    <loc>https://thomasfencear.com/resources/faqs/</loc>
+    <loc>https://thomasfencear.com/faqs/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://thomasfencear.com/resources/photo-gallery/</loc>
+    <loc>https://thomasfencear.com/photo-gallery/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://thomasfencear.com/resources/financing/</loc>
+    <loc>https://thomasfencear.com/financing/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://thomasfencear.com/resources/permits/</loc>
+    <loc>https://thomasfencear.com/permits/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://thomasfencear.com/resources/warranty/</loc>
+    <loc>https://thomasfencear.com/warranty/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

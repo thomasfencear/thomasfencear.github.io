@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fence Warranty | Thomas Fence | Northwest Arkansas</title>
-  <meta name="description" content="Thomas Fence offers a 1-year workmanship warranty on all fence installations in Northwest Arkansas. Manufacturer warranties on vinyl, ornamental steel, and chain link.">
-  <link rel="canonical" href="https://thomasfencear.com/resources/warranty/">
+  <title>Fence Permits in Northwest Arkansas | Thomas Fence</title>
+  <meta name="description" content="Find out if your city requires a fence permit in Northwest Arkansas. Thomas Fence lists every NWA municipality — which require permits and direct links to apply.">
+  <link rel="canonical" href="https://thomasfencear.com/permits/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Fence Warranty | Thomas Fence | Northwest Arkansas">
-  <meta property="og:description" content="Thomas Fence offers a 1-year workmanship warranty on all fence installations. We stand behind every fence we build with expert installation and quality products.">
-  <meta property="og:url" content="https://thomasfencear.com/resources/warranty/">
+  <meta property="og:title" content="Fence Permits in Northwest Arkansas | Thomas Fence">
+  <meta property="og:description" content="Find out if your city requires a fence permit in Northwest Arkansas. Direct links to permit applications for every city that requires one.">
+  <meta property="og:url" content="https://thomasfencear.com/permits/">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-og-image.jpg">
   <meta property="og:site_name" content="Thomas Fence">
@@ -59,8 +59,8 @@
           {
             "@type": "ListItem",
             "position": 3,
-            "name": "Warranty",
-            "item": "https://thomasfencear.com/resources/warranty/"
+            "name": "Fence Permits",
+            "item": "https://thomasfencear.com/permits/"
           }
         ]
       }
@@ -72,82 +72,198 @@
 
   <style>
 
-    .warranty-content {
+    .permits-content {
       padding: 64px 0 80px;
       background: var(--color-white);
     }
 
-    .warranty-content__grid {
+    .permits-content__grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 48px;
-      margin-bottom: 64px;
+      grid-template-columns: 1fr 320px;
+      gap: 56px;
+      align-items: start;
     }
 
-    .warranty-card {
-      background: var(--color-cream);
-      border-radius: 8px;
-      padding: 40px;
-      border-top: 4px solid var(--color-red-primary);
-    }
-
-    .warranty-card--manufacturer {
-      border-top-color: var(--color-navy);
-    }
-
-    .warranty-card__badge {
-      display: inline-block;
-      font-family: var(--font-heading);
-      font-size: clamp(2rem, 4vw, 3rem);
-      color: var(--color-red-primary);
-      line-height: 1;
-      margin-bottom: 4px;
-    }
-
-    .warranty-card--manufacturer .warranty-card__badge {
-      color: var(--color-navy);
-    }
-
-    .warranty-card h2 {
-      font-size: 1.25rem;
-      color: var(--color-navy);
-      margin-bottom: 20px;
-    }
-
-    .warranty-card p {
-      font-size: 0.9375rem;
+    .permits-intro {
+      font-size: 1rem;
       line-height: 1.75;
       color: #2a2a2a;
-      margin-bottom: 14px;
+      margin-bottom: 48px;
     }
 
-    .warranty-card p:last-child {
+    /* requires permits section */
+    .permits-required {
+      margin-bottom: 48px;
+    }
+
+    .permits-required h2 {
+      font-size: 1.375rem;
+      color: var(--color-navy);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--color-red-primary);
+    }
+
+    .permit-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .permit-links li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 16px 0;
+      border-bottom: 1px solid #ebebeb;
+    }
+
+    .permit-links li:last-child {
+      border-bottom: none;
+    }
+
+    .permit-links__city {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--color-navy);
+    }
+
+    .permit-links a.permit-apply {
+      display: inline-block;
+      padding: 8px 20px;
+      background: var(--color-red-primary);
+      color: var(--color-white);
+      border-radius: 4px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s ease;
+    }
+
+    .permit-links a.permit-apply:hover {
+      background: var(--color-red-dark);
+      color: var(--color-white);
+    }
+
+    /* no permit section */
+    .permits-not-required h2 {
+      font-size: 1.375rem;
+      color: var(--color-navy);
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--color-steel);
+    }
+
+    .permits-county {
+      margin-bottom: 32px;
+    }
+
+    .permits-county h3 {
+      font-size: 1rem;
+      font-family: var(--font-body);
+      font-weight: 600;
+      color: var(--color-steel);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 10px;
+    }
+
+    .permits-city-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+    }
+
+    .permits-city-list li {
+      font-size: 0.9375rem;
+      color: #2a2a2a;
+    }
+
+    .permits-city-list li::after {
+      content: '·';
+      margin-left: 16px;
+      color: #ccc;
+    }
+
+    .permits-city-list li:last-child::after {
+      display: none;
+    }
+
+    /* sidebar */
+    .permits-sidebar {
+      position: sticky;
+      top: 88px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .permits-note {
+      background: var(--color-cream);
+      border-radius: 6px;
+      padding: 28px;
+      border-left: 4px solid var(--color-navy);
+    }
+
+    .permits-note h3 {
+      font-size: 1rem;
+      color: var(--color-navy);
+      margin-bottom: 12px;
+    }
+
+    .permits-note p {
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .permits-note p:last-child {
       margin-bottom: 0;
     }
 
-    .warranty-statement {
+    .permits-sidebar__cta {
       background: var(--color-navy);
-      border-radius: 8px;
-      padding: 48px;
-      text-align: center;
+      border-radius: 6px;
+      padding: 32px;
+      color: var(--color-white);
     }
 
-    .warranty-statement p {
-      font-family: var(--font-heading);
-      font-size: clamp(1.125rem, 2vw, 1.5rem);
+    .permits-sidebar__cta h3 {
+      font-size: 1rem;
       color: var(--color-cream);
-      line-height: 1.5;
-      max-width: 640px;
-      margin: 0 auto 28px;
+      margin-bottom: 12px;
+    }
+
+    .permits-sidebar__cta p {
+      font-size: 0.9rem;
+      line-height: 1.65;
+      color: #cdd8e0;
+      margin-bottom: 20px;
     }
 
     @media (max-width: 768px) {
-      .warranty-content__grid {
+      .permits-content__grid {
         grid-template-columns: 1fr;
+        gap: 40px;
       }
 
-      .warranty-statement {
-        padding: 36px 24px;
+      .permits-sidebar {
+        position: static;
+      }
+
+      .permit-links li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
       }
     }
 
@@ -192,14 +308,14 @@
             </ul>
           </li>
           <li class="site-nav__item site-nav__item--has-dropdown">
-            <a href="/resources/faqs/">FAQs <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
+            <a href="/faqs/">FAQs <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
             <ul class="site-nav__dropdown">
-              <li><a href="/resources/faqs/">Get The Answers</a></li>
-              <li><a href="/resources/photo-gallery/">Photo Gallery</a></li>
+              <li><a href="/faqs/">Get The Answers</a></li>
+              <li><a href="/photo-gallery/">Photo Gallery</a></li>
               <li><a href="/publications/">Publications</a></li>
-              <li><a href="/resources/financing/">Financing</a></li>
-              <li><a href="/resources/warranty/">Warranty</a></li>
-              <li><a href="/resources/permits/">Fence Permits</a></li>
+              <li><a href="/financing/">Financing</a></li>
+              <li><a href="/warranty/">Warranty</a></li>
+              <li><a href="/permits/">Fence Permits</a></li>
             </ul>
           </li>
         </ul>
@@ -223,53 +339,168 @@
         <nav class="breadcrumb" aria-label="Breadcrumb">
           <ol>
             <li><a href="/">Home</a></li>
-            <li><a href="/resources/faqs/">Resources</a></li>
-            <li aria-current="page">Warranty</li>
+            <li><a href="/faqs/">Resources</a></li>
+            <li aria-current="page">Fence Permits</li>
           </ol>
         </nav>
-        <h1>Our Warranties</h1>
-        <p class="page-hero__sub">We stand behind every fence we build with expert installation and quality products. We work hard to make sure that you're satisfied with your fence right out of the gate.</p>
+        <h1>Northwest Arkansas Fence Permits</h1>
+        <p class="page-hero__sub">Getting a permit is easy with our team. Thomas Fence isn't just a local contractor — we're your trusted partner in all things fencing.</p>
       </div>
     </section>
 
-    <!-- WARRANTY CONTENT -->
-    <section class="warranty-content">
+    <!-- PERMITS CONTENT -->
+    <section class="permits-content">
       <div class="container">
+        <div class="permits-content__grid">
 
-        <div class="warranty-content__grid">
+          <div>
+            <p class="permits-intro">Permit requirements in Northwest Arkansas vary by city. Some cities require a permit before any fence is installed. Others do not. The lists below reflect current requirements — but always verify with your city before starting, as requirements can change.</p>
 
-          <div class="warranty-card">
-            <span class="warranty-card__badge">1 Year</span>
-            <h2>Workmanship Warranty</h2>
-            <p>Thomas Fence offers a comprehensive 1-year workmanship warranty on all of our fencing installations. Installation issues — from loose pickets to misaligned posts — are addressed at no extra charge.</p>
-            <p>The warranty is included in every written contract and delivered to you at the final walkthrough. Our confidence in this warranty reflects our confidence in the installation team behind it.</p>
-            <p>If something is wrong with the way your fence was installed within one year of completion, we come back and fix it. No runaround.</p>
+            <!-- CITIES THAT REQUIRE PERMITS -->
+            <div class="permits-required">
+              <h2>Cities That Require a Fence Permit</h2>
+              <ul class="permit-links">
+                <li>
+                  <span class="permit-links__city">Bella Vista</span>
+                  <a href="https://bellavistaar.portal.iworq.net/BELLAVISTA/new-permit/600/2434" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Bentonville</span>
+                  <a href="https://www.bentonvillear.com/182/Miscellaneous-Applications" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Gravette</span>
+                  <a href="https://gravette.portal.iworq.net/portalhome/gravette" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Gentry</span>
+                  <a href="https://gentry-drafts.portal.iworq.net/GENTRY/new-permit/600/10001" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Lincoln</span>
+                  <a href="https://www.lincolnarkansas.com/city-hall/page/forms" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Prairie Grove</span>
+                  <a href="https://www.prairiegrovearkansas.org/bc-cc/page/building-permit" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+                <li>
+                  <span class="permit-links__city">Tontitown</span>
+                  <a href="https://www.tontitown.com/departments/building-dept/building-apps/fence-permit-application/" target="_blank" rel="noopener noreferrer" class="permit-apply">Apply for Permit</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- CITIES THAT DO NOT REQUIRE PERMITS -->
+            <div class="permits-not-required">
+              <h2>Cities That Do Not Currently Require a Fence Permit</h2>
+
+              <div class="permits-county">
+                <h3>Benton County — Cities</h3>
+                <ul class="permits-city-list">
+                  <li>Cave Springs</li>
+                  <li>Centerton</li>
+                  <li>Decatur</li>
+                  <li>Elm Springs</li>
+                  <li>Little Flock</li>
+                  <li>Lowell</li>
+                  <li>Pea Ridge</li>
+                  <li>Rogers</li>
+                  <li>Siloam Springs</li>
+                  <li>Springdale</li>
+                  <li>Sulphur Springs</li>
+                  <li>War Eagle</li>
+                </ul>
+              </div>
+
+              <div class="permits-county">
+                <h3>Benton County — Towns</h3>
+                <ul class="permits-city-list">
+                  <li>Avoca</li>
+                  <li>Garfield</li>
+                  <li>Gateway</li>
+                  <li>Highfill</li>
+                  <li>Springtown</li>
+                </ul>
+              </div>
+
+              <div class="permits-county">
+                <h3>Washington County — Cities</h3>
+                <ul class="permits-city-list">
+                  <li>Elkins</li>
+                  <li>Elm Springs</li>
+                  <li>Farmington</li>
+                  <li>Fayetteville</li>
+                  <li>Goshen</li>
+                  <li>Greenland</li>
+                  <li>Johnson</li>
+                  <li>Springdale</li>
+                  <li>West Fork</li>
+                  <li>Winslow</li>
+                </ul>
+              </div>
+
+              <div class="permits-county">
+                <h3>Washington County — Towns</h3>
+                <ul class="permits-city-list">
+                  <li>Boston</li>
+                  <li>Brush Creek</li>
+                  <li>Cane Hill</li>
+                  <li>Center</li>
+                  <li>Cove Creek</li>
+                  <li>Crawford</li>
+                  <li>Durham</li>
+                  <li>Dutch Mills</li>
+                  <li>Harmon</li>
+                  <li>Illinois</li>
+                  <li>Lee's Creek</li>
+                  <li>Litteral</li>
+                  <li>Marrs Hill</li>
+                  <li>Morrow</li>
+                  <li>Prairie</li>
+                  <li>Reed</li>
+                  <li>Rhea's Mill</li>
+                  <li>Richland</li>
+                  <li>Starr Hill</li>
+                  <li>Valley</li>
+                  <li>Vineyard</li>
+                  <li>Wedington</li>
+                  <li>White River</li>
+                  <li>Wyman</li>
+                </ul>
+              </div>
+
+            </div>
           </div>
 
-          <div class="warranty-card warranty-card--manufacturer">
-            <span class="warranty-card__badge">Manufacturer</span>
-            <h2>Product Material Warranty</h2>
-            <p>Fence manufacturers of ornamental steel, chain link, and vinyl fences often carry a warranty on their product materials designed to protect you from product failure or defects.</p>
-            <p>Thomas Fence provides specific warranty details based on the product you choose for your project. Ask your estimator about manufacturer warranty terms for the materials you are considering.</p>
-            <p>Manufacturer warranties cover the materials themselves — coatings, hardware, and structural integrity — separate from the workmanship warranty Thomas Fence provides on installation.</p>
-          </div>
+          <!-- SIDEBAR -->
+          <aside class="permits-sidebar">
+
+            <div class="permits-note">
+              <h3>Important Notes</h3>
+              <p>Permit requirements can change. Always verify with your city or county before starting your project.</p>
+              <p>If your property is in an HOA, the HOA may have its own fence approval process separate from any city permit.</p>
+              <p>Thomas Fence does not pull permits for customers — each homeowner is responsible for obtaining their own permit. We are happy to help you understand the process.</p>
+            </div>
+
+            <div class="permits-sidebar__cta">
+              <h3>Questions About Permits?</h3>
+              <p>Call Thomas Fence. We have been navigating NWA permit requirements for over 30 years and can point you in the right direction.</p>
+              <a href="/contact/" class="btn-primary">Contact Us</a>
+            </div>
+
+          </aside>
 
         </div>
-
-        <div class="warranty-statement">
-          <p>"We stand behind every fence we build with expert installation and quality products. We work hard to make sure that you're satisfied with your fence right out of the gate."</p>
-          <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
-        </div>
-
       </div>
     </section>
 
     <!-- CTA BAND -->
     <section class="cta-band">
       <div class="container">
-        <h2>Questions About Your Warranty?</h2>
-        <p>Call Thomas Fence or contact us online. We are happy to explain exactly what is covered before you sign anything.</p>
-        <a href="/contact/" class="btn-primary">Contact Us</a>
+        <h2>Ready to Start Your Fence Project?</h2>
+        <p>Get a free estimate from Thomas Fence. We will help you understand the permit requirements for your specific location.</p>
+        <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
       </div>
     </section>
 
@@ -322,12 +553,12 @@
           </ul>
           <p class="site-footer__section-label">Resources</p>
           <ul class="site-footer__list">
-            <li><a href="/resources/faqs/">Get The Answers</a></li>
-            <li><a href="/resources/photo-gallery/">Photo Gallery</a></li>
+            <li><a href="/faqs/">Get The Answers</a></li>
+            <li><a href="/photo-gallery/">Photo Gallery</a></li>
             <li><a href="/publications/">Publications</a></li>
-            <li><a href="/resources/financing/">Financing</a></li>
-            <li><a href="/resources/warranty/">Warranty</a></li>
-            <li><a href="/resources/permits/">Fence Permits</a></li>
+            <li><a href="/financing/">Financing</a></li>
+            <li><a href="/warranty/">Warranty</a></li>
+            <li><a href="/permits/">Fence Permits</a></li>
           </ul>
           <p class="site-footer__section-label">Who We Are</p>
           <ul class="site-footer__list">
