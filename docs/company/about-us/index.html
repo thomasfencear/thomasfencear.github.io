@@ -189,6 +189,79 @@
       margin: 28px 0;
     }
 
+    /* ─── HOW WE HELP YOU ─── */
+
+    .about-how {
+      padding: 80px 0;
+      background: #003049;
+    }
+
+    .about-how .section-heading {
+      text-align: center;
+      font-size: clamp(1.65rem, 3vw, 2.25rem);
+      color: #FDF0D5;
+      margin-bottom: 12px;
+    }
+
+    .about-how .section-intro {
+      text-align: center;
+      max-width: 640px;
+      margin: 0 auto 48px;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.8);
+    }
+
+    .about-how__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 48px;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .about-how__item {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+
+    .about-how__icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      background: #F01B24;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+      font-size: 0.7rem;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .about-how__text strong {
+      display: block;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #FDF0D5;
+      margin-bottom: 3px;
+    }
+
+    .about-how__text p {
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: rgba(255,255,255,0.72);
+      margin: 0;
+    }
+
+    @media (max-width: 640px) {
+      .about-how__grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
     /* ─── CERTIFICATIONS ─── */
 
     .about-certs {
@@ -666,6 +739,82 @@
         <div class="about-team__names">
           <h3>Thomas Fence Leadership</h3>
           <p>Greg P. &nbsp;·&nbsp; Jesus "Chewy" M. &nbsp;·&nbsp; Madeleine "Maddy" D. &nbsp;·&nbsp; Vernom "Mitch" A. &nbsp;·&nbsp; Reb S. &nbsp;·&nbsp; Dwayne P. &nbsp;·&nbsp; Darrell R. &nbsp;·&nbsp; Robert B. &nbsp;·&nbsp; Patricia "Patty" M.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE HELP YOU -->
+    <section class="about-how">
+      <div class="container">
+        <h2 class="section-heading">How We Help You</h2>
+        <p class="section-intro">Here is what working with Thomas Fence actually looks like — from the first call to the final invoice.</p>
+
+        <div class="about-how__grid">
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We come to you for a free on-site estimate</strong>
+              <p>A Thomas Fence estimator visits your property, walks the job with you, and explains exactly what to expect — before any commitment is made.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>The price we quote is the price you pay</strong>
+              <p>Our final invoice matches the quote we gave you. No line items appear after the fact. No surprises at the end of the job.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We handle the details you haven't thought of</strong>
+              <p>We call 811 for required utility locates, flag questions about privately owned lines, and point you toward trusted trades for anything outside our scope — like stump removal.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We communicate before, during, and after</strong>
+              <p>Weather delays, schedule changes, and project updates are communicated — not discovered. You know where things stand at every stage.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We adapt when your project changes</strong>
+              <p>Need to add a gate after the job starts? Change the fence line? We accommodate mid-project adjustments and explain any cost impact in detail.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We protect what is already there</strong>
+              <p>Irrigation systems, landscaping, and existing structures are treated with care. We leave your yard clean when the job is done — no debris, no damage.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We show up and get it done efficiently</strong>
+              <p>Our crews arrive on schedule and complete residential installations — including tear-out and replacement — typically within one to two days.</p>
+            </div>
+          </div>
+
+          <div class="about-how__item">
+            <div class="about-how__icon">✓</div>
+            <div class="about-how__text">
+              <strong>We back our work in writing</strong>
+              <p>Every installation includes a one-year craftsmanship warranty, provided in writing at job completion. No deposit is required for standard residential work.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
