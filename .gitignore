@@ -11,3 +11,9 @@ _skills/
 # System files
 .DS_Store
 node_modules/
+
+# Downloaded image assets (served from R2, not committed to repo)
+docs/**/images/
+_download_report.txt
+download_service_images.py
+wire_service_images.py

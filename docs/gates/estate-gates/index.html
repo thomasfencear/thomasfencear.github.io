@@ -768,6 +768,22 @@
       .site-header__actions .btn--red { display: none; }
       .trust-bar__inner { justify-content: flex-start; }
     }
+  
+    /* ── service page photos ───────────────────────────────────────── */
+    .service-hero-image { line-height: 0; }
+    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
+    .content-photo { margin: 28px 0; }
+    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    .type-photo { margin: 10px 0 4px; }
+    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
+    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
+      .gate-pair { grid-template-columns: 1fr; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -892,6 +908,9 @@
       <div class="trust-bar__item">1-Year Craftsmanship Warranty</div>
     </div>
   </div>
+  <section class="service-hero-image">
+    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/springdale-arkansas-estate-gate-company.jpg" alt="Estate gate installation in Springdale, Arkansas" width="1200" loading="lazy">
+  </section>
 
   <!-- PAGE CONTENT -->
   <main class="page-content">
@@ -912,21 +931,53 @@
             <h3>Metal (Ornamental Steel)</h3>
             <p>The most popular choice for estate gates. Ornamental steel gates offer an elegant, architectural look with maximum durability. Custom picket patterns and scrollwork available. Powder-coated finish resists rust and holds its color for years.</p>
             <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-swinging-estate-gate-closed.png" alt="Ornamental Steel swinging estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-swinging-estate-gate-open.png" alt="Ornamental Steel swinging estate gate — open" width="1200" loading="lazy">
+            </div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-sliding-estate-gate-closed.png" alt="Ornamental Steel sliding estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-sliding-estate-gate-open.png" alt="Ornamental Steel sliding estate gate — open" width="1200" loading="lazy">
+            </div>
           </div>
           <div class="material-card">
             <h3>Vinyl</h3>
             <p>Clean lines, low maintenance, and a bright white or almond finish that won't fade, rot, or need painting. Vinyl estate gates work well for residential properties that want a classic picket or board style at the entrance.</p>
             <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-swinging-estate-gate-closed.png" alt="Vinyl swinging estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-swinging-estate-gate-open.png" alt="Vinyl swinging estate gate — open" width="1200" loading="lazy">
+            </div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-sliding-estate-gate-closed.png" alt="Vinyl sliding estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-sliding-estate-gate-open.png" alt="Vinyl sliding estate gate — open" width="1200" loading="lazy">
+            </div>
           </div>
           <div class="material-card">
             <h3>Chain Link</h3>
             <p>A practical choice for agricultural, commercial, or utility entrances where security and durability matter more than aesthetics. Available in galvanized or PVC-coated finishes. Holds up in high-traffic applications.</p>
             <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-swinging-estate-gate-closed.png" alt="Chain Link swinging estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-swinging-estate-gate-open.png" alt="Chain Link swinging estate gate — open" width="1200" loading="lazy">
+            </div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-sliding-estate-gate-closed.png" alt="Chain Link sliding estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-sliding-estate-gate-open.png" alt="Chain Link sliding estate gate — open" width="1200" loading="lazy">
+            </div>
           </div>
           <div class="material-card">
             <h3>Wood</h3>
             <p>Cedar and pressure-treated pine gates that match a wood fence perimeter. Wood gates have natural warmth and character — cedar can be stained immediately; pressure-treated pine should cure 1–3 months before staining.</p>
             <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-swinging-estate-gate-closed.png" alt="Wood swinging estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-swinging-estate-gate-open.png" alt="Wood swinging estate gate — open" width="1200" loading="lazy">
+            </div>
+            <div class="gate-pair">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-sliding-estate-gate-closed.png" alt="Wood sliding estate gate — closed" width="1200" loading="lazy">
+              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-sliding-estate-gate-open.png" alt="Wood sliding estate gate — open" width="1200" loading="lazy">
+            </div>
           </div>
         </div>
 

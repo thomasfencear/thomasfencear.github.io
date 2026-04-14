@@ -180,6 +180,22 @@
     .site-footer__list--legal a { font-size: 0.82rem; }
     .site-footer__logo { margin-bottom: 4px; opacity: 0.9; }
     .site-footer__bottom { border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 0; text-align: center; font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+  
+    /* ── service page photos ───────────────────────────────────────── */
+    .service-hero-image { line-height: 0; }
+    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
+    .content-photo { margin: 28px 0; }
+    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    .type-photo { margin: 10px 0 4px; }
+    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
+    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
+      .gate-pair { grid-template-columns: 1fr; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -307,6 +323,9 @@
       </ul>
     </div>
   </section>
+  <section class="service-hero-image">
+    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/temporary-fences/images/temporary-fence-panels-in-springdale-arkansas-hero.jpg" alt="Temporary fence panels in Springdale, Arkansas" width="1200" loading="lazy">
+  </section>
 
   <section class="page-content">
     <div class="container">
@@ -334,14 +353,22 @@
             </div>
           </div>
 
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/temporary-fences/images/temporary-construction-fencing-springdale-arkansas.png" alt="Temporary construction fencing in Northwest Arkansas" width="1200" loading="lazy">
+          </div>
+
           <h2>Temporary Fence Options</h2>
 
           <div class="fence-options">
             <div class="fence-option">
+
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/temporary-fences/images/temporary-fence-panels-springdale-arkansas.jpg" alt="Temporary fence panels in Springdale, Arkansas" width="1200" loading="lazy"></div>
               <h3>Temporary Fence Panels</h3>
               <p>Free-standing, self-supporting panels that interlock with couplers. No digging required — panels can be set up quickly and moved as your project progresses. Available for rent for as little as a week or as long as several months.</p>
             </div>
             <div class="fence-option">
+
+            <div class="type-photo"><img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/temporary-fences/images/temporary-chain-link-fencing-springdale-arkansas.jpg" alt="Temporary chain link fencing in Springdale, Arkansas" width="1200" loading="lazy"></div>
               <h3>Temporary Chain Link Fence</h3>
               <p>Standard chain link installed on a temporary basis with driven posts. Provides a more secure perimeter than panel fencing and is ideal for longer-term construction sites or areas requiring a stronger barrier.</p>
             </div>
@@ -351,6 +378,10 @@
           <p>Thomas Fence handles the complete temporary fence service. Our team will set up your temporary fence quickly, allowing you to focus on your project. When your project is complete, we will remove the fence and leave no mess behind.</p>
           <p>Rental periods vary, but typically temporary fencing can be rented for as little as a week or as long as several months to a year. Costs depend on the amount of fencing needed, the rental duration, style, height, and footing type. Contact us for a free quote.</p>
 
+
+          <div class="content-photo">
+            <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/fences/temporary-fences/images/temporary-fence-faqs.png" alt="Temporary fencing FAQ — Thomas Fence" width="1200" loading="lazy">
+          </div>
           <h2>Temporary Fencing FAQs</h2>
 
           <details class="faq-item">
