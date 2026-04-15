@@ -128,12 +128,12 @@ for structure, schema, and content rules. Never guess on schema types or redirec
 - `/gates/gate-automation/`
 - `/gates/estate-gates/`
 
-**Resources**
-- `/resources/faqs/`
-- `/resources/financing/`
-- `/resources/permits/`
-- `/resources/warranty/`
-- `/resources/photo-gallery/`
+**Resource pages**
+- `/faqs/`
+- `/financing/`
+- `/permits/`
+- `/warranty/`
+- `/photo-gallery/`
 
 **Publications**
 - `/publications/`
@@ -207,8 +207,8 @@ These pages are dropped. No redirect destination required.
 ### Photo gallery query param redirects
 
 All resolve to the clean gallery URL. No param pages survive.
-- `/resources/photo-gallery/index.cfm?type=*` → `/resources/photo-gallery/`
-- `/resources/photo-gallery/?type=*` → `/resources/photo-gallery/`
+- `/photo-gallery/index.cfm?type=*` → `/photo-gallery/`
+- `/photo-gallery/?type=*` → `/photo-gallery/`
 
 ---
 
@@ -224,7 +224,7 @@ See `tf-schema.md` for the full schema blocks. This is the map only.
 | `/arkansas-fence-company/` | LocalBusiness, Service, FAQPage |
 | `/service-area/` | LocalBusiness with areaServed array |
 | Publications posts | BlogPosting, BreadcrumbList |
-| `/resources/faqs/` | FAQPage |
+| `/faqs/` | FAQPage |
 | `/company/testimonials/` | Review |
 | All pages | BreadcrumbList |
 
