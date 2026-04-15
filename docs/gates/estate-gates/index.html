@@ -3,27 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estate Gates in Northwest Arkansas | Thomas Fence</title>
-  <meta name="description" content="Custom estate gates in metal, vinyl, chain link, and wood — swinging or sliding — for homes and businesses across Northwest Arkansas. Get an exceptional entrance for your property.">
-  <!-- Google Analytics — replace with GA4 snippet when Measurement ID is ready -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
-
-  <link rel="icon" type="image/svg+xml" href="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-favicon.svg">
-  <link rel="canonical" href="https://thomasfencear.com/gates/estate-gates/">
+  <title>Estate Gates | Thomas Fence — Northwest Arkansas</title>
+  <meta name="description" content="Custom estate gates installed in Springdale, Bentonville, Rogers, and Fayetteville, AR. Ornamental steel, vinyl, wood, and chain link gate systems from Thomas Fence.">
+  <link rel="icon" href="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
 
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- JSON-LD Schema -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "FenceContractor",
-        "@id": "https://thomasfencear.com/#business",
         "name": "Thomas Fence",
         "legalName": "Paschal Enterprises, Inc.",
         "url": "https://thomasfencear.com",
+        "logo": "https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg",
         "telephone": "+14796364732",
         "email": "Sales@ThomasFenceAR.com",
         "address": {
@@ -39,40 +46,31 @@
           "latitude": 36.1867,
           "longitude": -94.1288
         },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-            "opens": "08:00",
-            "closes": "16:00"
-          }
-        ],
-        "areaServed": {
-          "@type": "State",
-          "name": "Arkansas"
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "16:00"
         },
+        "areaServed": "Northwest Arkansas",
         "foundingDate": "1993",
         "hasCredential": [
-          "Arkansas Contractor's License No. 015501",
-          "US Federal Contractor Registration",
+          "Arkansas Contractor License No. 015501",
           "AFA Certified Fence Contractor",
-          "CGAT Certified Gate Automation Technician"
+          "US Federal Contractor"
         ]
       },
       {
         "@type": "Service",
-        "@id": "https://thomasfencear.com/gates/estate-gates/#service",
         "name": "Estate Gate Installation",
-        "serviceType": "Estate Gate Installation",
-        "description": "Custom estate gate design and installation in metal, vinyl, chain link, and wood — swinging or sliding — for residential and commercial properties across Northwest Arkansas.",
         "provider": {
-          "@id": "https://thomasfencear.com/#business"
+          "@type": "FenceContractor",
+          "name": "Thomas Fence",
+          "legalName": "Paschal Enterprises, Inc."
         },
-        "areaServed": {
-          "@type": "State",
-          "name": "Arkansas"
-        },
-        "url": "https://thomasfencear.com/gates/estate-gates/"
+        "areaServed": "Northwest Arkansas",
+        "description": "Custom estate gate installation in Northwest Arkansas — ornamental steel, vinyl, chain link, and wood gate systems with optional automation for residential and commercial properties.",
+        "serviceType": "Estate Gate Installation"
       },
       {
         "@type": "BreadcrumbList",
@@ -86,7 +84,7 @@
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Gate Services",
+            "name": "Gates",
             "item": "https://thomasfencear.com/gates/"
           },
           {
@@ -102,1132 +100,552 @@
   </script>
 
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --color-red-primary: #F01B24;
-      --color-red-dark:    #780000;
-      --color-red-mid:     #C1121F;
-      --color-cream:       #FDF0D5;
-      --color-navy:        #003049;
-      --color-steel:       #669BBC;
-      --color-white:       #FFFFFF;
-    }
-
-    body {
-      font-family: 'DM Sans', sans-serif;
-      color: #1a1a1a;
-      background: #fff;
-      line-height: 1.6;
-    }
-
-    h1, h2, h3, h4 {
-      font-family: 'DM Serif Display', serif;
-      line-height: 1.2;
-    }
-
-    a { color: var(--color-steel); text-decoration: none; }
-    a:hover { color: var(--color-red-primary); }
-
-    img { max-width: 100%; height: auto; display: block; }
-
-    /* ── SITE HEADER ── */
-    .site-header {
-      background: var(--color-navy);
-      padding: 0 24px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .site-header__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 72px;
-    }
-
-    .site-header__logo img { height: 48px; width: auto; }
-
-    .site-header__actions {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .site-header__phone {
-      color: var(--color-white);
-      font-weight: 600;
-      font-size: 1rem;
-    }
-
-    .site-header__phone:hover { color: var(--color-cream); }
-
-    .btn {
-      display: inline-block;
-      padding: 10px 22px;
-      border-radius: 4px;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.95rem;
-      cursor: pointer;
-      text-align: center;
-      transition: background 0.2s, color 0.2s;
-      text-decoration: none;
-    }
-
-    .btn--red {
-      background: var(--color-red-primary);
-      color: var(--color-white);
-      border: 2px solid var(--color-red-primary);
-    }
-
-    .btn--red:hover {
-      background: var(--color-red-dark);
-      border-color: var(--color-red-dark);
-      color: var(--color-white);
-    }
-
-    .btn--outline-white {
-      background: transparent;
-      color: var(--color-white);
-      border: 2px solid var(--color-white);
-    }
-
-    .btn--outline-white:hover {
-      background: var(--color-white);
-      color: var(--color-navy);
-    }
-
-    .btn--navy {
-      background: var(--color-navy);
-      color: var(--color-white);
-      border: 2px solid var(--color-navy);
-    }
-
-    .btn--navy:hover {
-      background: #002035;
-      border-color: #002035;
-      color: var(--color-white);
-    }
-
-    /* ── NAVIGATION ── */
-    .site-nav {
-      background: var(--color-navy);
-      border-top: 1px solid rgba(255,255,255,0.1);
-      padding: 0 24px;
-      position: relative;
-    }
-
-    .site-nav__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-    }
-
-    .site-nav__toggle-label {
-      display: none;
-      color: var(--color-white);
-      font-size: 1.5rem;
-      cursor: pointer;
-      padding: 12px 0;
-      user-select: none;
-    }
-
-    .site-nav__toggle-input { display: none; }
-
-    .site-nav__links {
-      display: flex;
-      list-style: none;
-      gap: 0;
-    }
-
-    .site-nav__link {
-      display: block;
-      color: var(--color-white);
-      font-weight: 500;
-      font-size: 0.95rem;
-      padding: 16px 18px;
-      white-space: nowrap;
-      transition: color 0.2s, background 0.2s;
-    }
-
-    .site-nav__link:hover,
-    .site-nav__item--active > .site-nav__link {
-      color: var(--color-cream);
-      background: rgba(255,255,255,0.08);
-    }
-
-    .site-nav__item--has-dropdown { position: relative; }
-
-    .site-nav__dropdown {
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background: var(--color-navy);
-      min-width: 220px;
-      border-top: 3px solid var(--color-red-primary);
-      box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-      z-index: 200;
-      list-style: none;
-    }
-
-    .site-nav__item--has-dropdown:hover .site-nav__dropdown { display: block; }
-
-    .site-nav__dropdown a {
-      display: block;
-      color: var(--color-white);
-      padding: 12px 18px;
-      font-size: 0.9rem;
-      transition: background 0.15s;
-    }
-
-    .site-nav__dropdown a:hover { background: rgba(255,255,255,0.1); color: var(--color-cream); }
-
-    .site-nav:has(.site-nav__toggle-input:checked) .site-nav__links {
-      display: flex;
-      flex-direction: column;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      right: 0;
-      background: var(--color-navy);
-      z-index: 300;
-      padding-bottom: 16px;
-    }
-
-    .site-nav:has(.site-nav__toggle-input:checked) .site-nav__dropdown {
-      position: static;
-      box-shadow: none;
-      border-top: none;
-      border-left: 3px solid var(--color-red-primary);
-      margin-left: 16px;
-    }
-
-    /* ── PAGE HERO ── */
-    .page-hero {
-      background: var(--color-navy);
-      color: var(--color-white);
-      padding: 56px 24px;
-    }
-
-    .page-hero__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .page-hero__breadcrumb {
-      font-size: 0.85rem;
-      color: rgba(255,255,255,0.65);
-      margin-bottom: 16px;
-    }
-
-    .page-hero__breadcrumb a { color: rgba(255,255,255,0.65); }
-    .page-hero__breadcrumb a:hover { color: var(--color-cream); }
-    .page-hero__breadcrumb span { margin: 0 6px; }
-
-    .page-hero h1 {
-      font-size: clamp(2rem, 4vw, 3rem);
-      margin-bottom: 16px;
-    }
-
-    .page-hero__sub {
-      font-size: 1.1rem;
-      color: rgba(255,255,255,0.85);
-      max-width: 680px;
-    }
-
-    /* ── TRUST BAR ── */
-    .trust-bar {
-      background: var(--color-red-primary);
-      padding: 14px 24px;
-    }
-
-    .trust-bar__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px 40px;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .trust-bar__item {
-      color: var(--color-white);
-      font-weight: 600;
-      font-size: 0.9rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .trust-bar__item::before {
-      content: '✓';
-      font-weight: 700;
-    }
-
-    /* ── CONTENT GRID ── */
-    .page-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 56px 24px;
-    }
-
-    .page-content__grid {
-      display: grid;
-      grid-template-columns: 1fr 340px;
-      gap: 56px;
-      align-items: start;
-    }
-
-    /* ── MAIN BODY ── */
-    .page-body h2 {
-      font-size: 1.75rem;
-      color: var(--color-navy);
-      margin-bottom: 16px;
-      margin-top: 40px;
-    }
-
-    .page-body h2:first-child { margin-top: 0; }
-
-    .page-body h3 {
-      font-size: 1.2rem;
-      color: var(--color-navy);
-      margin-bottom: 8px;
-      margin-top: 24px;
-    }
-
-    .page-body p { margin-bottom: 16px; }
-
-    .page-body ul {
-      margin: 0 0 16px 20px;
-    }
-
-    .page-body ul li { margin-bottom: 6px; }
-
-    /* ── MATERIALS MATRIX ── */
-    .materials-matrix {
-      margin: 32px 0;
-      overflow-x: auto;
-    }
-
-    .materials-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.92rem;
-    }
-
-    .materials-table th {
-      background: var(--color-navy);
-      color: var(--color-white);
-      padding: 12px 16px;
-      text-align: left;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 600;
-    }
-
-    .materials-table td {
-      padding: 12px 16px;
-      border-bottom: 1px solid #e5e5e5;
-      vertical-align: top;
-    }
-
-    .materials-table tr:nth-child(even) td { background: var(--color-cream); }
-
-    .materials-table td:first-child { font-weight: 600; color: var(--color-navy); }
-
-    /* ── MATERIAL CARDS ── */
-    .material-cards {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
-      margin: 32px 0;
-    }
-
-    .material-card {
-      border: 1px solid #e5e5e5;
-      border-radius: 8px;
-      padding: 24px 22px;
-      border-top: 4px solid var(--color-red-primary);
-    }
-
-    .material-card h3 {
-      font-size: 1.1rem;
-      color: var(--color-navy);
-      margin-bottom: 10px;
-      margin-top: 0;
-    }
-
-    .material-card p { font-size: 0.92rem; margin-bottom: 10px; }
-
-    .material-card__styles {
-      font-size: 0.85rem;
-      color: #555;
-      background: var(--color-cream);
-      border-radius: 4px;
-      padding: 8px 12px;
-      margin: 0;
-    }
-
-    /* ── HIGHLIGHT BOX ── */
-    .highlight-box {
-      background: var(--color-navy);
-      color: var(--color-white);
-      border-radius: 8px;
-      padding: 32px;
-      margin: 32px 0;
-    }
-
-    .highlight-box h3 {
-      color: var(--color-cream);
-      font-size: 1.3rem;
-      margin-bottom: 12px;
-    }
-
-    .highlight-box p { color: rgba(255,255,255,0.9); margin-bottom: 12px; }
-
-    .highlight-box ul {
-      margin: 0 0 0 20px;
-      color: rgba(255,255,255,0.9);
-    }
-
-    .highlight-box ul li { margin-bottom: 8px; }
-
-    /* ── FEATURE CARDS ── */
-    .feature-cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-      margin: 32px 0;
-    }
-
-    .feature-card {
-      background: var(--color-cream);
-      border-radius: 8px;
-      padding: 28px 24px;
-      border-top: 4px solid var(--color-red-primary);
-    }
-
-    .feature-card h3 {
-      font-size: 1.1rem;
-      color: var(--color-navy);
-      margin-bottom: 10px;
-      margin-top: 0;
-    }
-
-    .feature-card p { font-size: 0.95rem; margin: 0; }
-
-    /* ── FAQ ── */
-    .faq-list { margin: 24px 0; }
-
-    .faq-item {
-      border-bottom: 1px solid #e5e5e5;
-    }
-
-    .faq-item summary {
-      padding: 16px 0;
-      font-weight: 600;
-      cursor: pointer;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: var(--color-navy);
-    }
-
-    .faq-item summary::-webkit-details-marker { display: none; }
-    .faq-item summary::after { content: '+'; color: var(--color-red-primary); font-size: 1.3rem; font-weight: 700; }
-    .faq-item[open] summary::after { content: '−'; }
-    .faq-item[open] summary { color: var(--color-red-primary); }
-
-    .faq-item__body {
-      padding: 0 0 16px;
-      color: #333;
-    }
-
-    /* ── SIDEBAR ── */
-    .sidebar { display: flex; flex-direction: column; gap: 28px; }
-
-    .sidebar-card {
-      border-radius: 8px;
-      overflow: hidden;
-    }
-
-    .sidebar-card--navy {
-      background: var(--color-navy);
-      padding: 28px 24px;
-    }
-
-    .sidebar-card--cream {
-      background: var(--color-cream);
-      padding: 28px 24px;
-      border: 1px solid #e8dfc0;
-    }
-
-    .sidebar-card--red {
-      background: var(--color-red-primary);
-      padding: 28px 24px;
-    }
-
-    .sidebar-card__heading {
-      font-family: 'DM Serif Display', serif;
-      font-size: 1.3rem;
-      margin-bottom: 12px;
-    }
-
-    .sidebar-card--navy .sidebar-card__heading { color: var(--color-white); }
-    .sidebar-card--cream .sidebar-card__heading { color: var(--color-navy); }
-    .sidebar-card--red .sidebar-card__heading { color: var(--color-white); }
-
-    .sidebar-card--navy p { color: rgba(255,255,255,0.85); font-size: 0.95rem; margin-bottom: 20px; }
-    .sidebar-card--cream p { color: #333; font-size: 0.9rem; margin-bottom: 16px; }
-    .sidebar-card--red p { color: rgba(255,255,255,0.9); font-size: 0.95rem; margin-bottom: 20px; }
-
-    .sidebar-card__creds {
-      list-style: none;
-      margin: 0 0 20px;
-    }
-
-    .sidebar-card__creds li {
-      font-size: 0.88rem;
-      color: #444;
-      padding: 6px 0;
-      border-bottom: 1px solid rgba(0,0,0,0.08);
-      display: flex;
-      align-items: flex-start;
-      gap: 8px;
-    }
-
-    .sidebar-card__creds li::before {
-      content: '✓';
-      color: var(--color-red-primary);
-      font-weight: 700;
-      flex-shrink: 0;
-    }
-
-    .sidebar-card__hours {
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.85);
-      margin-bottom: 8px;
-    }
-
-    .sidebar-card__phone {
-      font-size: 1.4rem;
-      font-weight: 700;
-      color: var(--color-white);
-      display: block;
-      margin-bottom: 16px;
-    }
-
-    .btn--full { width: 100%; text-align: center; display: block; }
-
-    /* ── RELATED SERVICES ── */
-    .related-services {
-      background: var(--color-cream);
-      padding: 48px 24px;
-    }
-
-    .related-services__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .related-services h2 {
-      font-size: 1.75rem;
-      color: var(--color-navy);
-      margin-bottom: 32px;
-      text-align: center;
-    }
-
-    .related-services__grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .related-card {
-      background: var(--color-white);
-      border-radius: 8px;
-      padding: 28px 24px;
-      border-top: 4px solid var(--color-red-primary);
-      text-align: center;
-    }
-
-    .related-card h3 { color: var(--color-navy); font-size: 1.1rem; margin-bottom: 10px; }
-    .related-card p { font-size: 0.9rem; color: #555; margin-bottom: 16px; }
-    .related-card a { color: var(--color-red-primary); font-weight: 600; font-size: 0.9rem; }
-    .related-card a:hover { color: var(--color-red-dark); }
-
-    /* ── CTA BAND ── */
-    .cta-band {
-      background: var(--color-navy);
-      padding: 56px 24px;
-      text-align: center;
-    }
-
-    .cta-band h2 {
-      font-size: 2rem;
-      color: var(--color-white);
-      margin-bottom: 16px;
-    }
-
-    .cta-band p {
-      color: rgba(255,255,255,0.8);
-      font-size: 1.05rem;
-      margin-bottom: 32px;
-    }
-
-    .cta-band__buttons {
-      display: flex;
-      gap: 16px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-
-    /* ── FOOTER ── */
-    .site-footer {
-      background: #001e30;
-      color: rgba(255,255,255,0.8);
-      padding: 56px 24px 24px;
-    }
-
-    .site-footer__inner {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .site-footer__grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 48px;
-      margin-bottom: 48px;
-    }
-
-    .site-footer__col h3 {
-      font-family: 'DM Serif Display', serif;
-      color: var(--color-white);
-      font-size: 1.1rem;
-      margin-bottom: 16px;
-    }
-
-    .site-footer__col ul { list-style: none; }
-    .site-footer__col ul li { margin-bottom: 8px; }
-    .site-footer__col ul li a {
-      color: rgba(255,255,255,0.7);
-      font-size: 0.9rem;
-      transition: color 0.2s;
-    }
-    .site-footer__col ul li a:hover { color: var(--color-cream); }
-
-    .site-footer__address {
-      font-size: 0.9rem;
-      line-height: 1.7;
-      color: rgba(255,255,255,0.7);
-    }
-
-    .site-footer__address a { color: rgba(255,255,255,0.7); }
-    .site-footer__address a:hover { color: var(--color-cream); }
-
-    .site-footer__social { margin-top: 16px; }
-    .site-footer__social-link { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
-    .site-footer__social-link--pending { font-size: 0.85rem; color: rgba(255,255,255,0.35); cursor: default; }
-
-    .site-footer__bottom {
-      border-top: 1px solid rgba(255,255,255,0.1);
-      padding-top: 24px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .site-footer__copy { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
-    .site-footer__legal { display: flex; gap: 20px; }
-    .site-footer__legal a { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
-    .site-footer__legal a:hover { color: var(--color-cream); }
-
-    /* ── RESPONSIVE ── */
-    @media (max-width: 900px) {
-      .page-content__grid { grid-template-columns: 1fr; }
-      .sidebar { order: -1; }
-      .feature-cards { grid-template-columns: 1fr; }
-      .material-cards { grid-template-columns: 1fr; }
-      .related-services__grid { grid-template-columns: 1fr; }
-      .site-footer__grid { grid-template-columns: 1fr; gap: 32px; }
-    }
-
-    @media (max-width: 768px) {
-      .site-nav__toggle-label { display: block; }
-      .site-nav__links { display: none; }
-      .site-header__actions .btn--red { display: none; }
-      .trust-bar__inner { justify-content: flex-start; }
-    }
-  
-    /* ── service page photos ───────────────────────────────────────── */
-    .service-hero-image { line-height: 0; }
-    .service-hero-image img { width: 100%; max-height: 520px; object-fit: cover; display: block; }
-    .content-photo { margin: 28px 0; }
-    .content-photo img { width: 100%; height: auto; display: block; border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
-    .type-photo { margin: 10px 0 4px; }
-    .type-photo img { width: 100%; height: auto; display: block; border-radius: 4px; }
-    .styles-photo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin: 20px 0; }
-    .styles-photo-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
-    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 10px 0; }
+    /* ── Zone 1 — Hero ─────────────────────────────────────────── */
+    .page-hero { background: var(--color-navy); padding: 72px 0 64px; }
+
+    /* ── Zone 3 — Work Showcase ────────────────────────────────── */
+    .work-showcase { padding: 64px 0; background: var(--color-white); }
+    .work-showcase > .container > h2 { font-size: 2rem; text-align: center; margin-bottom: 48px; color: var(--color-navy); }
+    .showcase-rows { display: flex; flex-direction: column; gap: 28px; }
+    .showcase-row { display: grid; grid-template-columns: 1fr 1fr; min-height: 380px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.10); }
+    .showcase-row__img { overflow: hidden; }
+    .showcase-row__img img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.4s ease; }
+    .showcase-row:hover .showcase-row__img img { transform: scale(1.03); }
+    .showcase-row__text { padding: 52px 56px; display: flex; flex-direction: column; justify-content: center; background: var(--color-white); border-left: 6px solid var(--color-red-primary); }
+    .showcase-row__text h3 { font-family: var(--font-heading); font-size: 1.8rem; margin: 0 0 18px; line-height: 1.2; color: var(--color-navy); }
+    .showcase-row__text p { font-size: 1.02rem; line-height: 1.75; margin-bottom: 28px; color: #2a2a2a; }
+    .showcase-row__text .btn-primary { align-self: flex-start; }
+    @media (max-width: 820px) {
+      .showcase-row { grid-template-columns: 1fr; min-height: auto; }
+      .showcase-row__img img { height: 280px; }
+      .showcase-row__text { padding: 36px 32px; border-left: none; border-top: 6px solid var(--color-red-primary); }
+    }
+
+    /* ── Zone 4A — Intro ───────────────────────────────────────── */
+    .page-intro { background: var(--color-cream); padding: 64px 0; }
+    .page-intro h2 { font-size: 1.9rem; margin-bottom: 20px; color: var(--color-navy); }
+    .page-intro p { font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px; max-width: 820px; color: #1a1a1a; }
+
+    /* ── Material Cards ────────────────────────────────────────── */
+    .material-section { background: var(--color-white); padding: 64px 0; }
+    .material-section h2 { font-size: 1.9rem; margin-bottom: 12px; color: var(--color-navy); }
+    .material-section > .container > p { font-size: 1.05rem; line-height: 1.8; color: #1a1a1a; max-width: 820px; margin-bottom: 32px; }
+    .material-cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+    @media (max-width: 700px) { .material-cards { grid-template-columns: 1fr; } }
+    .material-card { border: 1px solid #e5e5e5; border-radius: 8px; padding: 28px 24px; border-top: 4px solid var(--color-red-primary); background: var(--color-white); }
+    .material-card h3 { font-family: var(--font-heading); font-size: 1.2rem; margin: 0 0 10px; color: var(--color-navy); }
+    .material-card__styles { font-size: 0.85rem; color: #555; background: var(--color-cream); border-radius: 4px; padding: 8px 12px; margin: 0 0 12px; display: block; }
+    .material-card p { font-size: 0.96rem; line-height: 1.7; color: #2a2a2a; margin: 0; }
+    .gate-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0; }
     .gate-pair img { width: 100%; height: auto; display: block; border-radius: 4px; }
-    @media (max-width: 600px) {
-      .styles-photo-grid { grid-template-columns: repeat(2,1fr); }
-      .gate-pair { grid-template-columns: 1fr; }
-    }
+
+    /* ── Feature Cards ─────────────────────────────────────────── */
+    .feature-section { background: var(--color-cream); padding: 64px 0; }
+    .feature-section h2 { font-size: 1.9rem; margin-bottom: 12px; color: var(--color-navy); }
+    .feature-section > .container > p { font-size: 1.05rem; line-height: 1.8; color: #1a1a1a; max-width: 820px; margin-bottom: 32px; }
+    .feature-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    @media (max-width: 820px) { .feature-cards { grid-template-columns: 1fr; } }
+    .feature-card { background: var(--color-white); border-radius: 8px; padding: 28px 24px; border-top: 4px solid var(--color-red-primary); box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+    .feature-card h3 { font-family: var(--font-heading); font-size: 1.1rem; margin: 0 0 12px; color: var(--color-navy); }
+    .feature-card p { font-size: 0.95rem; line-height: 1.7; color: #2a2a2a; margin: 0; }
+
+    /* ── Automation Highlight ──────────────────────────────────── */
+    .automation-highlight { background: var(--color-navy); border-radius: 10px; padding: 40px 44px; margin-top: 40px; }
+    .automation-highlight h3 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--color-white); margin: 0 0 12px; }
+    .automation-highlight p { color: rgba(255,255,255,0.82); font-size: 1rem; line-height: 1.7; margin-bottom: 16px; }
+    .automation-highlight ul { color: rgba(255,255,255,0.82); font-size: 0.96rem; line-height: 1.7; margin: 0 0 24px; padding-left: 20px; }
+    .automation-highlight ul li { margin-bottom: 6px; }
+    .automation-highlight .btn-primary { display: inline-block; }
+    @media (max-width: 600px) { .automation-highlight { padding: 28px 24px; } }
+
+    /* ── Zone 4B — Process ─────────────────────────────────────── */
+    .page-process { background: var(--color-navy); padding: 72px 0; }
+    .page-process h2 { color: var(--color-white); font-size: 1.9rem; margin-bottom: 12px; }
+    .page-process > .container > p { color: rgba(255,255,255,0.82); margin-bottom: 40px; font-size: 1.02rem; max-width: 700px; }
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    @media (max-width: 900px) { .process-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .process-grid { grid-template-columns: 1fr; } }
+    .process-card { background: rgba(255,255,255,0.07); border-radius: 8px; padding: 28px 24px; border-top: 4px solid var(--color-red-primary); }
+    .process-card__num { font-size: 0.72rem; font-weight: 700; color: var(--color-red-primary); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 10px; }
+    .process-card h3 { color: var(--color-white); font-family: var(--font-heading); font-size: 1.05rem; margin: 0 0 10px; }
+    .process-card p { color: rgba(255,255,255,0.78); font-size: 0.92rem; margin: 0; line-height: 1.6; }
+    .process-card a { color: var(--color-cream); }
+
+    /* ── Zone 4C — Warranty ────────────────────────────────────── */
+    .page-warranty { background: var(--color-cream); padding: 56px 0; }
+    .warranty-box { background: var(--color-white); border-radius: 10px; padding: 44px 52px; border-left: 6px solid var(--color-red-primary); box-shadow: 0 2px 14px rgba(0,0,0,0.08); display: flex; gap: 32px; align-items: center; }
+    .warranty-box__icon { font-size: 3rem; flex-shrink: 0; line-height: 1; }
+    .warranty-box__text h2 { font-size: 1.6rem; margin-bottom: 12px; color: var(--color-navy); }
+    .warranty-box__text p { font-size: 1.02rem; line-height: 1.75; margin: 0; color: #2a2a2a; }
+    @media (max-width: 600px) { .warranty-box { flex-direction: column; gap: 16px; padding: 32px 28px; } }
+
+    /* ── Zone 5 — FAQs ─────────────────────────────────────────── */
+    .page-faqs { background: var(--color-white); padding: 72px 0; }
+    .page-faqs__grid { display: grid; grid-template-columns: 1fr 340px; gap: 56px; align-items: start; }
+    @media (max-width: 900px) { .page-faqs__grid { grid-template-columns: 1fr; } }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
   </style>
-  <style id="tf-footer-css">
-    /* Thomas Fence — Unified Footer */
-    .site-footer { background: #003049; color: #fff; padding: 64px 0 0; margin-top: 88px; font-family: 'DM Sans', sans-serif; }
-    .site-footer__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-    .site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 52px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-    .site-footer__col--contact { display: flex; flex-direction: column; gap: 20px; }
-    .site-footer__logo { height: 46px; width: auto; display: block; }
-    .site-footer__nap { font-size: 0.9rem; line-height: 1.75; color: rgba(255,255,255,0.8); font-style: normal; }
-    .site-footer__nap strong { color: #fff; }
-    .site-footer__nap a { color: #FDF0D5; text-decoration: none; font-weight: 600; }
-    .site-footer__nap a:hover { color: #fff; }
-    .site-footer__hours { font-size: 0.875rem; color: rgba(255,255,255,0.7); line-height: 1.5; margin: 0; }
-    .site-footer__hours strong { color: rgba(255,255,255,0.9); }
-    .site-footer__contact-btn { display: inline-block; background: #F01B24; color: #fff; padding: 10px 20px; border-radius: 6px; font-size: 0.875rem; font-weight: 600; text-decoration: none; align-self: flex-start; transition: background 0.2s; }
-    .site-footer__contact-btn:hover { background: #780000; color: #fff; }
-    .site-footer__socials { display: flex; gap: 10px; flex-wrap: wrap; }
-    .site-footer__social-link { display: flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.75); text-decoration: none; transition: background 0.2s, color 0.2s; }
-    .site-footer__social-link:hover { background: #F01B24; color: #fff; }
-    .site-footer__social-link--pending { opacity: 0.4; cursor: not-allowed; }
-    .site-footer__social-link--pending:hover { background: rgba(255,255,255,0.1) !important; color: rgba(255,255,255,0.75) !important; }
-    .site-footer__col--site, .site-footer__col--legal { display: flex; flex-direction: column; gap: 8px; }
-    .site-footer__heading { font-family: 'DM Serif Display', serif; font-size: 1rem; color: #fff; margin: 0 0 8px; }
-    .site-footer__list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 5px; }
-    .site-footer__list a { font-size: 0.85rem; color: rgba(255,255,255,0.7); text-decoration: none; line-height: 1.4; transition: color 0.2s; }
-    .site-footer__list a:hover { color: #fff; }
-    .site-footer__list--legal a { font-size: 0.8rem; color: rgba(255,255,255,0.5); }
-    .site-footer__list--legal a:hover { color: #fff; }
-    .site-footer__bottom { padding: 20px 0; font-size: 0.78rem; color: rgba(255,255,255,0.38); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
-    .site-footer__bottom-legal { display: flex; gap: 20px; }
-    .site-footer__bottom-legal a { color: rgba(255,255,255,0.38); text-decoration: none; transition: color 0.2s; }
-    .site-footer__bottom-legal a:hover { color: #FDF0D5; }
-    @media (max-width: 1024px) { .site-footer__grid { grid-template-columns: 1.2fr 1fr 1fr; gap: 36px; } }
-    @media (max-width: 768px) { .site-footer { margin-top: 64px; } .site-footer__grid { grid-template-columns: 1fr; gap: 44px; } }
-    @media (max-width: 480px) { .site-footer { padding: 48px 0 0; margin-top: 52px; } }
-  </style>
-  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 
+  <!-- ── Site Header ─────────────────────────────────────────────── -->
   <header class="site-header">
-    <div class="container">
-      <nav class="site-nav" aria-label="Main navigation">
-
-        <a href="/" class="site-nav__logo" aria-label="Thomas Fence — Home">
-          <img
-            src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg"
-            alt="Thomas Fence logo"
-            width="180"
-            height="auto"
-            loading="eager"
-          >
+    <div class="site-header__top">
+      <div class="container site-header__top-inner">
+        <div class="site-header__contact">
+          <a href="tel:+14796364732">(479) 636-4732</a>
+          <span class="site-header__sep">|</span>
+          <a href="mailto:Sales@ThomasFenceAR.com">Sales@ThomasFenceAR.com</a>
+          <span class="site-header__sep">|</span>
+          <span>Mon–Fri, 8am–4pm</span>
+        </div>
+        <div class="site-header__actions">
+          <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer" class="btn-ghost-sm">Instant Fence Estimator</a>
+          <a href="/contact/" class="btn-primary-sm">Get a Free Estimate</a>
+        </div>
+      </div>
+    </div>
+    <div class="site-header__main">
+      <div class="container site-header__main-inner">
+        <a href="/" class="site-header__logo" aria-label="Thomas Fence home">
+          <img src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg" alt="Thomas Fence logo" width="180" height="48">
         </a>
-
-        <ul class="site-nav__links">
-          <li class="site-nav__item site-nav__item--has-dropdown">
-            <a href="/fences/">Fencing <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
-            <ul class="site-nav__dropdown">
-              <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
-              <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
-              <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
-              <li><a href="/fences/wood-fence/">Wood Fence</a></li>
-              <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
-              <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
-              <li><a href="/fences/farm-fencing/">Farm Fencing</a></li>
-              <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
-            </ul>
-          </li>
-          <li class="site-nav__item site-nav__item--has-dropdown">
-            <a href="/gates/">Gates <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
-            <ul class="site-nav__dropdown">
-              <li><a href="/gates/gate-automation/">Gate Automation</a></li>
-              <li><a href="/gates/estate-gates/">Estate Gates</a></li>
-            </ul>
-          </li>
-          <li class="site-nav__item site-nav__item--has-dropdown">
-            <a href="/faqs/">FAQs <span class="site-nav__chevron" aria-hidden="true">&#9662;</span></a>
-            <ul class="site-nav__dropdown">
-              <li><a href="/faqs/">Get The Answers</a></li>
-              <li><a href="/warranty/">Warranty</a></li>
-              <li><a href="/financing/">Financing</a></li>
-              <li><a href="/permits/">Fence Permits</a></li>
-              <li><a href="/photo-gallery/">Photo Gallery</a></li>
-            </ul>
-          </li>
-          <li class="site-nav__item"><a href="/contact/">Contact</a></li>
-        </ul>
-
-        <a href="tel:+14796364732" class="site-nav__phone">(479) 636-4732</a>
-
-        <a href="/contact/" class="btn-primary site-nav__cta">Get a Free Estimate</a>
-
-        <input type="checkbox" id="nav-toggle" class="site-nav__toggle-input" aria-hidden="true">
-        <label for="nav-toggle" class="site-nav__toggle-label" aria-label="Toggle navigation">
-          <span></span><span></span><span></span>
-        </label>
-
-      </nav>
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="site-nav__list">
+            <li class="site-nav__item site-nav__item--has-dropdown">
+              <a href="/fences/" class="site-nav__link">Fencing Services</a>
+              <ul class="site-nav__dropdown">
+                <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
+                <li><a href="/fences/wood-fence/">Wood Fence</a></li>
+                <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
+                <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
+                <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
+                <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
+                <li><a href="/fences/farm-fencing/">Farm &amp; Ranch Fencing</a></li>
+                <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
+              </ul>
+            </li>
+            <li class="site-nav__item site-nav__item--has-dropdown">
+              <a href="/gates/" class="site-nav__link">Gates</a>
+              <ul class="site-nav__dropdown">
+                <li><a href="/gates/gate-automation/">Gate Automation</a></li>
+                <li><a href="/gates/estate-gates/">Estate Gates</a></li>
+              </ul>
+            </li>
+            <li class="site-nav__item site-nav__item--has-dropdown">
+              <a href="/company/about-us/" class="site-nav__link">Company</a>
+              <ul class="site-nav__dropdown">
+                <li><a href="/company/about-us/">About Us</a></li>
+                <li><a href="/company/testimonials/">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="site-nav__item site-nav__item--has-dropdown">
+              <a href="/resources/faqs/" class="site-nav__link">Resources</a>
+              <ul class="site-nav__dropdown">
+                <li><a href="/resources/faqs/">FAQs</a></li>
+                <li><a href="/resources/financing/">Financing</a></li>
+                <li><a href="/resources/permits/">Permits</a></li>
+                <li><a href="/resources/warranty/">Warranty</a></li>
+                <li><a href="/resources/photo-gallery/">Photo Gallery</a></li>
+              </ul>
+            </li>
+            <li class="site-nav__item"><a href="/contact/" class="site-nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="page-hero__inner">
-      <div class="page-hero__breadcrumb">
-        <a href="/">Home</a><span>›</span>
-        <a href="/gates/">Gate Services</a><span>›</span>
-        Estate Gates
+  <main>
+
+    <!-- ── Zone 1 — Navy Hero ───────────────────────────────────── -->
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="/">Home</a></li>
+            <li><a href="/gates/">Gates</a></li>
+            <li aria-current="page">Estate Gates</li>
+          </ol>
+        </nav>
+        <h1>Estate Gates for Northwest Arkansas Homes &amp; Properties</h1>
+        <p class="page-hero__sub">Custom-designed estate gates in ornamental steel, vinyl, wood, and chain link — built and installed by Thomas Fence across NWA since 1993.</p>
+        <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
       </div>
-      <h1>Estate Gates in Northwest Arkansas</h1>
-      <p class="page-hero__sub">Get an exceptional entrance for your property with polished estate gates — custom-designed in metal, vinyl, chain link, or wood, swinging or sliding.</p>
-    </div>
-  </section>
+    </section>
 
-  <!-- TRUST BAR -->
-  <div class="trust-bar">
-    <div class="trust-bar__inner">
-      <div class="trust-bar__item">In Business Since 1993</div>
-      <div class="trust-bar__item">CGAT Certified Gate Automation</div>
-      <div class="trust-bar__item">AFA Certified Fence Contractor</div>
-      <div class="trust-bar__item">Arkansas Contractor's License No. 015501</div>
-      <div class="trust-bar__item">1-Year Craftsmanship Warranty</div>
-    </div>
-  </div>
-  <section class="service-hero-image">
-    <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/springdale-arkansas-estate-gate-company.jpg" alt="Estate gate installation in Springdale, Arkansas" width="1200" loading="lazy">
-  </section>
+    <!-- ── Zone 2 — Trust Bar ───────────────────────────────────── -->
+    <section class="trust-bar" aria-label="Credentials">
+      <div class="container">
+        <ul class="trust-bar__list">
+          <li>AR License No. 015501</li>
+          <li>AFA Certified Fence Contractor</li>
+          <li>US Federal Contractor</li>
+          <li>Serving NWA Since 1993</li>
+          <li>1-Year Workmanship Warranty</li>
+        </ul>
+      </div>
+    </section>
 
-  <!-- PAGE CONTENT -->
-  <main class="page-content">
-    <div class="page-content__grid">
+    <!-- ── Zone 3 — Work Showcase ───────────────────────────────── -->
+    <section class="work-showcase">
+      <div class="container">
+        <h2>Estate Gate Installations Across Northwest Arkansas</h2>
+        <div class="showcase-rows">
 
-      <!-- MAIN BODY -->
-      <div class="page-body">
-
-        <p>An estate gate is the first impression your property makes. Thomas Fence designs and installs custom entrance gates across Northwest Arkansas — built to your specifications, in your choice of material and movement style, with the option to add automation so the gate opens and closes with the touch of a button.</p>
-
-        <p>We've been building fences and gates in NWA since 1993. Our team holds the <strong>CGAT (Certified Gate Automation Technician)</strong> certification, so when you're ready to automate your estate gate, the same crew that built it can wire it up — no subcontracting required.</p>
-
-        <h2>Material Options</h2>
-        <p>Estate gates are available in four materials. Each can be built as a swinging gate or a sliding gate depending on your driveway layout and available space.</p>
-
-        <div class="material-cards">
-          <div class="material-card">
-            <h3>Metal (Ornamental Steel)</h3>
-            <p>The most popular choice for estate gates. Ornamental steel gates offer an elegant, architectural look with maximum durability. Custom picket patterns and scrollwork available. Powder-coated finish resists rust and holds its color for years.</p>
-            <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
-            <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-swinging-estate-gate-closed.png" alt="Ornamental Steel swinging estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-swinging-estate-gate-open.png" alt="Ornamental Steel swinging estate gate — open" width="1200" loading="lazy">
+          <div class="showcase-row">
+            <div class="showcase-row__img">
+              <img
+                src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/springdale-arkansas-estate-gate-company.jpg"
+                alt="Custom estate gate installed by Thomas Fence in Springdale, Arkansas"
+                width="800"
+                loading="eager"
+              >
             </div>
-            <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-sliding-estate-gate-closed.png" alt="Ornamental Steel sliding estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/metal-sliding-estate-gate-open.png" alt="Ornamental Steel sliding estate gate — open" width="1200" loading="lazy">
+            <div class="showcase-row__text">
+              <h3>Custom Estate Gates</h3>
+              <p>Thomas Fence designs and installs estate gates that match your property's architecture and your family's security needs. From ornamental steel swing gates to automated vinyl slide gates, every system is built to last in NWA's climate.</p>
+              <a href="/contact/" class="btn-primary">Design Your Estate Gate</a>
             </div>
           </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Zone 4A — Intro ──────────────────────────────────────── -->
+    <section class="page-intro">
+      <div class="container">
+        <h2>Northwest Arkansas Estate Gate Specialists Since 1993</h2>
+        <p>An estate gate is more than a point of entry — it's the first impression your property makes. Thomas Fence has been designing and installing custom estate gates across Springdale, Bentonville, Rogers, and Fayetteville for over 30 years. We work with homeowners, developers, and property managers to build gates that balance curb appeal, security, and long-term durability.</p>
+        <p>Whether you're enclosing a residential driveway, a rural acreage, or a gated community entrance, our team walks you through material options, movement styles, and automation options before any work begins. Thomas Fence holds Arkansas Contractor License No. 015501 and is an AFA Certified Fence Contractor — the credentials that back every gate we install.</p>
+      </div>
+    </section>
+
+    <!-- ── Material Options ─────────────────────────────────────── -->
+    <section class="material-section">
+      <div class="container">
+        <h2>Estate Gate Materials</h2>
+        <p>Each material brings different strengths. Thomas Fence installs all four in Northwest Arkansas, and our team can help you choose based on your property's style, your budget, and how much maintenance you want to take on.</p>
+        <div class="material-cards">
+
+          <div class="material-card">
+            <h3>Ornamental Steel</h3>
+            <span class="material-card__styles">Available in: Flat Top, Spear Top, Double Drive, Walk Gate</span>
+            <div class="gate-pair">
+              <img
+                src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/ornamental-steel-fence-nw-arkansas-fence-company-01.jpg"
+                alt="Ornamental steel estate gate installed by Thomas Fence in Northwest Arkansas"
+                loading="lazy"
+              >
+            </div>
+            <p>The most popular choice for NWA estate gate clients. Powder-coated steel holds up through Arkansas summers and winters with minimal maintenance. Ornamental steel can be fabricated in virtually any panel design and is the strongest option for high-traffic driveways.</p>
+          </div>
+
           <div class="material-card">
             <h3>Vinyl</h3>
-            <p>Clean lines, low maintenance, and a bright white or almond finish that won't fade, rot, or need painting. Vinyl estate gates work well for residential properties that want a classic picket or board style at the entrance.</p>
-            <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <span class="material-card__styles">Available in: Privacy Panel, Picket, Estate Style</span>
             <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-swinging-estate-gate-closed.png" alt="Vinyl swinging estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-swinging-estate-gate-open.png" alt="Vinyl swinging estate gate — open" width="1200" loading="lazy">
+              <img
+                src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/vinyl-fence-nw-arkansas-fence-company-01.jpg"
+                alt="Vinyl estate gate installed by Thomas Fence in Northwest Arkansas"
+                loading="lazy"
+              >
             </div>
-            <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-sliding-estate-gate-closed.png" alt="Vinyl sliding estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/vinyl-sliding-estate-gate-open.png" alt="Vinyl sliding estate gate — open" width="1200" loading="lazy">
-            </div>
+            <p>Vinyl estate gates never need painting and won't rot or rust. They're a top pick for residential properties with existing vinyl fencing. Color-matched panels create a seamless, polished look from the street.</p>
           </div>
+
           <div class="material-card">
             <h3>Chain Link</h3>
-            <p>A practical choice for agricultural, commercial, or utility entrances where security and durability matter more than aesthetics. Available in galvanized or PVC-coated finishes. Holds up in high-traffic applications.</p>
-            <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <span class="material-card__styles">Available in: Single Drive, Double Drive, Cantilever Slide</span>
             <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-swinging-estate-gate-closed.png" alt="Chain Link swinging estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-swinging-estate-gate-open.png" alt="Chain Link swinging estate gate — open" width="1200" loading="lazy">
+              <img
+                src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/chain-link-nw-arkansas-fence-company-02.jpg"
+                alt="Chain link estate gate installed by Thomas Fence in Northwest Arkansas"
+                loading="lazy"
+              >
             </div>
-            <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-sliding-estate-gate-closed.png" alt="Chain Link sliding estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/chain-link-sliding-estate-gate-open.png" alt="Chain Link sliding estate gate — open" width="1200" loading="lazy">
-            </div>
+            <p>Chain link estate gates are the most cost-effective option and are well-suited for rural properties, farm access points, and commercial driveways that prioritize function over aesthetics. Galvanized and vinyl-coated options are available.</p>
           </div>
+
           <div class="material-card">
             <h3>Wood</h3>
-            <p>Cedar and pressure-treated pine gates that match a wood fence perimeter. Wood gates have natural warmth and character — cedar can be stained immediately; pressure-treated pine should cure 1–3 months before staining.</p>
-            <div class="material-card__styles">Available as: Swinging Gate · Sliding Gate</div>
+            <span class="material-card__styles">Available in: Board-on-Board, Horizontal Privacy, Cedar Picket</span>
             <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-swinging-estate-gate-closed.png" alt="Wood swinging estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-swinging-estate-gate-open.png" alt="Wood swinging estate gate — open" width="1200" loading="lazy">
+              <img
+                src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/wood-fence-nw-arkansas-fence-company-09.jpg"
+                alt="Wood estate gate installed by Thomas Fence in Northwest Arkansas"
+                loading="lazy"
+              >
             </div>
-            <div class="gate-pair">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-sliding-estate-gate-closed.png" alt="Wood sliding estate gate — closed" width="1200" loading="lazy">
-              <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/thomasfencear.com/gates/estate-gates/images/wood-sliding-estate-gate-open.png" alt="Wood sliding estate gate — open" width="1200" loading="lazy">
-            </div>
+            <p>Cedar and pressure-treated wood gates bring a natural, warm look to residential driveways and garden entries. Wood gates require more upkeep than vinyl or steel, but many homeowners prefer their character. Staining should be done by a separate contractor — we recommend waiting 1–3 months after installation for pressure-treated wood; cedar can be stained immediately.</p>
           </div>
+
         </div>
+      </div>
+    </section>
 
-        <h2>Swinging vs. Sliding: Which Is Right for You?</h2>
-
+    <!-- ── Swinging vs. Sliding ─────────────────────────────────── -->
+    <section class="feature-section">
+      <div class="container">
+        <h2>Swinging vs. Sliding — What's Right for Your Property?</h2>
+        <p>The two most common estate gate configurations each have real-world advantages. Your driveway grade, available clearance, and automation plans all factor into which direction makes more sense for your property.</p>
         <div class="feature-cards">
+
           <div class="feature-card">
-            <h3>Swinging Gate</h3>
-            <p>One or two panels that swing inward or outward. Classic look, simpler hardware, and easier to automate. Requires adequate driveway depth behind the gate line and relatively level terrain. Best for residential driveways with flat approaches.</p>
+            <h3>Swing Gates</h3>
+            <p>Swing gates open inward or outward on hinges and are the most traditional estate gate style. They work best on level driveways with enough clearance for the gate arc. Single and double drive configurations are both available. Swing gates are compatible with most gate operators and are the most common residential choice in NWA.</p>
           </div>
+
           <div class="feature-card">
-            <h3>Sliding Gate</h3>
-            <p>The gate panel slides horizontally along the fence line rather than swinging out. Ideal when driveway space is limited, the approach is on a slope, or the gate opening is very wide. Cantilever and V-track options available.</p>
+            <h3>Slide Gates</h3>
+            <p>Slide gates roll parallel to the fence line instead of swinging out — ideal for sloped driveways or tight approaches where a swing gate would struggle. Cantilever slide gates don't require a track on the ground, which keeps them reliable in all weather. Heavy-duty commercial slide gates are built to handle high-cycle traffic.</p>
           </div>
+
           <div class="feature-card">
-            <h3>Not Sure?</h3>
-            <p>Your site conditions — driveway grade, available clearance, and property layout — determine which style works. We assess your property during the free consultation and recommend the right configuration before any commitment.</p>
+            <h3>Not Sure Which to Choose?</h3>
+            <p>Thomas Fence evaluates your driveway grade, clearance, and daily use during your free estimate. We'll tell you honestly which configuration performs best for your specific site — no upsell, just a straight answer from a team that has been doing this in NWA since 1993.</p>
           </div>
+
         </div>
 
-        <div class="highlight-box">
-          <h3>Add Automation to Any Estate Gate</h3>
-          <p>Every estate gate Thomas Fence installs can be automated. We hold the CGAT certification and handle the full installation — gate, operator, safety devices, and access control — in one project, with one contractor.</p>
+        <div class="automation-highlight">
+          <h3>Add Automation to Any Gate</h3>
+          <p>Thomas Fence is a CGAT-certified gate automation installer. We can add an automated operator to most new estate gate systems at the time of installation — or retrofit one to an existing gate. Popular options include:</p>
           <ul>
-            <li>Swing gate operators and slide gate operators</li>
-            <li>Keypad, remote control, and phone entry systems</li>
-            <li>Loop detectors and safety entrapment devices</li>
-            <li>Smart home and intercom integration</li>
-            <li>Solar power options for remote locations</li>
+            <li>Keypad and remote entry systems</li>
+            <li>Vehicle loop detectors for hands-free exit</li>
+            <li>Video intercom and access control integration</li>
+            <li>LiftMaster and Elite residential and commercial operators</li>
           </ul>
-          <br>
-          <a class="btn btn--outline-white" href="/gates/gate-automation/">Learn About Gate Automation →</a>
+          <a href="/gates/gate-automation/" class="btn-primary">See Gate Automation Options</a>
         </div>
 
-        <h2>Why Thomas Fence for Your Estate Gate</h2>
-        <div class="feature-cards">
-          <div class="feature-card">
-            <h3>Custom to Your Spec</h3>
-            <p>Width, height, material, style, finish, and hardware — all specified to match your property and your perimeter fence. No catalog sizes, no compromises.</p>
+      </div>
+    </section>
+
+    <!-- ── Zone 4B — Our Easy Process ───────────────────────────── -->
+    <section class="page-process">
+      <div class="container">
+        <h2>Our Easy Process</h2>
+        <p>Getting an estate gate installed in NWA is straightforward when you work with a licensed contractor who has done it hundreds of times.</p>
+        <div class="process-grid">
+          <div class="process-card">
+            <p class="process-card__num">Step 1</p>
+            <h3>Schedule Your Free Estimate</h3>
+            <p>Call <a href="tel:+14796364732">(479) 636-4732</a>. We'll visit your property, measure the opening, assess the grade, and discuss material and automation options.</p>
           </div>
-          <div class="feature-card">
-            <h3>Built for NWA</h3>
-            <p>Over 30 years installing gates in Northwest Arkansas. We know the soil, the weather, and the permit requirements for Springdale, Bentonville, Rogers, Fayetteville, and the surrounding communities.</p>
+          <div class="process-card">
+            <p class="process-card__num">Step 2</p>
+            <h3>Approve &amp; Sign</h3>
+            <p>Accept by phone, email, or through your sales representative. We will send over a contract for your signature.</p>
           </div>
-          <div class="feature-card">
-            <h3>One Contractor, Full System</h3>
-            <p>Gate, fence, and automation all installed by the same CGAT-certified crew. No coordination headaches between a fence contractor and a separate gate automation company.</p>
+          <div class="process-card">
+            <p class="process-card__num">Step 3</p>
+            <h3>Get on the Schedule</h3>
+            <p>Once the contract is signed, your project is officially in line to be completed — typically within 1 to 3 weeks.</p>
+          </div>
+          <div class="process-card">
+            <p class="process-card__num">Step 4</p>
+            <h3>Final Prep &amp; Install</h3>
+            <p>We call 811 to mark underground utilities before any digging, and check in with you before crews arrive.</p>
           </div>
         </div>
+      </div>
+    </section>
 
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq-list">
-          <details class="faq-item">
-            <summary>What exactly is an estate gate?</summary>
-            <div class="faq-item__body">
-              <p>An estate gate is a large, custom entrance gate — typically for a driveway or property entrance — designed to make a statement as well as provide security. Estate gates are generally wider and taller than standard gates, built from premium materials, and are often automated. They're common at residential estates, farms, and commercial properties that want a polished entrance.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>Can an estate gate be automated?</summary>
-            <div class="faq-item__body">
-              <p>Yes — virtually all estate gate styles and materials can be automated. Thomas Fence holds the CGAT certification and installs automated gate systems as part of the same project. We handle the gate, the operator, safety devices, and access control so you work with one contractor from start to finish.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>What material is best for an estate gate?</summary>
-            <div class="faq-item__body">
-              <p>Ornamental steel is the most popular choice — it offers the best combination of strength, elegance, and longevity with minimal maintenance. Vinyl is a great low-maintenance option with a clean residential look. Wood adds natural warmth and pairs well with wood fence perimeters. Chain link is practical for agricultural and commercial applications. We'll help you weigh the trade-offs during your consultation.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>How wide should my driveway gate be?</summary>
-            <div class="faq-item__body">
-              <p>For a single-vehicle driveway, a 12-foot gate is generally sufficient. For two-lane driveways or properties with larger vehicles — trucks, RVs, farm equipment — 16 to 20 feet is common. We measure your driveway during the site visit and recommend an appropriate width based on your vehicles and usage.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>How long does estate gate installation take?</summary>
-            <div class="faq-item__body">
-              <p>A standard estate gate installation typically takes 1–2 days for the gate itself. If automation is added, allow an additional day for the operator, wiring, and access control components. Lead time from signed contract to installation start is typically 1–3 weeks depending on scheduling.</p>
-            </div>
-          </details>
-          <details class="faq-item">
-            <summary>Can I customize the design?</summary>
-            <div class="faq-item__body">
-              <p>Yes. For ornamental steel gates, we can incorporate custom picket styles, scrollwork, and finishes. For wood gates, we work with your fence style and stain preferences. Vinyl gates come in standard panel styles. During the estimate process, we work through the design details with you so the gate matches your property and your expectations.</p>
-            </div>
-          </details>
+    <!-- ── Zone 4C — Warranty ────────────────────────────────────── -->
+    <section class="page-warranty">
+      <div class="container">
+        <div class="warranty-box">
+          <div class="warranty-box__icon">🛡</div>
+          <div class="warranty-box__text">
+            <h2>1-Year Workmanship Warranty</h2>
+            <p>Thomas Fence provides a written 1-year workmanship warranty on every estate gate installation. We use commercial-grade hardware, posts, and operators from reputable manufacturers — many of which carry their own product warranties for additional peace of mind.</p>
+          </div>
         </div>
+      </div>
+    </section>
 
-      </div><!-- /page-body -->
+    <!-- ── Zone 5 — FAQs + Sidebar ───────────────────────────────── -->
+    <section class="page-faqs">
+      <div class="container">
+        <div class="page-faqs__grid">
 
-      <!-- SIDEBAR -->
-      <aside class="sidebar">
+          <div>
+            <h2>Estate Gate FAQs</h2>
 
-        <div class="sidebar-card sidebar-card--navy">
-          <div class="sidebar-card__heading">Design Your Gate</div>
-          <p>Get a free consultation and estimate. We'll assess your site, walk through material and style options, and provide a written proposal.</p>
-          <div class="sidebar-card__hours">Mon–Fri, 8am–4pm</div>
-          <a class="sidebar-card__phone" href="tel:+14796364732">(479) 636-4732</a>
-          <a class="btn btn--red btn--full" href="/contact/">Get a Free Estimate</a>
+            <details class="faq-item">
+              <summary>What is an estate gate?</summary>
+              <div class="faq-item__answer"><p>An estate gate is a large, often decorative gate system installed at the primary entry point of a property — typically a driveway entrance. Estate gates are distinguished from standard fence gates by their width (usually 10–20+ feet for double drives), heavier-duty construction, and the option for automated operation. They serve both a security function and a strong aesthetic statement.</p></div>
+            </details>
+
+            <details class="faq-item">
+              <summary>Can an estate gate be automated?</summary>
+              <div class="faq-item__answer"><p>Yes — most estate gate systems can be automated at the time of installation or retrofitted with a gate operator later. Thomas Fence is CGAT-certified (Certified Gate Automation Technician) and installs both residential and commercial-grade operators. Automation options include keypad entry, remote controls, vehicle loop detectors, and video intercom systems. See our <a href="/gates/gate-automation/">Gate Automation page</a> for full details.</p></div>
+            </details>
+
+            <details class="faq-item">
+              <summary>What material is best for an estate gate in Northwest Arkansas?</summary>
+              <div class="faq-item__answer"><p>Ornamental steel is the most popular choice for NWA estate gate clients due to its strength, low maintenance, and wide range of design options. Vinyl is a close second for residential properties that want a clean look without painting. Wood brings a natural character that many homeowners prefer, though it requires more upkeep. Chain link is the most economical option and is common on rural and farm properties. The right material depends on your property style, budget, and intended use — our team will give you a straight recommendation during your free estimate.</p></div>
+            </details>
+
+            <details class="faq-item">
+              <summary>How wide does an estate gate need to be?</summary>
+              <div class="faq-item__answer"><p>Standard double-drive estate gates range from 12 to 20 feet wide to accommodate most vehicles. For properties with large trucks, RVs, or farm equipment, 16–24 feet is common. Single-drive configurations typically run 10–14 feet. Walk gates are often added alongside a drive gate for pedestrian entry. Thomas Fence measures your driveway and accounts for post placement and automation hardware clearances during the estimate.</p></div>
+            </details>
+
+            <details class="faq-item">
+              <summary>How long does estate gate installation take?</summary>
+              <div class="faq-item__answer"><p>Most residential estate gate installations are completed in one to two days. Larger systems with automated operators, concrete post work, or access control components may take two to three days. Thomas Fence calls 811 before any digging (required by Arkansas state law) and coordinates that 3-day utility locate window before scheduling your install date.</p></div>
+            </details>
+
+            <details class="faq-item">
+              <summary>Can you customize the design of an estate gate?</summary>
+              <div class="faq-item__answer"><p>Yes. Ornamental steel gates in particular can be fabricated in custom panel designs, heights, and finishes. Vinyl gates are available in multiple colors and styles. Wood gates can be built in any panel configuration. During your estimate, your sales representative will walk through available design options and what can be ordered or fabricated for your property.</p></div>
+            </details>
+
+          </div>
+
+          <aside>
+            <div class="sidebar-cta">
+              <h3>Get a Free Estimate</h3>
+              <p>Ready to add an estate gate to your property? Thomas Fence serves all of Northwest Arkansas.</p>
+              <a href="/contact/" class="btn-primary">Contact Us</a>
+              <p class="sidebar-cta__phone"><a href="tel:+14796364732">(479) 636-4732</a></p>
+            </div>
+            <div class="sidebar-credentials">
+              <h3>Licensed &amp; Certified</h3>
+              <ul>
+                <li>AR License No. 015501</li>
+                <li>AFA Certified Fence Contractor</li>
+                <li>US Federal Contractor</li>
+                <li>In Business Since 1993</li>
+              </ul>
+            </div>
+            <div class="sidebar-estimator">
+              <h3>Instant Price Estimator</h3>
+              <p>Get a quick quote on your project online.</p>
+              <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer" class="btn-white">Get a Quote</a>
+            </div>
+            <div class="sidebar-financing">
+              <p class="sidebar-financing__amount">$250K</p>
+              <p class="sidebar-financing__label">Maximum Loan Amount</p>
+              <ul class="sidebar-financing__list">
+                <li>No home equity required</li>
+                <li>No prepayment penalties</li>
+                <li>Funding in 1–3 days</li>
+                <li>Check rates in minutes</li>
+                <li>No credit score impact to check</li>
+              </ul>
+              <a href="https://app.gethearth.com/partners/thomas-fence/darrell/apply" target="_blank" rel="noopener noreferrer" class="btn-primary sidebar-financing__btn">Apply for Financing</a>
+              <p class="sidebar-financing__disclaimer">Financing provided by Hearth. Thomas Fence is not a lender.</p>
+            </div>
+          </aside>
+
         </div>
+      </div>
+    </section>
 
-        <div class="sidebar-card sidebar-card--red">
-          <div class="sidebar-card__heading">Instant Fence Estimator</div>
-
-        <div class="sidebar-card sidebar-card--navy">
-          <div class="sidebar-card__heading">Financing Available</div>
-          <ul class="sidebar-card__creds">
-            <li>Up to $250K loan amount</li>
-            <li>No home equity required</li>
-            <li>No prepayment penalties</li>
-            <li>Funding in 1–3 days</li>
-            <li>No credit score impact to check</li>
-          </ul>
-          <a class="btn btn--red btn--full" href="https://app.gethearth.com/partners/thomas-fence/darrell/apply" target="_blank" rel="noopener noreferrer">Apply for Financing</a>
-          <p style="font-size:0.72rem;color:rgba(255,255,255,0.4);margin-top:12px;line-height:1.5;">Financing provided by Hearth. Thomas Fence is not a lender.</p>
+    <!-- ── Related Services ─────────────────────────────────────── -->
+    <section class="related-services">
+      <div class="container">
+        <h2>Related Services</h2>
+        <div class="related-grid">
+          <div class="related-card">
+            <h3><a href="/gates/gate-automation/">Gate Automation</a></h3>
+            <p>CGAT-certified automated gate operators for residential and commercial properties across NWA.</p>
+          </div>
+          <div class="related-card">
+            <h3><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></h3>
+            <p>Matching ornamental steel fence panels to complete the look of your estate gate system.</p>
+          </div>
+          <div class="related-card">
+            <h3><a href="/fences/vinyl-fence/">Vinyl Fence</a></h3>
+            <p>Low-maintenance vinyl fencing in styles that pair beautifully with vinyl estate gate systems.</p>
+          </div>
         </div>
-          <p>Get a ballpark number in minutes using our online estimator tool.</p>
-          <a class="btn btn--outline-white btn--full" href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer">Get a Quote</a>
-        </div>
+      </div>
+    </section>
 
-        <div class="sidebar-card sidebar-card--cream">
-          <div class="sidebar-card__heading">Our Credentials</div>
-          <ul class="sidebar-card__creds">
-            <li>CGAT Certified Gate Automation Technician</li>
-            <li>AFA Certified Fence Contractor</li>
-            <li>Arkansas Contractor's License No. 015501</li>
-            <li>US Federal Contractor Registration</li>
-            <li>In Business Since 1993</li>
-            <li>Bonded &amp; Insured</li>
-          </ul>
-          <a class="btn btn--navy btn--full" href="/company/about-us/">About Thomas Fence</a>
-        </div>
+    <!-- ── CTA Band ──────────────────────────────────────────────── -->
+    <section class="cta-band">
+      <div class="container">
+        <h2>Ready to Design Your Estate Gate?</h2>
+        <p>Thomas Fence serves all of Northwest Arkansas — call today or fill out our contact form to schedule your free on-site estimate.</p>
+        <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
+      </div>
+    </section>
 
-      </aside>
-
-    </div><!-- /page-content__grid -->
   </main>
 
-  <!-- RELATED SERVICES -->
-  <section class="related-services">
-    <div class="related-services__inner">
-      <h2>Related Services</h2>
-      <div class="related-services__grid">
-        <div class="related-card">
-          <h3>Gate Automation</h3>
-          <p>CGAT-certified automated gate installation and repair. Every movement style — swing, slide, cantilever, and more.</p>
-          <a href="/gates/gate-automation/">Explore Gate Automation →</a>
-        </div>
-        <div class="related-card">
-          <h3>Ornamental Steel Fence</h3>
-          <p>Match your estate gate with an ornamental steel perimeter fence for a cohesive, elegant property entrance.</p>
-          <a href="/fences/ornamental-steel-fence/">Explore Ornamental Steel →</a>
-        </div>
-        <div class="related-card">
-          <h3>Residential Fencing</h3>
-          <p>Complete residential fence installation across Northwest Arkansas — vinyl, wood, chain link, and ornamental steel.</p>
-          <a href="/fences/residential-fencing/">Explore Residential Fencing →</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA BAND -->
-  <section class="cta-band">
-    <h2>Ready for an Exceptional Entrance?</h2>
-    <p>Custom estate gates built and installed by Thomas Fence — serving Northwest Arkansas since 1993.</p>
-    <div class="cta-band__buttons">
-      <a class="btn btn--red" href="/contact/">Get a Free Estimate</a>
-      <a class="btn btn--outline-white" href="tel:+14796364732">(479) 636-4732</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
+  <!-- ── Site Footer ─────────────────────────────────────────────── -->
   <footer class="site-footer">
-    <div class="site-footer__inner">
-      <div class="site-footer__grid">
-
-        <!-- Column 1: NAP + Hours + Social -->
-        <div class="site-footer__col site-footer__col--contact">
-          <a href="/" aria-label="Thomas Fence — Home">
-            <img
-              src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg"
-              alt="Thomas Fence logo"
-              width="160"
-              height="auto"
-              loading="lazy"
-              class="site-footer__logo"
-            >
+    <div class="container site-footer__grid">
+      <div class="site-footer__brand">
+        <a href="/" aria-label="Thomas Fence home">
+          <img src="https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg" alt="Thomas Fence" width="160" height="42" loading="lazy">
+        </a>
+        <p>Springdale's fence company since 1993. Licensed, certified, and locally owned.</p>
+        <div class="site-footer__social">
+          <a href="https://www.facebook.com/thomasfencear" target="_blank" rel="noopener noreferrer" aria-label="Thomas Fence on Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
           </a>
-          <address class="site-footer__nap">
-            <strong>Thomas Fence</strong><br>
-            653 Kawneer Dr<br>
-            Springdale, AR 72764<br>
-            <a href="tel:+14796364732">(479) 636-4732</a><br>
-            <a href="mailto:Sales@ThomasFenceAR.com">Sales@ThomasFenceAR.com</a>
-          </address>
-          <p class="site-footer__hours"><strong>Hours:</strong> Mon–Fri, 8am–4pm</p>
-          <a href="/contact/" class="btn-primary site-footer__contact-btn">Get a Free Estimate</a>
-          <div class="site-footer__socials">
-            <a href="https://www.facebook.com/ThomasFenceAR" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Facebook">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            </a>
-            <a href="https://www.pinterest.com/thomasfencear/_saved/" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Pinterest">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>
-            </a>
-            <a href="https://www.instagram.com/thomasfencear/" target="_blank" rel="noopener noreferrer" class="site-footer__social-link" aria-label="Thomas Fence on Instagram">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-            </a>
-            <span class="site-footer__social-link site-footer__social-link--pending" aria-label="Thomas Fence on LinkedIn (coming soon)" title="LinkedIn — coming soon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-            </span>
-          </div>
+          <a href="https://www.instagram.com/thomasfencear" target="_blank" rel="noopener noreferrer" aria-label="Thomas Fence on Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <span aria-label="Thomas Fence on LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </span>
         </div>
-
-        <!-- Column 2: Site Navigation -->
-        <div class="site-footer__col site-footer__col--site">
-          <h3 class="site-footer__heading">Site</h3>
-          <ul class="site-footer__list">
-            <li><a href="/fences/">Fences</a></li>
-            <li><a href="/gates/">Gates</a></li>
-            <li><a href="/faqs/">FAQs</a></li>
-            <li><a href="/warranty/">Warranty</a></li>
-            <li><a href="/financing/">Financing</a></li>
-            <li><a href="/company/about-us/">Who We Are</a></li>
-            <li><a href="/contact/">Contact</a></li>
-          </ul>
-        </div>
-
-        <!-- Column 3: Legal -->
-        <div class="site-footer__col site-footer__col--legal">
-          <h3 class="site-footer__heading">Legal</h3>
-          <ul class="site-footer__list site-footer__list--legal">
-            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="/legal/terms-of-service/">Terms of Service</a></li>
-            <li><a href="/warranty/">Warranty</a></li>
-            <li><a href="/legal/">Legal (All Pages)</a></li>
-          </ul>
-        </div>
-
       </div>
-
-      <div class="site-footer__bottom">
-        <span>&copy; 2026 Paschal Enterprises, Inc. dba Thomas Fence. All rights reserved.</span>
-        <nav class="site-footer__bottom-legal" aria-label="Legal">
-          <a href="/legal/privacy-policy/">Privacy Policy</a>
-          <a href="/legal/terms-of-service/">Terms</a>
-          <a href="/legal/">Legal</a>
-        </nav>
+      <div class="site-footer__col">
+        <h4>Fencing Services</h4>
+        <ul>
+          <li><a href="/fences/vinyl-fence/">Vinyl Fence</a></li>
+          <li><a href="/fences/wood-fence/">Wood Fence</a></li>
+          <li><a href="/fences/chain-link-fence/">Chain Link Fence</a></li>
+          <li><a href="/fences/ornamental-steel-fence/">Ornamental Steel Fence</a></li>
+          <li><a href="/fences/residential-fencing/">Residential Fencing</a></li>
+          <li><a href="/fences/commercial-fencing/">Commercial Fencing</a></li>
+          <li><a href="/fences/farm-fencing/">Farm &amp; Ranch Fencing</a></li>
+          <li><a href="/fences/temporary-fences/">Temporary Fences</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>Gates</h4>
+        <ul>
+          <li><a href="/gates/gate-automation/">Gate Automation</a></li>
+          <li><a href="/gates/estate-gates/">Estate Gates</a></li>
+        </ul>
+        <h4 style="margin-top:24px">Resources</h4>
+        <ul>
+          <li><a href="/resources/faqs/">FAQs</a></li>
+          <li><a href="/resources/financing/">Financing</a></li>
+          <li><a href="/resources/permits/">Permits</a></li>
+          <li><a href="/resources/warranty/">Warranty</a></li>
+          <li><a href="/resources/photo-gallery/">Photo Gallery</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <h4>Contact</h4>
+        <address>
+          <p>653 Kawneer Dr<br>Springdale, AR 72764</p>
+          <p><a href="tel:+14796364732">(479) 636-4732</a></p>
+          <p><a href="mailto:Sales@ThomasFenceAR.com">Sales@ThomasFenceAR.com</a></p>
+          <p>Mon–Fri, 8am–4pm</p>
+        </address>
+        <a href="https://goo.gl/maps/iofQNA6qrftW2DpL9" target="_blank" rel="noopener noreferrer" class="btn-ghost-sm" style="margin-top:12px;display:inline-block">Get Directions</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <div class="container">
+        <p>&copy; 2026 Paschal Enterprises, Inc. DBA Thomas Fence. AR License No. 015501. All rights reserved.</p>
+        <ul>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+          <li><a href="/terms/">Terms of Use</a></li>
+          <li><a href="/accessibility/">Accessibility</a></li>
+        </ul>
       </div>
     </div>
   </footer>
