@@ -371,6 +371,29 @@
       font-weight: 700;
     }
 
+    /* ESTATE GATE PHOTO CAROUSEL */
+    .estate-carousel { background: var(--color-navy); padding: 40px 0 32px; }
+    .estate-carousel__track {
+      display: flex;
+      gap: 16px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding: 0 24px 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--color-red-primary) rgba(255,255,255,0.15);
+    }
+    .estate-carousel__track::-webkit-scrollbar { height: 6px; }
+    .estate-carousel__track::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); border-radius: 3px; }
+    .estate-carousel__track::-webkit-scrollbar-thumb { background: var(--color-red-primary); border-radius: 3px; }
+    .estate-carousel__item { flex: 0 0 380px; scroll-snap-align: start; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+    .estate-carousel__item img { width: 380px; height: 280px; object-fit: cover; display: block; }
+    .estate-carousel__hint { text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.45); margin-top: 12px; letter-spacing: 0.04em; }
+    @media (max-width: 600px) {
+      .estate-carousel__item { flex: 0 0 85vw; }
+      .estate-carousel__item img { width: 85vw; height: 220px; }
+    }
+
     /* ── CONTENT GRID ── */
     .page-content {
       max-width: 1200px;
@@ -896,6 +919,40 @@
       <h1>Estate Gates in Northwest Arkansas</h1>
       <p class="page-hero__sub">Get an exceptional entrance for your property with polished estate gates — custom-designed in metal, vinyl, chain link, or wood, swinging or sliding.</p>
     </div>
+  </section>
+
+  <!-- ESTATE GATE PHOTO CAROUSEL -->
+  <section class="estate-carousel">
+    <div class="estate-carousel__track">
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-nw-arkansas-fence-company-081225-10.jpg" alt="Estate gate installed by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/springdale-arkansas-estate-gate-company.jpg" alt="Estate gate in Springdale, Arkansas — Thomas Fence" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-10.jpg" alt="Estate gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-12.jpg" alt="Estate gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-11.jpg" alt="Custom estate gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-07.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-04.jpg" alt="Estate gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-03.jpg" alt="Gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="estate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-nw-arkansas-fence-company-081225-02.jpg" alt="Estate gate installation by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+    </div>
+    <p class="estate-carousel__hint">← scroll to see all projects →</p>
   </section>
 
   <!-- TRUST BAR -->
