@@ -599,6 +599,36 @@
       .site-nav__links { display: none; }
       .site-header__actions .btn--red { display: none; }
     }
+
+    /* GATE PHOTO CAROUSEL */
+    .gate-carousel { background: var(--color-navy); padding: 56px 0 48px; }
+    .gate-carousel__heading { text-align: center; font-family: 'DM Serif Display', serif; font-size: 1.9rem; color: var(--color-white); margin-bottom: 32px; padding: 0 24px; }
+    .gate-carousel__track {
+      display: flex;
+      gap: 16px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      padding: 0 24px 16px;
+      scrollbar-width: thin;
+      scrollbar-color: var(--color-red-primary) rgba(255,255,255,0.15);
+    }
+    .gate-carousel__track::-webkit-scrollbar { height: 6px; }
+    .gate-carousel__track::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); border-radius: 3px; }
+    .gate-carousel__track::-webkit-scrollbar-thumb { background: var(--color-red-primary); border-radius: 3px; }
+    .gate-carousel__item {
+      flex: 0 0 380px;
+      scroll-snap-align: start;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    }
+    .gate-carousel__item img { width: 380px; height: 280px; object-fit: cover; display: block; }
+    .gate-carousel__hint { text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.45); margin-top: 12px; letter-spacing: 0.04em; }
+    @media (max-width: 600px) {
+      .gate-carousel__item { flex: 0 0 85vw; }
+      .gate-carousel__item img { width: 85vw; height: 220px; }
+    }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -733,6 +763,62 @@
       <p>Thomas Fence installs and automates gates for every type of property in Northwest Arkansas — from a custom residential estate gate to full industrial access control systems. As one of the few NWA fence contractors with the <strong>CGAT (Certified Gate Automation Technician)</strong> designation, we handle the complete gate system in a single project.</p>
       <p>That means your gate, your operator, your safety devices, and your access control are all installed by the same licensed, certified crew. No coordination between separate contractors. No liability gaps.</p>
     </div>
+  </section>
+
+  <!-- GATE PHOTO CAROUSEL -->
+  <section class="gate-carousel">
+    <h2 class="gate-carousel__heading">Thomas Fence Gate Projects in Northwest Arkansas</h2>
+    <div class="gate-carousel__track">
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/fence-gates-nw-arkansas-fence-company-12.jpg" alt="Gate installed by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-nw-arkansas-fence-company-081225-02.jpg" alt="Gate installation by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-nw-arkansas-fence-company-081225-06.jpg" alt="Gate project by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-nw-arkansas-fence-company-081225-10.jpg" alt="Automated gate installed by Thomas Fence in Northwest Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-01.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-02.jpg" alt="Gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-03.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-04.jpg" alt="Estate gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-05.jpg" alt="Gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-06.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-07.jpg" alt="Gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-08.jpg" alt="Gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-09.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-10.jpg" alt="Gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-11.jpg" alt="Gate project by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+      <div class="gate-carousel__item">
+        <img src="https://pub-6a40f5c6ad754a17bcd29e0ef9adb06e.r2.dev/gate-fence-springdale-arkansas-fence-company-030326-12.jpg" alt="Gate installation by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      </div>
+    </div>
+    <p class="gate-carousel__hint">← scroll to see all projects →</p>
   </section>
 
   <!-- SERVICES GRID -->
