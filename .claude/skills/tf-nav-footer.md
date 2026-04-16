@@ -50,6 +50,7 @@ This is the locked standard. Do not deviate from these structures.
 - Financing → `/financing/`
 - Fence Permits → `/permits/`
 - Photo Gallery → `/photo-gallery/`
+- Cities We Serve → `/arkansas-fence-company/`
 
 ### Right side of nav bar (in order)
 1. `(479) 636-4732` → `tel:+14796364732` — class `site-nav__phone`
@@ -103,6 +104,7 @@ This is the locked standard. Do not deviate from these structures.
               <li><a href="/financing/">Financing</a></li>
               <li><a href="/permits/">Fence Permits</a></li>
               <li><a href="/photo-gallery/">Photo Gallery</a></li>
+              <li><a href="/arkansas-fence-company/">Cities We Serve</a></li>
             </ul>
           </li>
           <li class="site-nav__item"><a href="/contact/">Contact</a></li>
