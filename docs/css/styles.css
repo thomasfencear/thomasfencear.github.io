@@ -1311,7 +1311,7 @@ a:hover {
 
 .site-footer__grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
   gap: 48px;
   padding-bottom: 52px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1535,7 +1535,7 @@ a:hover {
   }
 
   .site-footer__grid {
-    grid-template-columns: 1.2fr 1fr 1fr;
+    grid-template-columns: 1.2fr 1fr 1fr 1fr;
     gap: 36px;
   }
 
