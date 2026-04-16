@@ -142,7 +142,7 @@ inline `<style>` blocks for new pages.
 
 ## Site Footer — Locked Structure
 
-Three columns. One consistent footer on all pages. No JS. All inline in HTML.
+Four columns. One consistent footer on all pages. No JS. All inline in HTML.
 
 ### Column 1 — NAP + Hours + Social
 - Logo: `https://pub-7b8614251f5b42d0856b82814f0460de.r2.dev/thomas-fence-logo.svg`
@@ -169,6 +169,15 @@ Three columns. One consistent footer on all pages. No JS. All inline in HTML.
 - Terms of Service → `/legal/terms-of-service/`
 - Warranty → `/warranty/`
 - Legal (All Pages) → `/legal/`
+
+### Column 4 — Cities We Serve
+- Heading: "Cities We Serve" → `/arkansas-fence-company/` (heading is a hyperlink)
+- Springdale → `/springdale/`
+- Bentonville → `/bentonville/`
+- Rogers → `/rogers/`
+- Fayetteville → `/fayetteville/`
+- Bella Vista → `/bella-vista/`
+- Siloam Springs → `/siloam-springs/`
 
 ### Bottom bar
 - Left: `© 2026 Paschal Enterprises, Inc. dba Thomas Fence. All rights reserved.`
@@ -245,6 +254,19 @@ Three columns. One consistent footer on all pages. No JS. All inline in HTML.
           </ul>
         </div>
 
+        <!-- Column 4: Cities We Serve -->
+        <div class="site-footer__col site-footer__col--cities">
+          <h3 class="site-footer__heading"><a href="/arkansas-fence-company/" style="color:inherit;text-decoration:none;">Cities We Serve</a></h3>
+          <ul class="site-footer__list">
+            <li><a href="/springdale/">Springdale</a></li>
+            <li><a href="/bentonville/">Bentonville</a></li>
+            <li><a href="/rogers/">Rogers</a></li>
+            <li><a href="/fayetteville/">Fayetteville</a></li>
+            <li><a href="/bella-vista/">Bella Vista</a></li>
+            <li><a href="/siloam-springs/">Siloam Springs</a></li>
+          </ul>
+        </div>
+
       </div>
 
       <div class="site-footer__bottom">
@@ -258,6 +280,30 @@ Three columns. One consistent footer on all pages. No JS. All inline in HTML.
     </div>
   </footer>
 ```
+
+---
+
+## Footer Grid CSS — Required
+
+`styles.css` defines the footer grid. The 4-column layout requires these values:
+
+```css
+.site-footer__grid {
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+/* 1024px breakpoint */
+@media (max-width: 1024px) {
+  .site-footer__grid { grid-template-columns: 1.2fr 1fr 1fr 1fr; }
+}
+/* 768px breakpoint — stack to single column */
+@media (max-width: 768px) {
+  .site-footer__grid { grid-template-columns: 1fr; }
+}
+```
+
+If a page has **inline** footer CSS that overrides styles.css (older pages do this),
+update the `grid-template-columns` in that page's inline `<style>` block to match the
+4-column values above. Do not leave 3-column overrides in place.
 
 ---
 
