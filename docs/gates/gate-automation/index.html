@@ -143,7 +143,7 @@
     .gate-types-section { background: var(--color-white); padding: 64px 0; }
     .gate-types-section h2 { font-size: 1.9rem; margin-bottom: 12px; color: var(--color-navy); text-align: center; }
     .gate-types-section > .container > p { font-size: 1.02rem; line-height: 1.8; margin-bottom: 36px; color: #1a1a1a; text-align: center; }
-    .gate-types-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .gate-types-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
     @media (max-width: 900px) { .gate-types-grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 560px) { .gate-types-grid { grid-template-columns: 1fr; } }
     .gate-type-card { background: var(--color-cream); border-radius: 8px; padding: 28px 24px; border-top: 4px solid var(--color-red-primary); }
@@ -238,7 +238,7 @@
   <style id="tf-footer-css">
     .site-footer { background: #003049; color: #fff; padding: 64px 0 0; margin-top: 88px; font-family: 'DM Sans', sans-serif; }
     .site-footer__inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
-    .site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 52px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+    .site-footer__grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 52px; border-bottom: 1px solid rgba(255,255,255,0.1); }
     .site-footer__col--contact { display: flex; flex-direction: column; gap: 20px; }
     .site-footer__logo { height: 46px; width: auto; display: block; }
     .site-footer__nap { font-size: 0.9rem; line-height: 1.75; color: rgba(255,255,255,0.8); font-style: normal; }
@@ -265,7 +265,7 @@
     .site-footer__bottom-legal { display: flex; gap: 20px; }
     .site-footer__bottom-legal a { color: rgba(255,255,255,0.38); text-decoration: none; transition: color 0.2s; }
     .site-footer__bottom-legal a:hover { color: #FDF0D5; }
-    @media (max-width: 1024px) { .site-footer__grid { grid-template-columns: 1.2fr 1fr 1fr; gap: 36px; } }
+    @media (max-width: 1024px) { .site-footer__grid { grid-template-columns: 1.2fr 1fr 1fr 1fr; gap: 36px; } }
     @media (max-width: 768px) { .site-footer { margin-top: 64px; } .site-footer__grid { grid-template-columns: 1fr; gap: 44px; } }
     @media (max-width: 480px) { .site-footer { padding: 48px 0 0; margin-top: 52px; } }
   </style>
@@ -763,9 +763,9 @@
         <ul class="site-footer__list">
           <li><a href="/fences/">Fences</a></li>
           <li><a href="/gates/">Gates</a></li>
-          <li><a href="/resources/faqs/">FAQs</a></li>
-          <li><a href="/resources/warranty/">Warranty</a></li>
-          <li><a href="/resources/financing/">Financing</a></li>
+          <li><a href="/faqs/">FAQs</a></li>
+          <li><a href="/warranty/">Warranty</a></li>
+          <li><a href="/financing/">Financing</a></li>
           <li><a href="/company/about-us/">Who We Are</a></li>
           <li><a href="/contact/">Contact</a></li>
         </ul>
@@ -773,19 +773,32 @@
       <div class="site-footer__col site-footer__col--legal">
         <h3 class="site-footer__heading">Legal</h3>
         <ul class="site-footer__list site-footer__list--legal">
-          <li><a href="/privacy/">Privacy Policy</a></li>
-          <li><a href="/terms/">Terms of Service</a></li>
-          <li><a href="/resources/warranty/">Warranty</a></li>
-          <li><a href="/accessibility/">Accessibility</a></li>
+          <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/legal/terms-of-service/">Terms of Service</a></li>
+          <li><a href="/warranty/">Warranty</a></li>
+          <li><a href="/legal/">Legal (All Pages)</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Cities We Serve -->
+      <div class="site-footer__col site-footer__col--cities">
+        <h3 class="site-footer__heading"><a href="/arkansas-fence-company/" style="color:inherit;text-decoration:none;">Cities We Serve</a></h3>
+        <ul class="site-footer__list">
+          <li><a href="/springdale/">Springdale</a></li>
+          <li><a href="/bentonville/">Bentonville</a></li>
+          <li><a href="/rogers/">Rogers</a></li>
+          <li><a href="/fayetteville/">Fayetteville</a></li>
+          <li><a href="/bella-vista/">Bella Vista</a></li>
+          <li><a href="/siloam-springs/">Siloam Springs</a></li>
         </ul>
       </div>
     </div>
     <div class="site-footer__bottom">
       <span>&copy; 2026 Paschal Enterprises, Inc. dba Thomas Fence. All rights reserved.</span>
       <nav class="site-footer__bottom-legal" aria-label="Legal">
-        <a href="/privacy/">Privacy Policy</a>
-        <a href="/terms/">Terms</a>
-        <a href="/accessibility/">Accessibility</a>
+        <a href="/legal/privacy-policy/">Privacy Policy</a>
+        <a href="/legal/terms-of-service/">Terms</a>
+        <a href="/legal/">Legal</a>
       </nav>
     </div>
   </div>
