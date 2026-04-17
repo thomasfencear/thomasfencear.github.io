@@ -160,39 +160,65 @@
     .contact-form-area h2 { font-size: 1.75rem; color: var(--color-navy); margin-bottom: 12px; }
     .contact-form-area > p { font-size: 1rem; color: #555; margin-bottom: 32px; }
 
-    /* CRM Widget placeholder */
-    .crm-widget-container {
-      background: var(--color-cream);
-      border: 2px dashed #c8b98a;
-      border-radius: 8px;
-      padding: 48px 32px;
-      text-align: center;
-      min-height: 400px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-    }
+    /* ── ESTIMATE FORM ── */
+    .estimate-form { display: flex; flex-direction: column; gap: 18px; }
 
-    .crm-widget-container__label {
-      font-size: 0.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: #9a8a60;
-      margin-bottom: 4px;
-    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
 
-    .crm-widget-container h3 {
-      font-size: 1.3rem;
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+
+    .form-group label {
+      font-size: 0.85rem;
+      font-weight: 600;
       color: var(--color-navy);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
 
-    .crm-widget-container p {
-      font-size: 0.92rem;
-      color: #666;
-      max-width: 320px;
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      padding: 12px 14px;
+      border: 1.5px solid #d0d5dd;
+      border-radius: 6px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: #1a1a1a;
+      background: #fff;
+      transition: border-color 0.2s;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--color-red-primary);
+    }
+
+    .form-group textarea { resize: vertical; min-height: 120px; }
+
+    .form-submit {
+      background: var(--color-red-primary);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 15px 32px;
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      align-self: flex-start;
+    }
+    .form-submit:hover { background: var(--color-red-dark); }
+
+    .form-note {
+      font-size: 0.85rem;
+      color: #777;
+      margin-top: -6px;
     }
 
     /* ── CONTACT INFO SIDEBAR ── */
@@ -419,13 +445,63 @@
         <h2>Request an Estimate</h2>
         <p>Fill out the form below and a member of our team will be in touch to schedule your free estimate.</p>
 
-        <!-- CRM WIDGET — embed My Salesman / CRM widget here -->
-        <div class="crm-widget-container">
-          <div class="crm-widget-container__label">Contact Form</div>
-          <h3>Estimate Request Form</h3>
-          <p>CRM / My Salesman widget embeds here. Replace this placeholder before launch.</p>
-        </div>
-        <!-- END CRM WIDGET -->
+        <!-- FORMSPREE CONTACT FORM -->
+        <form class="estimate-form" action="https://formspree.io/f/xrerqegb" method="POST">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first_name" placeholder="Jane" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last_name" placeholder="Smith" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(479) 555-0100" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="fence-type">Type of Fence or Gate</label>
+            <select id="fence-type" name="fence_type" required>
+              <option value="" disabled selected>Select one…</option>
+              <option>Wood Fence</option>
+              <option>Vinyl Fence</option>
+              <option>Chain Link Fence</option>
+              <option>Ornamental Steel Fence</option>
+              <option>Farm Fencing</option>
+              <option>Temporary Fence</option>
+              <option>Gate Automation</option>
+              <option>Estate Gate</option>
+              <option>Not sure — need advice</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="city">City / Town</label>
+            <input type="text" id="city" name="city" placeholder="Springdale, Rogers, Bentonville…" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" placeholder="Approximate fence length, property type, timeline, any questions…"></textarea>
+          </div>
+
+          <p class="form-note">No deposit required for standard installations. We typically respond within one business day.</p>
+
+          <button type="submit" class="form-submit">Send My Request</button>
+
+        </form>
+        <!-- END FORMSPREE FORM -->
 
       </div>
 
