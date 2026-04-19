@@ -144,10 +144,23 @@ for structure, schema, and content rules. Never guess on schema types or redirec
 **Authority hub — keep, do not redirect**
 - `/arkansas-fence-company/`
 
-**Legal pages**
+**Legal pages (old — kept for redirect)**
 - `/privacy/`
 - `/terms/`
 - `/accessibility/`
+
+**Licensing page**
+- `/licensing/` — Credentials & certifications page (modeled on About Us structure)
+
+**Legal hub + compliance pages (noindex, follow)**
+- `/legal/` — Accordion hub linking to all 7 legal pages (FTC-required footer listing)
+- `/legal/terms-of-service/`
+- `/legal/privacy-policy/`
+- `/legal/scope-of-services/`
+- `/legal/refund-cancellation-policy/`
+- `/legal/service-results-disclaimer/`
+- `/legal/testimonial-disclaimer/`
+- `/legal/warranty/` — legal warranty page (separate from resource `/warranty/`)
 
 ### Category 2 — Six real city pages (new URLs)
 
@@ -226,6 +239,15 @@ See `tf-schema.md` for the full schema blocks. This is the map only.
 | Publications posts | BlogPosting, BreadcrumbList |
 | `/faqs/` | FAQPage |
 | `/company/testimonials/` | Review |
+| `/licensing/` | LocalBusiness, BreadcrumbList |
+| `/legal/` | BreadcrumbList (noindex) |
+| `/legal/terms-of-service/` | BreadcrumbList (noindex) |
+| `/legal/privacy-policy/` | BreadcrumbList (noindex) |
+| `/legal/scope-of-services/` | BreadcrumbList (noindex) |
+| `/legal/refund-cancellation-policy/` | BreadcrumbList (noindex) |
+| `/legal/service-results-disclaimer/` | BreadcrumbList (noindex) |
+| `/legal/testimonial-disclaimer/` | BreadcrumbList (noindex) |
+| `/legal/warranty/` | BreadcrumbList (noindex) |
 | All pages | BreadcrumbList |
 
 legalName is always `Paschal Enterprises, Inc.` — never Thomas Fence.
