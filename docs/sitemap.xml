@@ -23,6 +23,13 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- LICENSING -->
+  <url>
+    <loc>https://thomasfencear.com/licensing/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- FENCING HUB + SERVICE PAGES -->
   <url>
     <loc>https://thomasfencear.com/fences/</loc>
