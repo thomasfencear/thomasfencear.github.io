@@ -27,46 +27,75 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "FenceContractor",
-        "@id": "https://thomasfencear.com/#business",
-        "name": "Thomas Fence",
-        "legalName": "Paschal Enterprises, Inc.",
-        "url": "https://thomasfencear.com",
-        "telephone": "(479) 636-4732",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "653 Kawneer Dr",
-          "addressLocality": "Springdale",
-          "addressRegion": "AR",
-          "postalCode": "72764",
-          "addressCountry": "US"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FenceContractor",
+      "@id": "https://thomasfencear.com/#business",
+      "name": "Thomas Fence",
+      "legalName": "Paschal Enterprises, Inc.",
+      "url": "https://thomasfencear.com",
+      "telephone": "(479) 636-4732",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "653 Kawneer Dr",
+        "addressLocality": "Springdale",
+        "addressRegion": "AR",
+        "postalCode": "72764",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        "Springdale, AR",
+        "Bentonville, AR",
+        "Rogers, AR",
+        "Fayetteville, AR",
+        "Bella Vista, AR",
+        "Siloam Springs, AR",
+        "Northwest Arkansas"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://thomasfencear.com/fences/chain-link-fence/#service",
+      "name": "Chain Link Fence Installation",
+      "description": "Chain link fence installation for residential and commercial properties across Northwest Arkansas. Galvanized, PVC-coated, and slatted options. Licensed contractor with 32+ years of experience.",
+      "url": "https://thomasfencear.com/fences/chain-link-fence/",
+      "provider": {
+        "@id": "https://thomasfencear.com/#business"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Northwest Arkansas"
+      },
+      "serviceType": "Chain Link Fence Installation"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://thomasfencear.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Fencing Services",
+          "item": "https://thomasfencear.com/fences/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chain Link Fence",
+          "item": "https://thomasfencear.com/fences/chain-link-fence/"
         }
-      },
-      {
-        "@type": "Service",
-        "@id": "https://thomasfencear.com/fences/chain-link-fence/#service",
-        "name": "Chain Link Fence Installation",
-        "description": "Chain link fence installation for residential and commercial properties across Northwest Arkansas. Galvanized, PVC-coated, and slatted options. Licensed contractor with 32+ years of experience.",
-        "url": "https://thomasfencear.com/fences/chain-link-fence/",
-        "provider": { "@id": "https://thomasfencear.com/#business" },
-        "areaServed": { "@type": "State", "name": "Northwest Arkansas" },
-        "serviceType": "Chain Link Fence Installation"
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://thomasfencear.com" },
-          { "@type": "ListItem", "position": 2, "name": "Fencing Services", "item": "https://thomasfencear.com/fences/" },
-          { "@type": "ListItem", "position": 3, "name": "Chain Link Fence", "item": "https://thomasfencear.com/fences/chain-link-fence/" }
-        ]
-      }
-    ]
-  }
-  </script>
+      ]
+    }
+  ]
+}
+</script>
 
   <style>
     :root { --color-red-primary: #F01B24; --color-red-dark: #780000; --color-red-mid: #C1121F; --color-cream: #FDF0D5; --color-navy: #003049; --color-steel: #669BBC; --color-white: #FFFFFF; --font-heading: 'DM Serif Display', Georgia, serif; --font-body: 'DM Sans', Arial, sans-serif; }
