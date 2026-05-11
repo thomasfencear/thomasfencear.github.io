@@ -1,0 +1,135 @@
+THOMAS FENCE — MASTER TASK LIST
+Last updated: May 11, 2026
+====================================================================
+
+
+PRIORITY 1 — BLOCKING OTHER WORK
+====================================================================
+
+[ ] LOGO — NEW PNG FILE (global)
+    Replace thomas-fence-logo.svg with new PNG on all pages
+    New file: thomas_fence_logo_phone_website_modified_05_04_2026.png
+    Hosted at: logo.thomasfencear.com
+    Status: R2 subdomain live — PNG file still needs to be swapped in HTML
+    Blocker: Need PNG pixel dimensions before running swap
+
+[ ] CONTACT FORM / CRM — DATA OWNERSHIP DECISION
+    Risk: DotCom Global Media may own Greg's existing leads and CRM
+    Greg must confirm before contact form goes live on new site
+    Status: Unresolved — do NOT activate contact form yet
+
+
+PRIORITY 2 — ENTITY CONFLICTS (Nicole's track)
+====================================================================
+
+[ ] BUILDZOOM — Mark Thomas Fence Company LLC conflict
+    A separate company appears in BuildZoom under a similar name
+    Causes entity confusion — AI/search may conflate the two
+    Status: In progress — Priority 1 entity conflict
+
+[ ] ENTITY AUDIT — Other citation sources to check/clean
+    Verify NAP consistency and flag any duplicate or conflicting listings:
+    - BBB (Better Business Bureau)
+    - Yelp
+    - Angi / HomeAdvisor
+    - Yellow Pages / YP.com
+    - Facebook Business page
+    - Houzz
+    - Thumbtack
+    Status: Not started — work through these after BuildZoom
+
+
+PRIORITY 3 — GREG'S IMAGE TRACK
+====================================================================
+
+[ ] GATE AUTOMATION PAGE — CAROUSEL + VIDEOS
+    7 geo images in R2, not yet wired into the page:
+      - automated_gate_lowell_buckley_gate_geo_01.jpg
+      - automated_gate_prairie_grove_entry_gate_geo_01.jpg
+      - auto_gate_prairie_grove_entry_gate_geo_02.jpg
+      - automated_gate_springdale_buckley_geo_03.jpg
+      - automatic_gate_fayetteville_entry_gate_geo_01.jpg
+      - automatic_gate_fayetteville_entry_gate_geo_02.jpg
+      - automatic_gate_fayetteville_entry_gate_geo_03.jpg
+    Also needs: 10-image carousel built into page
+    Also needs: Gate Movement Styles section — static images → videos
+    Status: Partial assets in R2. Waiting on remaining photos/videos from Greg.
+
+[ ] IMAGE REPLACEMENT — ALL OTHER PAGES
+    ~91 non-geo photos still need geotagging by Greg via Geoimgr
+    Pages affected: wood fence (29), gates hub (13+), chain link (5),
+      ornamental steel (6), vinyl (2), commercial (8), temporary (3),
+      railings (6), about/team (3)
+    Status: Blocked on Greg
+
+
+PRIORITY 4 — IN PROGRESS / READY TO BUILD
+====================================================================
+
+[ ] RESIDENTIAL FENCING PAGE REBUILD
+    Currently uses old template
+    Needs full rebuild to match wood/vinyl/chain-link page pattern
+    Status: Not started
+
+[ ] SKILL FILE: tf-rich-results.md
+    Google Rich Results Test workflow
+    Which schema types produce which rich result types on this site
+    Status: Not started
+
+[ ] SKILL FILE: tf-gtm-ppc.md
+    GTM-PFPBCGNR tag inventory (6 tags currently live)
+    Conversion events, PPC landing page structure
+    Status: Not started
+
+
+PRIORITY 5 — BLOCKED ON GREG / EXTERNAL
+====================================================================
+
+[ ] GREG GSC / BING FORMAL ACCESS
+    Add Nicole as property owner in Google Search Console and Bing
+    Need Greg's Google account credentials
+    Status: Greg invited — must click verification email
+
+[ ] GOOGLE ADS ACCOUNT
+    Greg must create account under gregoryvpaschal@gmail.com
+    DotCom owns the current ad account — not recoverable
+    Status: Not started — Greg's action
+
+[ ] DOTCOM GLOBAL MEDIA — FORMAL TERMINATION
+    Must be done in writing to start contract clock
+    Status: Not started — Greg's action
+
+[ ] GA4 ↔ GSC LINK
+    Link GA4 property to Google Search Console inside GA4 admin
+    Status: Not started
+
+
+====================================================================
+
+COMPLETED (for reference)
+====================================================================
+
+[x] Full site built and live at thomasfencear.com
+[x] DNS switched to Cloudflare — April 17, 2026
+[x] SSL active
+[x] All 301 redirects live in Cloudflare (35 URL redirects + 1 wildcard)
+[x] GA4 (G-RWX69375PZ) sitewide — confirmed May 2026 (G-Y3T98C0PTT retired)
+[x] GTM-PFPBCGNR installed on 42 pages, 6 tags live
+[x] sitemap.xml submitted to GSC and Bing
+[x] BingSiteAuth.xml — Bing verified
+[x] Greg geotag email written and sent (greg-geotag-email.txt)
+[x] Greg image checklist written (greg-image-checklist.txt)
+[x] Dated session memory system established
+[x] R2 custom subdomains live — May 5, 2026
+    logo.thomasfencear.com / images.thomasfencear.com / videos.thomasfencear.com
+    All 42 pages updated. Cloudflare ticket #02109374 resolved.
+[x] Gate automation page — Centerton pivot gate (3 geo images)
+[x] Gate automation page — Bentonville estate gates (3 geo images)
+[x] Gate automation page — Fayetteville solar gate (2 geo images)
+[x] Gate automation page — Springdale estate gate (2 geo images)
+[x] Estate gates page — Bentonville carousel (3 geo images replacing old photos)
+[x] Commercial & Industrial gallery — Centerton pivot gate (3 geo images)
+[x] Manta listing removed — May 11, 2026 (confirmed by removals@manta.com)
+[x] DotCom Global Media removed from Google Search Console — April 30, 2026
+
+====================================================================

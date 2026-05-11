@@ -1,0 +1,184 @@
+THOMAS FENCE — GEOTAG QUEUE
+Last updated: May 11, 2026
+====================================================================
+How to use this list:
+  1. Copy the URL below
+  2. Paste into browser → downloads the image
+  3. Upload to geoimgr.com → add GPS coordinates of the job site
+  4. Save → re-upload to R2 as the same filename (overwrite) OR use _geo_01 suffix
+  5. Once geo version is live on the site, original file can be deleted from R2
+====================================================================
+
+
+PART 1 — GEO IMAGES ALREADY IN R2
+(21 total — Greg has uploaded these. 10 are live on site. 11 waiting to be wired in.)
+====================================================================
+
+ON SITE (10) — These are already in the HTML:
+  automated_gate_bentonville_estate_gate_geo_05.jpg        uploaded May 6
+  automated_gate_bentonville_estate_gate_geo_07.jpg        uploaded May 6
+  automated_gate_bentonville_estate_gate_geo_08.jpg        uploaded May 6
+  automated_gate_fayetteville_solar_powered_gate_geo_01.jpg uploaded May 6
+  automated_gate_fayetteville_solar_powered_gate_geo_02.jpg uploaded May 6
+  automated_gate_springdale_estate_gate_geo_01.jpg         uploaded May 6
+  automated_gate_springdale_estate_gate_geo_02.jpg         uploaded May 6
+  pivot_gate_centerton_self_storage_geo_01.jpg             uploaded May 6
+  pivot_gate_centerton_self_storage_geo_02.jpg             uploaded May 6
+  pivot_gate_centerton_self_storage_geo_03.jpg             uploaded May 6
+
+IN R2, NOT YET ON SITE (11) — Needs to be wired into HTML:
+  auto_gate_prairie_grove_entry_gate_geo_02.jpg            uploaded May 8
+  automated_gate_lowell_buckley_gate_geo_01.jpg            uploaded May 8
+  automated_gate_prairie_grove_entry_gate_geo_01.jpg       uploaded May 8
+  automated_gate_prairie_grove_entry_gate_geo_02.jpg       uploaded May 8
+  automated_gate_springdale_buckley_geo_03.jpg             uploaded May 8
+  automatic_gate_fayetteville_entry_gate_geo_01.jpg        uploaded May 8
+  automatic_gate_fayetteville_entry_gate_geo_02.jpg        uploaded May 8
+  automatic_gate_fayetteville_entry_gate_geo_03.jpg        uploaded May 8
+  horizontal_wood_fence_bentonville_residential_geo_01.jpg uploaded May 8
+  swing_gate_garfield_custom_entry_gate_geo_01.jpg         uploaded May 6
+  swing_gate_garfield_custom_entry_gate_geo_02.jpg         uploaded May 6
+
+
+PART 2 — NON-GEO PHOTOS ON THE SITE THAT NEED GEOTAGGING
+(Download → geotag in Geoimgr → re-upload with _geo_01 suffix)
+====================================================================
+
+-- WOOD FENCE (29 photos) --
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-03.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-04.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-05.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-06.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-07.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-08.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-09.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-10.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-11.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-12.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-13.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-14.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-15.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-16.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-17.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-18.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-19.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-20.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-21.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-22.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-23.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-24.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-25.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-26.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-27.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-28.jpg
+https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-29.jpg
+
+-- GATES HUB — fence-gates batch (13 photos) --
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-03.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-05.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-06.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-07.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-08.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-09.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-10.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-11.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-12.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-13.jpg
+https://images.thomasfencear.com/fence-gates-nw-arkansas-fence-company-14.jpg
+
+-- GATES — 030326 batch (12 photos) --
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-01.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-02.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-03.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-04.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-05.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-06.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-07.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-08.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-09.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-10.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-11.jpg
+https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-12.jpg
+
+-- GATES — 081225 batch (3 photos) --
+https://images.thomasfencear.com/gate-fence-nw-arkansas-fence-company-081225-02.jpg
+https://images.thomasfencear.com/gate-fence-nw-arkansas-fence-company-081225-06.jpg
+https://images.thomasfencear.com/gate-fence-nw-arkansas-fence-company-081225-10.jpg
+
+-- ESTATE GATES (1 photo) --
+https://images.thomasfencear.com/gates/estate-gates/images/estate-gates-springdale-arkansas-fence-company-banner.jpg
+
+-- ORNAMENTAL STEEL (6 photos) --
+https://images.thomasfencear.com/ornamental-steel-fence-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/ornamental-steel-fence-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/ornamental-steel-fence-nw-arkansas-fence-company-03.jpg
+https://images.thomasfencear.com/ornamental-steel-fence-nw-arkansas-fence-company-04.jpg
+https://images.thomasfencear.com/ornamental-steel-pool-fence-springdale-arkansas-fence-company-2.jpg
+https://images.thomasfencear.com/ornamental-steel-pool-fence-springdale-arkansas-fence-company-5.jpg
+
+-- CHAIN LINK (5 photos) --
+https://images.thomasfencear.com/chain-link-fence-galvinized-springdale-arkansas.jpg
+https://images.thomasfencear.com/chain-link-fence-pvc-coated-springdale-arkansas.jpg
+https://images.thomasfencear.com/chain-link-fence-slatted-springdale-arkansas.jpg
+https://images.thomasfencear.com/chain-link-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/chain-link-nw-arkansas-fence-company-02.jpg
+
+-- VINYL FENCE (2 photos) --
+https://images.thomasfencear.com/vinyl-fence-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/vinyl-fence-nw-arkansas-fence-company-02.jpg
+
+-- COMMERCIAL / INDUSTRIAL (8 photos) --
+https://images.thomasfencear.com/commercial-fence-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/commercial-fence-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/industrial-fence-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/industrial-fence-nw-arkansas-fence-company-03.jpg
+https://images.thomasfencear.com/fences/commercial-fencing/images/springdale-arkansas-commercial-chain-link-fences.jpg
+https://images.thomasfencear.com/fences/commercial-fencing/images/springdale-arkansas-commercial-ornamental-iron-fences.jpg
+https://images.thomasfencear.com/fences/commercial-fencing/images/springdale-arkansas-commercial-vinyl-fences.jpg
+https://images.thomasfencear.com/fences/commercial-fencing/images/springdale-arkansas-commercial-wood-fences.jpg
+
+-- TEMPORARY FENCING (3 photos) --
+https://images.thomasfencear.com/temporary-chain-link-fencing-springdale-arkansas.jpg
+https://images.thomasfencear.com/temporary-fence-panels-springdale-arkansas.jpg
+https://images.thomasfencear.com/temporary-fence-springdale-ar.jpg
+
+-- RAILINGS (6 photos) --
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-02.webp
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-03.webp
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-04.webp
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-07.webp
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-08.webp
+https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-09.webp
+
+-- ABOUT / TEAM (3 photos) --
+https://images.thomasfencear.com/about-our-nw-arkansas-fence-company-01.jpg
+https://images.thomasfencear.com/about-our-nw-arkansas-fence-company-02.jpg
+https://images.thomasfencear.com/bg-team3.jpg
+
+
+====================================================================
+TOTALS
+====================================================================
+Geo images in R2:                    21
+  - Live on site:                    10
+  - In R2, not yet wired in:         11
+
+Non-geo photos needing geotagging:   93
+  Wood fence:                        29
+  Gates hub (fence-gates batch):     13
+  Gates (030326 batch):              12
+  Gates (081225 batch):               3
+  Estate gates:                       1
+  Ornamental steel:                   6
+  Chain link:                         5
+  Vinyl:                              2
+  Commercial / industrial:            8
+  Temporary fencing:                  3
+  Railings:                           6
+  About / team:                       3
+
+====================================================================
