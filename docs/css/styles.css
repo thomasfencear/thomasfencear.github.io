@@ -792,6 +792,76 @@ a:hover {
 
 
 /* --------------------------------------------------------------------------
+   11b. Service Page FAQ Section
+   -------------------------------------------------------------------------- */
+
+.service-faq-section {
+  background: var(--color-white);
+  padding: 64px 0;
+}
+
+.service-faq-section__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.service-faq-section h2 {
+  font-family: var(--font-heading);
+  font-size: 1.9rem;
+  color: var(--color-navy);
+  margin-bottom: 32px;
+}
+
+.service-faq-section .faq-item {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.service-faq-section .faq-item:first-of-type {
+  border-top: 1px solid #e5e7eb;
+}
+
+.service-faq-section .faq-item summary {
+  list-style: none;
+  padding: 18px 0;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-navy);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-faq-section .faq-item summary::-webkit-details-marker { display: none; }
+
+.service-faq-section .faq-item summary::after {
+  content: '+';
+  color: var(--color-red-primary);
+  font-size: 1.4rem;
+  font-weight: 400;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+
+.service-faq-section .faq-item[open] summary::after { content: '\2212'; }
+.service-faq-section .faq-item[open] summary { color: var(--color-red-primary); }
+
+.service-faq-section .faq-item__answer {
+  padding: 0 0 18px;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.service-faq-section .faq-item__answer p { margin: 0 0 8px; }
+.service-faq-section .faq-item__answer p:last-child { margin-bottom: 0; }
+.service-faq-section .faq-item__answer a { color: var(--color-steel); }
+.service-faq-section .faq-item__answer a:hover { color: var(--color-red-primary); }
+
+
+/* --------------------------------------------------------------------------
    12. CTA Band — Full Width
    -------------------------------------------------------------------------- */
 
