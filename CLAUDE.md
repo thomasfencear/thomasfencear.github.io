@@ -91,11 +91,12 @@ grep -rl "pub-1f3d846fdda54894a47ecf31f412181f.r2.dev" . | xargs sed -i 's|pub-1
 
 | Task | Load This Skill |
 |---|---|
-| Any schema work | `.claude/skills/tf-schema.md` |
-| Building any page | `.claude/skills/tf-page-template.md` |
-| Building a city page | `.claude/skills/tf-city-page.md` |
-| 301 redirect map | `.claude/skills/tf-redirect-map.md` |
-| Nav or footer | `.claude/skills/tf-nav-footer.md` |
+| Any schema work | `_skills/tf-schema.md` |
+| Building any page | `_skills/tf-page-template.md` |
+| Building a city page | `_skills/tf-city-page.md` |
+| 301 redirect map | `_skills/tf-redirect-map.md` |
+| Nav or footer | `_skills/tf-nav-footer.md` |
+| Rich results / schema audit | `_skills/tf-rich-results.md` |
 
 Always load the relevant skill before writing any code. Skills are the source of truth
 for structure, schema, and content rules. Never guess on schema types or redirect destinations.
@@ -314,6 +315,15 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 15. Does TF have a contractor's license? (Yes — 015501-0427, since 2005)
 16. How long to wait before staining? (1–3 months for pressure-treated pine; cedar can be stained immediately)
 17. Does TF offer financing? (Yes — through Hearth, apply via QR code or website)
+
+---
+
+## .ENV — ABSOLUTE RULE — NO EXCEPTIONS
+- NEVER read, open, copy, reference, or touch any .env file in any project — ever
+- NEVER copy an API key from anywhere — not from another .env, not from memory, not from any source
+- If a .env file needs to be created, create it empty and wait for the user to provide the key
+- NEVER read .gitignore to infer what is sensitive and then go look at it anyway
+- This rule applies to every project in the VSC Project Files folder and everywhere else
 
 ---
 
