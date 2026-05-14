@@ -236,6 +236,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       .commercial-type__img img { height: 280px; }
       .commercial-type__text { padding: 36px 32px; border-left: none; border-top: 6px solid var(--color-red-primary); }
     }
+    .recent-projects { background: var(--color-white); padding: 64px 0; }
+    .recent-projects > .container > h2 { font-size: 1.9rem; margin-bottom: 36px; color: var(--color-navy); }
+    .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .projects-grid img { width: 100%; height: 320px; object-fit: cover; display: block; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+    @media (max-width: 700px) { .projects-grid { grid-template-columns: 1fr; } }
     .page-intro { background: var(--color-cream); padding: 64px 0; }
     .page-intro h2 { font-size: 1.9rem; margin-bottom: 20px; color: var(--color-navy); }
     .page-intro p { font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px; max-width: 820px; color: #1a1a1a; }
