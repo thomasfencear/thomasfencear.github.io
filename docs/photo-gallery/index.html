@@ -295,6 +295,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     @media (max-width: 900px) { .gallery-grid { grid-template-columns: repeat(4, 1fr); } }
     @media (max-width: 600px) { .gallery-grid { grid-template-columns: repeat(2, 1fr); } }
+    .gallery-grid--railings { grid-template-columns: repeat(6, 1fr); }
+    .gallery-grid--railings .gallery-item:nth-child(-n+2) { grid-column: span 3; }
+    .gallery-grid--railings .gallery-item:nth-child(n+3) { grid-column: span 2; }
+    @media (max-width: 900px) { .gallery-grid--railings { grid-template-columns: repeat(2, 1fr); } .gallery-grid--railings .gallery-item { grid-column: span 1; } }
+    @media (max-width: 600px) { .gallery-grid--railings { grid-template-columns: 1fr; } }
 
     .gallery-item {
       position: relative;
@@ -675,15 +680,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="gallery-category" id="railings">
           <div class="gallery-category__header">
             <h2>Railings</h2>
-            <span class="gallery-category__count">6 photos</span>
+            <span class="gallery-category__count">5 photos</span>
           </div>
-          <div class="gallery-grid">
-            <div class="gallery-item"><a href="#lb-r-02"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-02.webp" alt="Railings Northwest Arkansas" loading="lazy" width="400" height="300"></a></div>
-            <div class="gallery-item"><a href="#lb-r-03"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-03.webp" alt="Railing installation NWA" loading="lazy" width="400" height="300"></a></div>
-            <div class="gallery-item"><a href="#lb-r-04"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-04.webp" alt="Railings contractor Springdale AR" loading="lazy" width="400" height="300"></a></div>
-            <div class="gallery-item"><a href="#lb-r-07"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-07.webp" alt="Custom railings NWA fence company" loading="lazy" width="400" height="300"></a></div>
-            <div class="gallery-item"><a href="#lb-r-08"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-08.webp" alt="Railings installation Arkansas" loading="lazy" width="400" height="300"></a></div>
-            <div class="gallery-item"><a href="#lb-r-09"><img src="https://images.thomasfencear.com/railings-nw-arkansas-fence-company-030626-09.webp" alt="Railing contractor NWA" loading="lazy" width="400" height="300"></a></div>
+          <div class="gallery-grid gallery-grid--railings">
+            <div class="gallery-item"><a href="#lb-r-geo-01"><img src="https://images.thomasfencear.com/handrail_pea_ridge_school_geo_01.webp" alt="Metal handrail at school — Thomas Fence, Pea Ridge, Arkansas" loading="lazy" width="400" height="300"></a></div>
+            <div class="gallery-item"><a href="#lb-r-geo-02"><img src="https://images.thomasfencear.com/handrail_pea_ridge_school_geo_02.webp" alt="Metal handrail installation — Thomas Fence, Pea Ridge, Arkansas" loading="lazy" width="400" height="300"></a></div>
+            <div class="gallery-item"><a href="#lb-r-geo-03"><img src="https://images.thomasfencear.com/handrail_rogers_metal_handrail_geo_01.webp" alt="Metal handrail installed by Thomas Fence in Rogers, Arkansas" loading="lazy" width="400" height="300"></a></div>
+            <div class="gallery-item"><a href="#lb-r-geo-04"><img src="https://images.thomasfencear.com/handrail_rogers_metal_handrail_geo_02.webp" alt="Metal handrail installation — Thomas Fence, Rogers, Arkansas" loading="lazy" width="400" height="300"></a></div>
+            <div class="gallery-item"><a href="#lb-r-geo-05"><img src="https://images.thomasfencear.com/porch_railing_centerton_metal_railing_geo_01.webp" alt="Porch metal railing installed by Thomas Fence in Centerton, Arkansas" loading="lazy" width="400" height="300"></a></div>
           </div>
         </div>
 
