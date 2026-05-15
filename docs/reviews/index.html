@@ -150,8 +150,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .review-card__source { margin-top: 16px; font-size: 0.78rem; color: #aaa; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; }
 
     /* ── Reviews CTA ── */
-    .reviews-gbp-cta { text-align: center; margin-top: 52px; padding-bottom: 24px; }
+    .reviews-gbp-cta { text-align: center; margin-top: 52px; padding-bottom: 16px; }
     .reviews-gbp-cta p { font-size: 1rem; color: #555; margin-bottom: 18px; }
+
+    /* ── Other Platforms ── */
+    .platform-links { text-align: center; margin-top: 36px; padding-bottom: 24px; }
+    .platform-links__label { font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #888; margin-bottom: 18px; }
+    .platform-links__grid { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
+    .platform-btn { display: inline-flex; align-items: center; gap: 6px; padding: 12px 24px; border: 2px solid var(--color-navy); border-radius: 4px; font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; color: var(--color-navy); text-decoration: none; transition: background 0.2s ease, color 0.2s ease; }
+    .platform-btn:hover { background: var(--color-navy); color: var(--color-white); }
   </style>
 
   <link rel="stylesheet" href="/css/styles.css">
@@ -208,9 +215,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li><a href="/photo-gallery/">Photo Gallery</a></li>
               <li><a href="/reviews/">Customer Reviews</a></li>
               <li><a href="/publications/">Publications</a></li>
-              <li><a href="/reviews/">Customer Reviews</a></li>
-            <li><a href="/publications/">Publications</a></li>
-            <li><a href="/arkansas-fence-company/">Cities We Serve</a></li>
+              <li><a href="/arkansas-fence-company/">Cities We Serve</a></li>
             </ul>
           </li>
           <li class="site-nav__item"><a href="/contact/">Contact</a></li>
@@ -391,6 +396,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="reviews-gbp-cta">
         <p>All reviews sourced directly from Google. Nothing edited, nothing added.</p>
         <a href="https://www.google.com/search?q=thomas+fence+arkansas#lrd=0x87c9155e9bc6c2f7:0xbea7225a0a988210,3,,,," target="_blank" rel="noopener noreferrer" class="btn-primary">Read All Our Reviews on Google &#8599;</a>
+      </div>
+
+      <div class="platform-links">
+        <p class="platform-links__label">Also find us on</p>
+        <div class="platform-links__grid">
+          <a href="https://www.yelp.com/biz/thomas-fence-springdale" target="_blank" rel="noopener noreferrer" class="platform-btn">Yelp &#8599;</a>
+          <a href="https://www.houzz.com/professionals/fencing-and-gate-sales-and-construction/thomas-fence-pfvwus-pf~379386760" target="_blank" rel="noopener noreferrer" class="platform-btn">Houzz &#8599;</a>
+          <a href="https://www.bbb.org/us/ar/springdale/profile/fence-contractors/thomas-fence-0935-90003692" target="_blank" rel="noopener noreferrer" class="platform-btn">Better Business Bureau &#8599;</a>
+        </div>
       </div>
 
     </div>
