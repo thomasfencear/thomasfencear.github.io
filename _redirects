@@ -80,6 +80,12 @@
 /terms/ /legal/terms-of-service/ 301
 
 # -----------------------------------------------
+# TESTIMONIALS → REVIEWS (May 14, 2026)
+# -----------------------------------------------
+/company/testimonials/ /reviews/ 301
+/company/testimonials /reviews/ 301
+
+# -----------------------------------------------
 # TRAILING SLASH CANONICALIZATION
 # -----------------------------------------------
 /company/about-us /company/about-us/ 301
