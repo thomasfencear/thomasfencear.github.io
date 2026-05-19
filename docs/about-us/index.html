@@ -60,6 +60,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "description": "Thomas Fence has been in business since 1993. Greg and Kate Paschal have been the owners since May of 2003. Locally owned and headquartered in Springdale, AR, serving all of Northwest Arkansas."
     },
     {
+      "@type": "ImageObject",
+      "@id": "https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_01.jpg#image",
+      "url": "https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_01.jpg",
+      "contentUrl": "https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_01.jpg",
+      "name": "Automated entry gate installation in Fayetteville, Arkansas",
+      "description": "Automatic entry gate installed by Thomas Fence in Fayetteville, AR.",
+      "author": { "@id": "https://thomasfencear.com/#business" },
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Fayetteville, Arkansas",
+        "address": { "@type": "PostalAddress", "addressLocality": "Fayetteville", "addressRegion": "AR", "addressCountry": "US" }
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://images.thomasfencear.com/black_chainlink_tontitown_pickleball_geo_02.jpg#image",
+      "url": "https://images.thomasfencear.com/black_chainlink_tontitown_pickleball_geo_02.jpg",
+      "contentUrl": "https://images.thomasfencear.com/black_chainlink_tontitown_pickleball_geo_02.jpg",
+      "name": "Black chain link pickleball court fence in Tontitown, Arkansas",
+      "description": "Black chain link fence enclosing a pickleball court installed by Thomas Fence in Tontitown, AR.",
+      "author": { "@id": "https://thomasfencear.com/#business" },
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Tontitown, Arkansas",
+        "address": { "@type": "PostalAddress", "addressLocality": "Tontitown", "addressRegion": "AR", "addressCountry": "US" }
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-11.jpg#image",
+      "url": "https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-11.jpg",
+      "contentUrl": "https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-11.jpg",
+      "name": "Wood privacy fence installation in Northwest Arkansas",
+      "description": "Wood privacy fence installed by Thomas Fence in Northwest Arkansas.",
+      "author": { "@id": "https://thomasfencear.com/#business" },
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Northwest Arkansas",
+        "address": { "@type": "PostalAddress", "addressRegion": "AR", "addressCountry": "US" }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {
@@ -99,25 +141,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 
     .about-story__images {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto auto;
-      gap: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
 
-    .about-story__images img:first-child {
-      grid-column: 1 / -1;
-      width: 100%;
-      height: 260px;
-      object-fit: cover;
-      border-radius: 4px;
+    .about-story__image-item {
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.13);
+      transition: box-shadow 0.3s ease;
     }
 
-    .about-story__images img:not(:first-child) {
+    .about-story__image-item:hover {
+      box-shadow: 0 12px 32px rgba(0,0,0,0.24);
+    }
+
+    .about-story__image-item img {
       width: 100%;
-      height: 180px;
+      height: 200px;
       object-fit: cover;
-      border-radius: 4px;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .about-story__image-item:hover img {
+      transform: scale(1.04);
+    }
+
+    @media (hover: none) {
+      .about-story__image-item:active { box-shadow: 0 12px 32px rgba(0,0,0,0.24); }
+      .about-story__image-item:active img { transform: scale(1.04); }
     }
 
     .about-story__text h2 {
@@ -640,20 +694,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="about-story__grid">
 
           <div class="about-story__images">
-            <img
-              src="https://images.thomasfencear.com/automated_gate_springdale_estate_gate_geo_01.jpg"
-              alt="Automated estate gate installation in Springdale, Arkansas — Thomas Fence"
-              width="800"
-              height="260"
-              loading="lazy"
-            >
-            <img
-              src="https://images.thomasfencear.com/automated_gate_bentonville_custom_gate_geo_01.jpg"
-              alt="Custom automated gate in Bentonville, Arkansas — Thomas Fence"
-              width="400"
-              height="180"
-              loading="lazy"
-            >
+            <div class="about-story__image-item">
+              <img
+                src="https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_01.jpg"
+                alt="Automated entry gate installation in Fayetteville, Arkansas — Thomas Fence"
+                width="600"
+                height="200"
+                loading="lazy"
+              >
+            </div>
+            <div class="about-story__image-item">
+              <img
+                src="https://images.thomasfencear.com/black_chainlink_tontitown_pickleball_geo_02.jpg"
+                alt="Black chain link pickleball court fence in Tontitown, Arkansas — Thomas Fence"
+                width="600"
+                height="200"
+                loading="lazy"
+              >
+            </div>
+            <div class="about-story__image-item">
+              <img
+                src="https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-11.jpg"
+                alt="Wood privacy fence installation in Northwest Arkansas — Thomas Fence"
+                width="600"
+                height="200"
+                loading="lazy"
+              >
+            </div>
           </div>
 
           <div class="about-story__text">
