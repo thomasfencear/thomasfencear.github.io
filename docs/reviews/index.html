@@ -253,6 +253,63 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .platform-links__grid { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
     .platform-btn { display: inline-flex; align-items: center; gap: 6px; padding: 12px 24px; border: 2px solid var(--color-navy); border-radius: 4px; font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; color: var(--color-navy); text-decoration: none; transition: background 0.2s ease, color 0.2s ease; }
     .platform-btn:hover { background: var(--color-navy); color: var(--color-white); }
+
+    /* ─── OUR CUSTOMERS ─── */
+    .customers-section {
+      padding: 80px 0;
+      background: var(--color-cream);
+    }
+    .customers-section .section-heading {
+      text-align: center;
+      color: var(--color-navy);
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      margin-bottom: 12px;
+    }
+    .customers-section .section-intro {
+      text-align: center;
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.7;
+      max-width: 600px;
+      margin: 0 auto 48px;
+    }
+    .customers-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+    .customer-card {
+      background: var(--color-white);
+      border: 1px solid #e4dac8;
+      border-radius: 6px;
+      padding: 20px 14px 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 14px;
+    }
+    .customer-card__name {
+      font-family: var(--font-body);
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--color-navy);
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .customer-card__logo {
+      width: 100%;
+      max-height: 64px;
+      object-fit: contain;
+      display: block;
+    }
+    @media (max-width: 1024px) {
+      .customers-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .customers-grid { grid-template-columns: repeat(2, 1fr); }
+    }
   </style>
 
   <link rel="stylesheet" href="/css/styles.css">
@@ -502,6 +559,143 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- OUR CUSTOMERS -->
+  <section class="customers-section">
+    <div class="container">
+      <h2 class="section-heading">Our Customers</h2>
+      <p class="section-intro">Thomas Fence has had the privilege of working with some of the most recognized organizations, businesses, and institutions in Northwest Arkansas.</p>
+
+      <div class="customers-grid">
+
+        <div class="customer-card">
+          <p class="customer-card__name">ALDI</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/aldi-logo-fence-company-client.jpg" alt="ALDI — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Arkansas DOT</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/ar-dot-logo-fence-company-client.jpg" alt="Arkansas Department of Transportation — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Arkansas Game &amp; Fish Commission</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/arkansas-game-and-fish-commision-logo-fence-company-client.jpg" alt="Arkansas Game and Fish Commission — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Aurora</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/aurora-logo-fence-company-client.jpg" alt="Aurora — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Baumann &amp; Crosno</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/Baumann%20%26%20Crosno%20Logo.png" alt="Baumann and Crosno — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Brittenum Construction</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/Brittenum%20Construction%20Logo.png" alt="Brittenum Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Chick-fil-A</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/chick-fil-a-logo-fence-company-client.jpg" alt="Chick-fil-A — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Club Car Wash</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/club-carwash-logo-fence-company-client.jpg" alt="Club Car Wash — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Crossland Construction</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/Crossland%20Construction%20Logo.png" alt="Crossland Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Fayetteville Public Schools</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/fayetteville-public-schools-logo-fence-company-client.jpg" alt="Fayetteville Public Schools — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Flintco</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/flintco-logo-fence-company-client.jpg" alt="Flintco — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Lance Johnson</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/lance-johnson-logo.png" alt="Lance Johnson — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Milestone Construction</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/Milestone%20Construction%20Logo.png" alt="Milestone Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Nabholz</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/nabholz-logo-fence-company-client.jpg" alt="Nabholz Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">NWACC</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/NWACC%20Logo.png" alt="Northwest Arkansas Community College — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Payne Construction</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/payne-construction.jpg" alt="Payne Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">City of Rogers</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/rogers-logo-fence-company-client.jpg" alt="City of Rogers Arkansas — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Scissortail</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/scissortail-logo-fence-company-client.jpg" alt="Scissortail — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Skylight Homes</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/skylight-homes-logo.png" alt="Skylight Homes — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">City of Springdale</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/springdale-logo-fence-company-client.jpg" alt="City of Springdale Arkansas — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Steel Worx</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/steel-worx-logo-fence-company-client.jpg" alt="Steel Worx — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Tall Oaks Construction</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/tall-oaks-construction-logo.png" alt="Tall Oaks Construction — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Vision Custom Homes</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/vision-custom-homes-logo.png" alt="Vision Custom Homes — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Washington County Fair</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/washington-county-fair-logo-fence-company-client.jpg" alt="Washington County Fair — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+        <div class="customer-card">
+          <p class="customer-card__name">Wienerschnitzel</p>
+          <img src="https://images.thomasfencear.com/affiliate-logos/wienerschnitzel-logo-fence-company-client.jpg" alt="Wienerschnitzel — Thomas Fence customer" class="customer-card__logo" loading="lazy">
+        </div>
+
+      </div>
     </div>
   </section>
 
