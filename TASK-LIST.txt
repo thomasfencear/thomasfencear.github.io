@@ -6,12 +6,22 @@ Last updated: May 11, 2026
 PRIORITY 1 — BLOCKING OTHER WORK
 ====================================================================
 
-[ ] LOGO — NEW PNG FILE (global)
-    Replace thomas-fence-logo.svg with new PNG on all pages
-    New file: thomas_fence_logo_phone_website_modified_05_04_2026.png
-    Hosted at: logo.thomasfencear.com
-    Status: R2 subdomain live — PNG file still needs to be swapped in HTML
-    Blocker: Need PNG pixel dimensions before running swap
+[ ] LOGO — 3 SVG FILES NEEDED (global)
+    Replace current logo files with official SVG variants from Sign Artists
+    Required variants (horizontal layout only, transparent backgrounds):
+      1. White on transparent (footer, dark sections)
+      2. Red and white on transparent (header, light sections)
+      3. White and red on transparent
+    SVG only. No PNG, no JPEG, no EPS, no AI.
+    Status: Waiting on Sign Artists → Maddie Dierling → Nicole
+    Background: Nicole emailed Maddie + Greg on May 8. Maddie replied May 11
+    that she sent the request to Sign Artists. Awaiting their delivery.
+
+[ ] CUSTOM ICONS — SVG AUDIT
+    Thomas Fence-owned icons (trust icons, next-steps icons) currently served as PNG
+    Need SVG replacements once logo work is complete
+    Third-party badges (AFA, CGAT, Buckley, Verified Vendor, NAHB) stay as PNG — not our files
+    Status: Not started — blocked on logo SVGs first
 
 [ ] CONTACT FORM / CRM — DATA OWNERSHIP DECISION
     Risk: DotCom Global Media may own Greg's existing leads and CRM
@@ -71,10 +81,8 @@ PRIORITY 4 — IN PROGRESS / READY TO BUILD
     Needs full rebuild to match wood/vinyl/chain-link page pattern
     Status: Not started
 
-[ ] SKILL FILE: tf-rich-results.md
-    Google Rich Results Test workflow
-    Which schema types produce which rich result types on this site
-    Status: Not started
+[x] SKILL FILE: tf-rich-results.md — COMPLETED May 11, 2026
+    _skills/tf-rich-results.md — rich result map, schema rules, known issues tracker
 
 [ ] SKILL FILE: tf-gtm-ppc.md
     GTM-PFPBCGNR tag inventory (6 tags currently live)
@@ -131,5 +139,15 @@ COMPLETED (for reference)
 [x] Commercial & Industrial gallery — Centerton pivot gate (3 geo images)
 [x] Manta listing removed — May 11, 2026 (confirmed by removals@manta.com)
 [x] DotCom Global Media removed from Google Search Console — April 30, 2026
+[x] Manta listing removed — May 11, 2026
+[x] All 3 entity conflicts closed: BuildZoom (Apr 24), Birdeye (May 7), Manta (May 11)
+[x] Schema audit — 3 bugs fixed (FAQs breadcrumb dead URL, reviewCount string→int ×2)
+[x] tf-rich-results.md skill file created — May 11, 2026
+[x] FAQPage schema + FAQ accordions added to all 10 service pages — May 11, 2026
+[x] Duplicate FAQ sections merged on all 8 fence pages — May 11, 2026
+[x] Chain link page — 4 broken showcase images fixed (temp substitutes) — May 11, 2026
+[x] greg-geotag-queue.txt created — 93 photos with download URLs — May 11, 2026
+[x] 21 geo images live on site — gates hub carousel, wood fence, gate automation
+[x] /gates/ carousel updated with 10 geotagged job site photos — May 11, 2026
 
 ====================================================================

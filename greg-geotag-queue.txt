@@ -121,9 +121,12 @@ https://images.thomasfencear.com/ornamental-steel-pool-fence-springdale-arkansas
 https://images.thomasfencear.com/ornamental-steel-pool-fence-springdale-arkansas-fence-company-5.jpg
 
 -- CHAIN LINK (5 photos) --
-https://images.thomasfencear.com/chain-link-fence-galvinized-springdale-arkansas.jpg
-https://images.thomasfencear.com/chain-link-fence-pvc-coated-springdale-arkansas.jpg
-https://images.thomasfencear.com/chain-link-fence-slatted-springdale-arkansas.jpg
+NOTE: chain-link-fence-galvinized, pvc-coated, and slatted were MISSING from R2.
+      Showcase rows temporarily use 01/02 and industrial images as placeholders.
+      Greg must provide 3 new geotagged chain link product shots to replace:
+        - A galvanized chain link job site photo
+        - A PVC-coated (black or green) chain link job site photo
+        - A chain link fence with privacy slats job site photo
 https://images.thomasfencear.com/chain-link-nw-arkansas-fence-company-01.jpg
 https://images.thomasfencear.com/chain-link-nw-arkansas-fence-company-02.jpg
 
