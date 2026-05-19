@@ -277,14 +277,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .movement-section { background: var(--color-cream); padding: 64px 0; }
     .movement-section h2 { font-size: 1.9rem; margin-bottom: 12px; color: var(--color-navy); }
     .movement-section > .container > p { font-size: 1.02rem; line-height: 1.8; margin-bottom: 36px; color: #1a1a1a; max-width: 820px; }
-    .movement-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .movement-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
     @media (max-width: 820px) { .movement-grid { grid-template-columns: 1fr; } }
-    .movement-card { background: var(--color-white); border-radius: 8px; padding: 28px 24px; border-top: 4px solid var(--color-red-primary); box-shadow: 0 2px 10px rgba(0,0,0,0.06); display: grid; grid-template-columns: 1fr 160px; gap: 20px; align-items: center; }
-    .movement-card--no-img { grid-template-columns: 1fr; }
+    .movement-card { background: var(--color-white); border-radius: 10px; overflow: hidden; border-top: 4px solid var(--color-red-primary); box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+    .movement-card--no-video { padding: 28px 24px; }
+    .movement-card__video { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; background: var(--color-navy); }
+    .movement-card__video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    .movement-card__text { padding: 20px 24px 24px; }
     .movement-card__text h3 { font-family: var(--font-heading); font-size: 1.15rem; color: var(--color-navy); margin: 0 0 10px; }
     .movement-card__text p { font-size: 0.95rem; color: #2a2a2a; margin: 0; line-height: 1.6; }
-    .movement-card__img img { width: 100%; height: auto; display: block; border-radius: 6px; }
-    @media (max-width: 600px) { .movement-card { grid-template-columns: 1fr; } }
     /* ZONE 4B */
     .page-process { background: var(--color-navy); padding: 72px 0; }
     .page-process h2 { color: var(--color-white); font-size: 1.9rem; margin-bottom: 12px; }
@@ -559,21 +560,75 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- RECENT GATE PROJECTS -->
-  <section class="recent-projects">
+  <!-- GATE MOVEMENT STYLES — VIDEO SECTION -->
+  <section class="movement-section">
     <div class="container">
-      <h2>Recent Gate Projects in Northwest Arkansas</h2>
-      <div class="projects-grid">
-        <img
-          src="https://images.thomasfencear.com/cantilever_gate_lowell_metal_r_panel_gate_geo_02.jpg"
-          alt="Cantilever gate with metal panel — Thomas Fence, Lowell, Arkansas"
-          loading="lazy"
-        >
-        <img
-          src="https://images.thomasfencear.com/automated_gate_bentonville_custom_gate_geo_02.jpg"
-          alt="Custom automated gate — Thomas Fence, Bentonville, Arkansas"
-          loading="lazy"
-        >
+      <h2>Gate Movement Styles</h2>
+      <p>Automated gates move in different ways depending on your driveway layout, available space, and site conditions. Thomas Fence installs all major gate movement types.</p>
+      <div class="movement-grid">
+
+        <div class="movement-card">
+          <!-- YouTube embed: replace src="" with https://www.youtube.com/embed/VIDEO_ID -->
+          <div class="movement-card__video">
+            <iframe src="" title="Swing Gate — Thomas Fence Northwest Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="movement-card__text">
+            <h3>Swing Gate</h3>
+            <p>The classic automated gate — one or two panels swing inward or outward. Best for properties with adequate driveway depth behind the gate line and relatively level terrain.</p>
+          </div>
+        </div>
+
+        <div class="movement-card">
+          <!-- YouTube embed: replace src="" with https://www.youtube.com/embed/VIDEO_ID -->
+          <div class="movement-card__video">
+            <iframe src="" title="Cantilever Slide Gate — Thomas Fence Northwest Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="movement-card__text">
+            <h3>Cantilever Slide Gate</h3>
+            <p>Slides horizontally without ground contact — preferred where track drainage is an issue or where the driveway surface can't support a V-track. Handles heavy gate weights reliably.</p>
+          </div>
+        </div>
+
+        <div class="movement-card">
+          <!-- YouTube embed: replace src="" with https://www.youtube.com/embed/VIDEO_ID -->
+          <div class="movement-card__video">
+            <iframe src="" title="V-Track Slide Gate — Thomas Fence Northwest Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="movement-card__text">
+            <h3>V-Track Slide Gate</h3>
+            <p>Rolls on a V-groove track embedded in the ground. Cost-effective for large openings where the site conditions support a ground track installation.</p>
+          </div>
+        </div>
+
+        <div class="movement-card">
+          <!-- YouTube embed: replace src="" with https://www.youtube.com/embed/VIDEO_ID -->
+          <div class="movement-card__video">
+            <iframe src="" title="Vertical Pivot Gate — Thomas Fence Northwest Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="movement-card__text">
+            <h3>Vertical Pivot Gate</h3>
+            <p>Pivots vertically — opens by tilting upward rather than swinging or sliding. Useful for sites with restricted lateral space or narrow driveways where swing clearance isn't available.</p>
+          </div>
+        </div>
+
+        <div class="movement-card">
+          <!-- YouTube embed: replace src="" with https://www.youtube.com/embed/VIDEO_ID -->
+          <div class="movement-card__video">
+            <iframe src="" title="Vertical Lift Gate — Thomas Fence Northwest Arkansas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="movement-card__text">
+            <h3>Vertical Lift Gate</h3>
+            <p>Rises straight up — ideal for high-security applications and locations where space on either side of the opening is at a premium. Commonly used in industrial and perimeter security applications.</p>
+          </div>
+        </div>
+
+        <div class="movement-card movement-card--no-video">
+          <div class="movement-card__text">
+            <h3>Not Sure Which Is Right?</h3>
+            <p>Our team evaluates your site conditions, driveway layout, and usage requirements to recommend the best gate movement style for your property. <a href="/contact/">Contact us</a> for a free site visit and estimate.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -628,73 +683,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
   </section>
 
-  <!-- GATE MOVEMENT STYLES -->
-  <section class="movement-section">
-    <div class="container">
-      <h2>Gate Movement Styles</h2>
-      <p>Automated gates move in different ways depending on your driveway layout, available space, and site conditions. Thomas Fence installs all major gate movement types.</p>
-      <div class="movement-grid">
-
-        <div class="movement-card">
-          <div class="movement-card__text">
-            <h3>Swing Gate</h3>
-            <p>The classic automated gate — one or two panels swing inward or outward. Best for properties with adequate driveway depth behind the gate line and relatively level terrain.</p>
-          </div>
-          <div class="movement-card__img">
-            <img src="https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-01.jpg" alt="Swing gate installed by Thomas Fence in Springdale, Arkansas" width="160" loading="lazy">
-          </div>
-        </div>
-
-        <div class="movement-card">
-          <div class="movement-card__text">
-            <h3>Cantilever Slide Gate</h3>
-            <p>Slides horizontally without ground contact — preferred where track drainage is an issue or where the driveway surface can't support a V-track. Handles heavy gate weights reliably.</p>
-          </div>
-          <div class="movement-card__img">
-            <img src="https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-02.jpg" alt="Cantilever slide gate installed by Thomas Fence in Springdale, Arkansas" width="160" loading="lazy">
-          </div>
-        </div>
-
-        <div class="movement-card">
-          <div class="movement-card__text">
-            <h3>V-Track Slide Gate</h3>
-            <p>Rolls on a V-groove track embedded in the ground. Cost-effective for large openings where the site conditions support a ground track installation.</p>
-          </div>
-          <div class="movement-card__img">
-            <img src="https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-03.jpg" alt="V-track slide gate installed by Thomas Fence in Springdale, Arkansas" width="160" loading="lazy">
-          </div>
-        </div>
-
-        <div class="movement-card">
-          <div class="movement-card__text">
-            <h3>Vertical Pivot Gate</h3>
-            <p>Pivots vertically — opens by tilting upward rather than swinging or sliding. Useful for sites with restricted lateral space or narrow driveways where swing clearance isn't available.</p>
-          </div>
-          <div class="movement-card__img">
-            <img src="https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-05.jpg" alt="Vertical pivot gate installed by Thomas Fence in Springdale, Arkansas" width="160" loading="lazy">
-          </div>
-        </div>
-
-        <div class="movement-card">
-          <div class="movement-card__text">
-            <h3>Vertical Lift Gate</h3>
-            <p>Rises straight up — ideal for high-security applications and locations where space on either side of the opening is at a premium. Commonly used in industrial and perimeter security applications.</p>
-          </div>
-          <div class="movement-card__img">
-            <img src="https://images.thomasfencear.com/gate-fence-springdale-arkansas-fence-company-030326-06.jpg" alt="Vertical lift gate installed by Thomas Fence in Springdale, Arkansas" width="160" loading="lazy">
-          </div>
-        </div>
-
-        <div class="movement-card movement-card--no-img">
-          <div class="movement-card__text">
-            <h3>Not Sure Which Is Right?</h3>
-            <p>Our team evaluates your site conditions, driveway layout, and usage requirements to recommend the best gate movement style for your property. <a href="/contact/">Contact us</a> for a free site visit and estimate.</p>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
 
   <!-- AUTOMATED GATE REPAIR SERVICE -->
   <section class="gate-repair-section">
