@@ -202,8 +202,9 @@ a:hover {
 }
 
 .site-nav__logo img {
-  height: 48px;
-  width: auto;
+  width: 180px;
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -306,7 +307,8 @@ a:hover {
 }
 
 .page-home .site-nav__logo img {
-  height: 42px;
+  width: 180px;
+  height: auto;
 }
 
 .page-home .site-nav__links a {
