@@ -110,8 +110,8 @@ for structure, schema, and content rules. Never guess on schema types or redirec
 **Core pages**
 - `/` — Homepage
 - `/contact/`
-- `/company/about-us/`
-- `/company/testimonials/`
+- `/about-us/` — canonical. `/company/about-us/` 301s here (meta refresh + Cloudflare rule).
+- `/reviews/` — canonical. `/company/testimonials/` 301s here (meta refresh + Cloudflare rule).
 
 **Service hub + service pages**
 - `/fences/` — hub
@@ -124,8 +124,9 @@ for structure, schema, and content rules. Never guess on schema types or redirec
 - `/fences/farm-fencing/`
 - `/fences/temporary-fences/`
 - `/gates/` — hub
-- `/gates/gate-automation/`
+- `/gates/automated-gates/` — canonical. `/gates/gate-automation/` 301s here.
 - `/gates/estate-gates/`
+- `/gates/railings/`
 
 **Resource pages**
 - `/faqs/`
@@ -237,7 +238,7 @@ See `tf-schema.md` for the full schema blocks. This is the map only.
 | `/service-area/` | LocalBusiness with areaServed array |
 | Publications posts | BlogPosting, BreadcrumbList |
 | `/faqs/` | FAQPage |
-| `/company/testimonials/` | Review |
+| `/reviews/` | Review, AggregateRating |
 | `/licensing/` | LocalBusiness, BreadcrumbList |
 | `/legal/` | BreadcrumbList (noindex) |
 | `/legal/terms-of-service/` | BreadcrumbList (noindex) |
@@ -275,7 +276,7 @@ Every CTA button on every page must link to exactly these destinations. No varia
 | Apply for Financing / Get Started (financing) | `https://app.gethearth.com/partners/thomas-fence/darrell/apply` |
 | Join Our Team | `https://thomasfencear.hireclick.com/jobboard/` (opens in new tab) |
 | Directions / map pin / Find Us | `https://goo.gl/maps/iofQNA6qrftW2DpL9` (opens in new tab) |
-| Email | `mailto:Sales@ThomasFenceAR.com` |
+| Email | `mailto:sales@thomasfencear.com` |
 | Phone | `tel:+14796364732` — always formatted as `(479) 636-4732` in display text |
 
 Notes:
@@ -357,9 +358,13 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 
 ---
 
-## Open Items (as of May 5, 2026)
+## Open Items (as of May 19, 2026)
 
-- BuildZoom entity conflict (Mark Thomas Fence Company LLC) — Priority 1, handled separately from site build
+- BuildZoom entity conflict (Mark Thomas Fence Company LLC) — resolved April 24, 2026
+- Cloudflare Bulk Redirect rules needed: `/company/about-us/` → `/about-us/` and `/gates/gate-automation/` → `/gates/automated-gates/` (meta refresh fallbacks already in place)
+- Logo SVGs (3 variants) pending from Sign Artists — do not update logo URLs until confirmed
+- YouTube videos for gate movement styles — 5 embed placeholders in `/gates/automated-gates/`, fill in when Greg provides channel
+- Client logos for `/reviews/` "Customers We've Worked With" section — pending 17 company names from Greg
 
 ---
 
