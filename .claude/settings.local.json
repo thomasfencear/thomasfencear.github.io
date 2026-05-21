@@ -21,7 +21,9 @@
       "Bash(perl fix_gallery.pl)",
       "Bash(git commit -m ' *)",
       "mcp__claude_ai_Notion__notion-update-page",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(grep -n 'site-header {' '/Users/besociallysmashinghome/Documents/VSC Project Files/Thomas_Fence_Connected/docs/__TRACKED_VAR__/index.html')",
+      "Bash(grep -v \"^/Users.*docs/index.html$\")"
     ]
   }
 }
