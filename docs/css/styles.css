@@ -201,8 +201,9 @@ a:hover {
   border-top: none;
 }
 
-.site-nav__logo img {
-  width: 180px;
+.site-nav__logo img,
+.site-header__logo img {
+  width: 240px;
   max-width: 100%;
   height: auto;
   display: block;
@@ -1397,7 +1398,7 @@ a:hover {
 }
 
 .site-footer__logo {
-  width: 200px;
+  width: 210px;
   max-width: 100%;
   height: auto;
   display: block;
@@ -1615,6 +1616,11 @@ a:hover {
   .site-nav__links {
     gap: 24px;
   }
+
+  .site-nav__logo img,
+  .site-header__logo img { width: 200px; }
+
+  .site-footer__logo { width: 180px; }
 }
 
 
@@ -1623,6 +1629,11 @@ a:hover {
    -------------------------------------------------------------------------- */
 
 @media (max-width: 768px) {
+
+  .site-nav__logo img,
+  .site-header__logo img { width: 160px; }
+
+  .site-footer__logo { width: 150px; }
 
   /* Show hamburger, hide desktop links and CTA */
   .site-nav__toggle-label {

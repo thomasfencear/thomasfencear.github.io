@@ -19,7 +19,9 @@
       "Read(//Users/besociallysmashinghome/.claude/**)",
       "Read(//Users/besociallysmashinghome/**)",
       "Bash(perl fix_gallery.pl)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "Bash(git add *)"
     ]
   }
 }
