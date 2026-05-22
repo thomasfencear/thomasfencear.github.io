@@ -23,7 +23,12 @@
       "mcp__claude_ai_Notion__notion-update-page",
       "Bash(git add *)",
       "Bash(grep -n 'site-header {' '/Users/besociallysmashinghome/Documents/VSC Project Files/Thomas_Fence_Connected/docs/__TRACKED_VAR__/index.html')",
-      "Bash(grep -v \"^/Users.*docs/index.html$\")"
+      "Bash(grep -v \"^/Users.*docs/index.html$\")",
+      "Bash(git push *)",
+      "Bash(curl -s \"https://logo.thomasfencear.com/TF_Logo_Red.svg\")",
+      "Bash(curl -s \"https://logo.thomasfencear.com/TF_Logo_Red.svg\" -o \"/Users/besociallysmashinghome/Documents/VSC Project Files/Thomas_Fence_Connected/TF_Logo_Red_fixed.svg\")",
+      "Bash(curl -s \"https://logo.thomasfencear.com/TF_Logo_White.svg\" -o \"/Users/besociallysmashinghome/Documents/VSC Project Files/Thomas_Fence_Connected/TF_Logo_White_fixed.svg\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://logo.thomasfencear.com/TF_Logo_White_fixed.svg\")"
     ]
   }
 }
