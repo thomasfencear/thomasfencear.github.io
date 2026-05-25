@@ -367,12 +367,13 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 ## Open Items (as of May 25, 2026)
 
 **Pending — not yet done:**
-- Cloudflare Bulk Redirect rules needed: `/company/about-us/` → `/about-us/` and `/gates/gate-automation/` → `/gates/automated-gates/` (meta refresh fallbacks already in place)
 - Client logos for `/reviews/` "Customers We've Worked With" section — pending 17 company names from Greg
 - YouTube graphics for @ThomasFenceArkansas: profile picture (800×800px) + channel banner (2560×1440px) — Greg to source
 - Greg email `greg-email-may21.txt` has `[INSERT VIDEO LINK HERE]` placeholder — insert YouTube video link before sending
 
 **Completed May 25, 2026:**
+- ✓ Cloudflare Bulk Redirect rules live: `/company/about-us/` → `/about-us/` and `/gates/gate-automation/` → `/gates/automated-gates/`
+- ✓ Video Gallery page `/video-gallery/` — 21 gate videos, VideoObject schema, added to nav sitewide (45 pages)
 - ✓ Logo SVG viewBox defect fixed — `TF_Logo_White_fixed.svg` + `TF_Logo_Red_fixed.svg` deployed sitewide (May 21)
 - ✓ YouTube @ThomasFenceArkansas channel — footer icon added sitewide (45 pages), added to `sameAs` schema sitewide
 - ✓ Gate Installation Videos — 6 YouTube embeds + VideoObject schema on `/gates/automated-gates/` (3×2 grid)
