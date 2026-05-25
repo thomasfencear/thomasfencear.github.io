@@ -350,18 +350,18 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 
 ---
 
-## DNS Switch Day Runbook — Do Not Run Until Told To
+## DNS Switch Day Runbook — COMPLETE
 
 1. ✓ DONE May 5, 2026 — Run logo URL swap command
 2. ✓ DONE May 5, 2026 — Run images URL swap command
 3. ✓ DONE May 5, 2026 — Run videos URL swap command
-4. Visual check — 3 pages, images, logo, and videos confirmed loading
-5. Switch DNS A record to GitHub Pages IP
-6. Confirm Cloudflare SSL active
-7. Submit sitemap.xml to Google Search Console
-8. Submit sitemap.xml to Bing Webmaster Tools
-9. Verify 301 redirects firing correctly
-10. Monitor 48 hours
+4. ✓ DONE — Visual check confirmed
+5. ✓ DONE — DNS live at Cloudflare, pointing to GitHub Pages
+6. ✓ DONE — Cloudflare SSL active
+7. Submit sitemap.xml to Google Search Console — pending
+8. Submit sitemap.xml to Bing Webmaster Tools — pending
+9. ✓ DONE May 25, 2026 — 301 redirects verified (Cloudflare Bulk Redirects live)
+10. Site is LIVE at thomasfencear.com
 
 ---
 
