@@ -68,13 +68,19 @@ Do not substitute #C1121F where #F01B24 is correct.
 
 ---
 
-## Asset URLs (Updated May 5, 2026)
+## Asset URLs (Updated May 21, 2026)
 
-### Active URLs — in all pages as of May 5, 2026
-- Logo: `https://logo.thomasfencear.com/thomas-fence-logo.svg`
+### Active URLs — in all pages as of May 21, 2026
+- Logo (nav, dark/navy background): `https://logo.thomasfencear.com/TF_Logo_White_fixed.svg`
+- Logo (nav, white background): `https://logo.thomasfencear.com/TF_Logo_Red_fixed.svg`
+- Logo (footer, all pages): `https://logo.thomasfencear.com/TF_Logo_White_fixed.svg`
+- See `_skills/tf-nav-footer.md` for which logo goes on which page type. Never guess.
 - Favicon: `https://logo.thomasfencear.com/thomas-fence-favicon.svg`
 - Images base: `https://images.thomasfencear.com`
 - Videos base: `https://videos.thomasfencear.com`
+- YouTube channel: `https://www.youtube.com/@ThomasFenceArkansas`
+
+**Logo fix note (May 21, 2026):** Original SVGs had a near-square viewBox (`0 0 6887.75 5241.6`) causing logos to render tiny. Fixed files (`TF_Logo_White_fixed.svg`, `TF_Logo_Red_fixed.svg`) have corrected viewBox `1776 2178 3452 534` (6.46:1 ratio). Old unfixed files (`TF_Logo_White.svg`, `TF_Logo_Red.svg`) still exist in R2 but are NOT used.
 
 Cloudflare R2 custom subdomains connected May 5, 2026. Incident hswtxrx0fkd1 resolved.
 
@@ -358,13 +364,26 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 
 ---
 
-## Open Items (as of May 19, 2026)
+## Open Items (as of May 25, 2026)
 
-- BuildZoom entity conflict (Mark Thomas Fence Company LLC) — resolved April 24, 2026
+**Pending — not yet done:**
 - Cloudflare Bulk Redirect rules needed: `/company/about-us/` → `/about-us/` and `/gates/gate-automation/` → `/gates/automated-gates/` (meta refresh fallbacks already in place)
-- Logo SVGs (3 variants) pending from Sign Artists — do not update logo URLs until confirmed
-- YouTube videos for gate movement styles — 5 embed placeholders in `/gates/automated-gates/`, fill in when Greg provides channel
 - Client logos for `/reviews/` "Customers We've Worked With" section — pending 17 company names from Greg
+- YouTube graphics for @ThomasFenceArkansas: profile picture (800×800px) + channel banner (2560×1440px) — Greg to source
+- Greg email `greg-email-may21.txt` has `[INSERT VIDEO LINK HERE]` placeholder — insert YouTube video link before sending
+
+**Completed May 25, 2026:**
+- ✓ Logo SVG viewBox defect fixed — `TF_Logo_White_fixed.svg` + `TF_Logo_Red_fixed.svg` deployed sitewide (May 21)
+- ✓ YouTube @ThomasFenceArkansas channel — footer icon added sitewide (45 pages), added to `sameAs` schema sitewide
+- ✓ Gate Installation Videos — 6 YouTube embeds + VideoObject schema on `/gates/automated-gates/` (3×2 grid)
+- ✓ Estate Gates page rebuilt — showcase-row pattern (5 geotagged images, hover zoom, AI-readable per row)
+- ✓ Photo gallery Estate Gates section added (9 geotagged images, `id="estate-gates"` anchor)
+- ✓ Photo gallery broken images fixed (Gates & Fences: 3 replaced; Farm Fencing: 1 replaced)
+
+**Previously resolved:**
+- ✓ BuildZoom entity conflict (Mark Thomas Fence Company LLC) — resolved April 24, 2026
+- ✓ Birdeye entity conflict — resolved May 7, 2026
+- ✓ Manta entity conflict — resolved May 11, 2026
 
 ---
 
