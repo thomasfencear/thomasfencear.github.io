@@ -368,7 +368,6 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 
 **Pending — not yet done:**
 - Client logos for `/reviews/` "Customers We've Worked With" section — pending 17 company names from Greg
-- YouTube graphics for @ThomasFenceArkansas: profile picture (800×800px) + channel banner (2560×1440px) — Greg to source
 - Greg email `greg-email-may21.txt` has `[INSERT VIDEO LINK HERE]` placeholder — insert YouTube video link before sending
 
 **Completed May 25, 2026:**
