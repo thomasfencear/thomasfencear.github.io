@@ -346,6 +346,7 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 8. Load the relevant skill file before building any page or writing any schema.
 9. No page goes dark without a redirect destination documented in tf-redirect-map.md.
 10. Fonts are loaded via `<link>` in `<head>` — never @import in CSS.
+11. **NEVER change `"@type": ["FenceContractor", "LocalBusiness"]` to a single type.** This dual @type is intentional and permanent. It forces Google to crawl the entity once as FenceContractor and once as LocalBusiness — both citation paths are required. The "duplicate field (optional)" warning in Google Rich Results Test is the expected side effect and must never be treated as a bug to fix.
 
 ---
 
@@ -367,8 +368,7 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 ## Open Items (as of May 25, 2026)
 
 **Pending — not yet done:**
-- Client logos for `/reviews/` "Customers We've Worked With" section — pending 17 company names from Greg
-- Greg email `greg-email-may21.txt` has `[INSERT VIDEO LINK HERE]` placeholder — insert YouTube video link before sending
+- Client logos for `/reviews/` "Customers We've Worked With" section — logos in R2 `affiliate-logos/` folder, ready to build
 
 **Completed May 25, 2026:**
 - ✓ Cloudflare Bulk Redirect rules live: `/company/about-us/` → `/about-us/` and `/gates/gate-automation/` → `/gates/automated-gates/`
