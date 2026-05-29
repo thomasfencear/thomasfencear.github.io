@@ -96,6 +96,66 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "copyrightHolder": { "@type": "Organization", "name": "Thomas Fence" }
       },
       {
+        "@type": "VideoObject",
+        "name": "Automated Cantilever Gate in Action — Bentonville, Arkansas",
+        "description": "Thomas Fence installs a cantilever slide gate at a residential property in Bentonville, Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/qmVyFiMl7fk/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/qmVyFiMl7fk",
+        "url": "https://www.youtube.com/watch?v=qmVyFiMl7fk",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Quality Farm Gate",
+        "description": "Thomas Fence installs a quality farm gate for agricultural use in Northwest Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/y8mQl9OveXU/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/y8mQl9OveXU",
+        "url": "https://www.youtube.com/watch?v=y8mQl9OveXU",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Swing Gate",
+        "description": "Thomas Fence installs an automated swing gate for a residential property in Northwest Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/g4M1JleJYPg/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/g4M1JleJYPg",
+        "url": "https://www.youtube.com/watch?v=g4M1JleJYPg",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Automatic Ornamental Gate — Fayetteville, Arkansas",
+        "description": "Thomas Fence installs an automatic ornamental swing gate at a property in Fayetteville, Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/Nd0gz9qvF-8/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/Nd0gz9qvF-8",
+        "url": "https://www.youtube.com/watch?v=Nd0gz9qvF-8",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Swing Gate — Springdale, Arkansas",
+        "description": "Thomas Fence installs an automated swing gate at a property in Springdale, Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/r_0DHqN3BsI/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/r_0DHqN3BsI",
+        "url": "https://www.youtube.com/watch?v=r_0DHqN3BsI",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
+        "@type": "VideoObject",
+        "name": "Farm Gate System",
+        "description": "Thomas Fence installs a complete farm gate system for agricultural use in Northwest Arkansas.",
+        "thumbnailUrl": "https://img.youtube.com/vi/--NoTqGdW30/maxresdefault.jpg",
+        "uploadDate": "2026-05-21T00:00:00+00:00",
+        "embedUrl": "https://www.youtube.com/embed/--NoTqGdW30",
+        "url": "https://www.youtube.com/watch?v=--NoTqGdW30",
+        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+      },
+      {
         "@type": "BreadcrumbList",
         "itemListElement": [
           {
@@ -637,34 +697,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
 
     /* GATE PHOTO CAROUSEL */
-    .gate-carousel { background: var(--color-navy); padding: 56px 0 48px; }
-    .gate-carousel__heading { text-align: center; font-family: 'DM Serif Display', serif; font-size: 1.9rem; color: var(--color-white); margin-bottom: 32px; padding: 0 24px; }
-    .gate-carousel__track {
-      display: flex;
-      gap: 16px;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      padding: 0 24px 16px;
-      scrollbar-width: thin;
-      scrollbar-color: var(--color-red-primary) rgba(255,255,255,0.15);
-    }
-    .gate-carousel__track::-webkit-scrollbar { height: 6px; }
-    .gate-carousel__track::-webkit-scrollbar-track { background: rgba(255,255,255,0.1); border-radius: 3px; }
-    .gate-carousel__track::-webkit-scrollbar-thumb { background: var(--color-red-primary); border-radius: 3px; }
-    .gate-carousel__item {
-      flex: 0 0 380px;
-      scroll-snap-align: start;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-    }
-    .gate-carousel__item img { width: 380px; height: 280px; object-fit: cover; display: block; }
-    .gate-carousel__hint { text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.45); margin-top: 12px; letter-spacing: 0.04em; }
-    @media (max-width: 600px) {
-      .gate-carousel__item { flex: 0 0 85vw; }
-      .gate-carousel__item img { width: 85vw; height: 220px; }
-    }
+    .gate-videos { background: var(--color-navy); padding: 56px 0 48px; }
+    .gate-videos__heading { text-align: center; font-family: 'DM Serif Display', serif; font-size: 1.9rem; color: var(--color-white); margin-bottom: 12px; padding: 0 24px; }
+    .gate-videos__subhead { text-align: center; color: rgba(255,255,255,0.7); font-size: 1rem; margin-bottom: 36px; }
+    .gate-videos__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .gate-videos__item { border-radius: 8px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.3); }
+    .gate-videos__ratio { position: relative; padding-bottom: 56.25%; height: 0; }
+    .gate-videos__ratio iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+    @media (max-width: 900px) { .gate-videos__grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) { .gate-videos__grid { grid-template-columns: 1fr; } }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -811,41 +852,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- GATE PHOTO CAROUSEL -->
-  <section class="gate-carousel">
-    <h2 class="gate-carousel__heading">Thomas Fence Gate Projects in Northwest Arkansas</h2>
-    <div class="gate-carousel__track">
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automated_gate_lowell_buckley_gate_geo_01.jpg" alt="Buckley automated gate installed by Thomas Fence in Lowell, Arkansas" loading="lazy">
+  <section class="gate-videos">
+    <h2 class="gate-videos__heading">Gate Projects by Thomas Fence</h2>
+    <p class="gate-videos__subhead">Cantilever, swing, farm, and ornamental gates across Northwest Arkansas.</p>
+    <div class="gate-videos__grid">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/qmVyFiMl7fk" title="Automated Cantilever Gate in Action — Bentonville, Arkansas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automated_gate_prairie_grove_entry_gate_geo_01.jpg" alt="Automated entry gate installed by Thomas Fence in Prairie Grove, Arkansas" loading="lazy">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/g4M1JleJYPg" title="Swing Gate" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automated_gate_prairie_grove_entry_gate_geo_02.jpg" alt="Automated gate installation by Thomas Fence in Prairie Grove, Arkansas" loading="lazy">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/Nd0gz9qvF-8" title="Automatic Ornamental Gate — Fayetteville, Arkansas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/auto_gate_prairie_grove_entry_gate_geo_02.jpg" alt="Automated gate by Thomas Fence in Prairie Grove, Arkansas" loading="lazy">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/r_0DHqN3BsI" title="Swing Gate — Springdale, Arkansas" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automated_gate_springdale_buckley_geo_03.jpg" alt="Buckley automated gate by Thomas Fence in Springdale, Arkansas" loading="lazy">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/y8mQl9OveXU" title="Quality Farm Gate" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_01.jpg" alt="Automatic entry gate installed by Thomas Fence in Fayetteville, Arkansas" loading="lazy">
-      </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_02.jpg" alt="Automatic gate installation by Thomas Fence in Fayetteville, Arkansas" loading="lazy">
-      </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/automatic_gate_fayetteville_entry_gate_geo_03.jpg" alt="Automatic gate project by Thomas Fence in Fayetteville, Arkansas" loading="lazy">
-      </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/swing_gate_garfield_custom_entry_gate_geo_01.jpg" alt="Custom swing gate installed by Thomas Fence in Garfield, Arkansas" loading="lazy">
-      </div>
-      <div class="gate-carousel__item">
-        <img src="https://images.thomasfencear.com/swing_gate_garfield_custom_entry_gate_geo_02.jpg" alt="Custom entry swing gate by Thomas Fence in Garfield, Arkansas" loading="lazy">
+      <div class="gate-videos__item">
+        <div class="gate-videos__ratio">
+          <iframe src="https://www.youtube.com/embed/--NoTqGdW30" title="Farm Gate System" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
       </div>
     </div>
-    <p class="gate-carousel__hint">← scroll to see all projects →</p>
   </section>
 
   <!-- SERVICES GRID -->
@@ -866,7 +907,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <li>Access control — keypads, remotes, phone entry</li>
               <li>Gate repair and operator replacement</li>
             </ul>
-            <a class="service-card__link" href="/gates/gate-automation/">Explore Gate Automation →</a>
+            <a class="service-card__link" href="/gates/automated-gates/">Explore Gate Automation →</a>
           </div>
         </div>
 
