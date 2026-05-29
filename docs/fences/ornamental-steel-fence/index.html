@@ -316,6 +316,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .site-footer__list--legal a { font-size: 0.82rem; }
     .site-footer__logo { margin-bottom: 4px; opacity: 0.9; }
     .site-footer__bottom { border-top: 1px solid rgba(255,255,255,0.1); padding: 20px 0; text-align: center; font-size: 0.82rem; color: rgba(255,255,255,0.5); }
+    .recent-projects { padding: 56px 0; background: var(--color-cream); }
+    .recent-projects > .container > h2 { font-size: 1.8rem; text-align: center; margin-bottom: 36px; color: var(--color-navy); }
+    .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .projects-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    @media (max-width: 600px) { .projects-grid { grid-template-columns: 1fr; } }
   </style>
   <style id="tf-footer-css">
     .site-footer { background: #003049; color: #fff; padding: 64px 0 0; margin-top: 88px; font-family: 'DM Sans', sans-serif; }
@@ -480,28 +485,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="commercial-type">
           <div class="commercial-type__img">
-            <img src="https://images.thomasfencear.com/ornamental-steel-pool-fence-springdale-arkansas-fence-company-2.jpg" alt="Ornamental steel pool fence with gate by Thomas Fence in Springdale, Arkansas" width="800" loading="lazy">
-          </div>
-          <div class="commercial-type__text">
-            <h3>Pool Gates &amp; Access Points</h3>
-            <p>Every pool enclosure needs properly configured access points. Thomas Fence installs self-closing, self-latching ornamental steel pool gates that meet local code requirements. Gates can be equipped with automated operators for properties that want keypad or remote access.</p>
-            <a href="/gates/gate-automation/" class="btn-primary">See Gate Automation</a>
-          </div>
-        </div>
-
-        <div class="commercial-type">
-          <div class="commercial-type__img">
-            <img src="https://images.thomasfencear.com/ornamental-steel-fence-nw-arkansas-fence-company-04.jpg" alt="Commercial ornamental steel perimeter fence installed by Thomas Fence in Northwest Arkansas" width="800" loading="lazy">
-          </div>
-          <div class="commercial-type__text">
-            <h3>Commercial Ornamental Steel Perimeter Fencing</h3>
-            <p>Strength and security are premium features of commercial ornamental steel fences. Ideal for high-security applications, entrances to commercial buildings, and anywhere that demands both durability and a professional appearance. Thomas Fence handles commercial ornamental steel projects of all scales across NWA.</p>
-            <a href="/fences/commercial-fencing/" class="btn-primary">See Commercial Fencing</a>
-          </div>
-        </div>
-
-        <div class="commercial-type">
-          <div class="commercial-type__img">
             <img src="https://images.thomasfencear.com/ornamental_gate_bentonville_back_yard_geo_01.jpg" alt="Ornamental steel gate in a residential backyard — Thomas Fence, Bentonville, Arkansas" width="800" loading="lazy">
           </div>
           <div class="commercial-type__text">
@@ -522,6 +505,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENT PROJECTS GRID -->
+  <section class="recent-projects">
+    <div class="container">
+      <h2>Recent Ornamental Steel Projects in Northwest Arkansas</h2>
+      <div class="projects-grid">
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_centerton_back_yard_fence_geo_01.jpg"
+          alt="Ornamental steel fence in residential backyard — Thomas Fence, Centerton, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_elm_springs_pool_fence_geo_01.jpg"
+          alt="Ornamental steel pool enclosure fence — Thomas Fence, Elm Springs, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_elm_springs_pool_fence_geo_02.jpg"
+          alt="Ornamental steel pool fence installation — Thomas Fence, Elm Springs, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_elm_springs_pool_fence_geo_03.jpg"
+          alt="Pool enclosure ornamental fence — Thomas Fence, Elm Springs, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_fayetteville_residential_geo_01.jpg"
+          alt="Ornamental steel fence at residential property — Thomas Fence, Fayetteville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_springdale_residential_geo_01.jpg"
+          alt="Ornamental steel fence installation — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_fence_springdale_residential_geo_02.jpg"
+          alt="Residential ornamental steel fence — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_gate_bentonville_back_yard_geo_01.jpg"
+          alt="Ornamental steel gate in residential backyard — Thomas Fence, Bentonville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/ornamental_gate_centerton_residential_back_yard_geo_01.jpg"
+          alt="Ornamental steel gate at residential property — Thomas Fence, Centerton, Arkansas"
+          loading="lazy"
+        >
       </div>
     </div>
   </section>
