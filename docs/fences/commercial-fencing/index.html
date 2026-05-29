@@ -223,11 +223,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     /* ── ZONE 3: INTRO ── */
     .recent-projects { background: var(--color-white); padding: 64px 0; }
     .recent-projects > .container > h2 { font-size: 1.9rem; margin-bottom: 36px; color: var(--color-navy); }
-    .projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
-    .projects-grid--3 { grid-template-columns: repeat(3, 1fr); }
-    .projects-grid img { width: 100%; height: 300px; object-fit: cover; display: block; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
-    @media (max-width: 800px) { .projects-grid--3 { grid-template-columns: 1fr 1fr; } }
-    @media (max-width: 500px) { .projects-grid, .projects-grid--3 { grid-template-columns: 1fr; } }
+    .projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .projects-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    @media (max-width: 600px) { .projects-grid { grid-template-columns: 1fr; } }
     .page-intro { background: var(--color-cream); padding: 64px 0; }
     .page-intro h2 { font-size: 1.9rem; margin-bottom: 20px; color: var(--color-navy); }
     .page-intro p { font-size: 1.05rem; line-height: 1.8; margin-bottom: 16px; max-width: 820px; color: #1a1a1a; }
@@ -546,20 +544,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <section class="recent-projects">
     <div class="container">
       <h2>Recent Commercial Fence Projects in Northwest Arkansas</h2>
-      <div class="projects-grid projects-grid--3">
+      <div class="projects-grid">
         <img
-          src="https://images.thomasfencear.com/metal_panel_fence_lowell_r_panel_geo_02.jpg"
-          alt="Metal R-panel fence — Thomas Fence, Lowell, Arkansas"
+          src="https://images.thomasfencear.com/commercial_bentonville_horizontal_fence_geo_01.jpg"
+          alt="Commercial horizontal fence — Thomas Fence, Bentonville, Arkansas"
           loading="lazy"
         >
         <img
-          src="https://images.thomasfencear.com/metal_panel_fence_lowell_r_panel_geo_03.jpg"
-          alt="Metal panel commercial fence — Thomas Fence, Lowell, Arkansas"
+          src="https://images.thomasfencear.com/commercial_bentonville_horizontal_fence_geo_02.jpg"
+          alt="Commercial horizontal fence installation — Thomas Fence, Bentonville, Arkansas"
           loading="lazy"
         >
         <img
-          src="https://images.thomasfencear.com/metal_panel_fence_lowell_r_panel_geo_04.jpg"
-          alt="R-panel fence installation — Thomas Fence, Lowell, Arkansas"
+          src="https://images.thomasfencear.com/commercial_fence_gentry_chainlink_geo_01.jpg"
+          alt="Commercial chain link fence — Thomas Fence, Gentry, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/commercial_fence_gentry_chainlink_geo_02.jpg"
+          alt="Commercial chain link fence installation — Thomas Fence, Gentry, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/commercial_fence_summers_chainlink_geo_01.jpg"
+          alt="Commercial chain link fence — Thomas Fence, Summers, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/commercial_springdale_ornamental_ballpark_geo_01.jpg"
+          alt="Commercial ornamental steel fence at ballpark — Thomas Fence, Springdale, Arkansas"
           loading="lazy"
         >
       </div>
