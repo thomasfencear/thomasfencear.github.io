@@ -284,6 +284,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .cta-band { background: var(--color-navy); padding: 56px 0; text-align: center; }
     .cta-band h2 { font-size: 2rem; color: var(--color-white); margin-bottom: 12px; }
     .cta-band p { color: rgba(255,255,255,0.85); margin-bottom: 28px; font-size: 1.05rem; }
+    .recent-projects { padding: 56px 0; background: var(--color-cream); }
+    .recent-projects > .container > h2 { font-size: 1.8rem; text-align: center; margin-bottom: 36px; color: var(--color-navy); }
+    .projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .projects-grid img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; display: block; box-shadow: 0 2px 10px rgba(0,0,0,0.10); }
+    @media (max-width: 600px) { .projects-grid { grid-template-columns: 1fr; } }
   </style>
   <style id="tf-footer-css">
     .site-footer { background: #003049; color: #fff; padding: 64px 0 0; margin-top: 88px; font-family: 'DM Sans', sans-serif; }
@@ -418,7 +423,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="showcase-row">
           <div class="showcase-row__img">
             <img
-              src="https://images.thomasfencear.com/wood-fence-nw-arkansas-fence-company-01.jpg"
+              src="https://images.thomasfencear.com/estate_gate_springdale_double_swing_geo_01.jpg"
               alt="Residential wood fence installed by Thomas Fence in Springdale, Arkansas"
               width="800"
               loading="eager"
@@ -431,6 +436,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </div>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- RECENT PROJECTS GRID — placeholder using estate gate images until Greg supplies residential fence photos -->
+  <section class="recent-projects">
+    <div class="container">
+      <h2>Recent Residential Projects in Northwest Arkansas</h2>
+      <div class="projects-grid">
+        <img
+          src="https://images.thomasfencear.com/estate_gate_bentonville_aluminum_geo_01.jpg"
+          alt="Residential gate installation — Thomas Fence, Bentonville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_bentonville_double_swing_aluminum_geo_01.jpg"
+          alt="Residential double swing gate — Thomas Fence, Bentonville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_bentonville_ornamental_gate_geo_01.jpg"
+          alt="Residential ornamental gate — Thomas Fence, Bentonville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_fayetteville_ornamental_geo_01.jpg"
+          alt="Residential ornamental gate — Thomas Fence, Fayetteville, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_garfield_custom_gate_geo_01.jpg"
+          alt="Custom residential gate — Thomas Fence, Garfield, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_springdale_double_swing_geo_01.jpg"
+          alt="Residential double swing gate — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_springdale_double_swing_rail_gate_geo_03.jpg"
+          alt="Residential rail gate installation — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_springdale_double_swing_rail_gate_geo_04.jpg"
+          alt="Residential swing rail gate — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
+        <img
+          src="https://images.thomasfencear.com/estate_gate_springdale_double_swing_rail_gate_geo_05.jpg"
+          alt="Residential gate project — Thomas Fence, Springdale, Arkansas"
+          loading="lazy"
+        >
       </div>
     </div>
   </section>
