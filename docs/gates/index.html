@@ -388,11 +388,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       background: var(--color-navy);
       color: var(--color-white);
       padding: 64px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .page-hero__video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+      opacity: 0.35;
+    }
+
+    .page-hero__overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0,48,73,0.80) 0%, rgba(0,48,73,0.60) 100%);
+      z-index: 1;
     }
 
     .page-hero__inner {
       max-width: 1200px;
       margin: 0 auto;
+      position: relative;
+      z-index: 2;
     }
 
     .page-hero__breadcrumb {
@@ -706,6 +727,45 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .gate-videos__ratio iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
     @media (max-width: 900px) { .gate-videos__grid { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 600px) { .gate-videos__grid { grid-template-columns: 1fr; } }
+
+    /* PROCESS */
+    .page-process { background: var(--color-navy); color: var(--color-white); padding: 64px 0; }
+    .page-process .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .page-process h2 { font-size: 1.9rem; margin-bottom: 12px; }
+    .page-process > .container > p { color: rgba(255,255,255,0.75); margin-bottom: 40px; font-size: 1.05rem; }
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+    .process-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 10px; padding: 28px 24px; }
+    .process-card__num { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; color: var(--color-red-primary); text-transform: uppercase; margin-bottom: 8px; }
+    .process-card h3 { font-size: 1.05rem; margin-bottom: 10px; color: var(--color-white); }
+    .process-card p { font-size: 0.92rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
+    @media (max-width: 900px) { .process-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .process-grid { grid-template-columns: 1fr; } }
+
+    /* FAQ */
+    .page-faqs { background: var(--color-cream); padding: 64px 0; }
+    .page-faqs .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 36px; color: var(--color-navy); }
+    .page-faqs__grid { display: grid; grid-template-columns: 1fr 340px; gap: 48px; align-items: start; }
+    .faq-list .faq-item { border-bottom: 1px solid #ddd; padding: 18px 0; }
+    .faq-list .faq-item summary { font-size: 1rem; font-weight: 600; color: var(--color-navy); cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq-list .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-list .faq-item summary::after { content: '+'; font-size: 1.3rem; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-list .faq-item[open] summary::after { content: '−'; }
+    .faq-list .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-list .faq-item__answer { padding-top: 12px; font-size: 0.97rem; line-height: 1.75; color: #2a2a2a; }
+    .faq-sidebar { display: flex; flex-direction: column; gap: 20px; }
+    .faq-sidebar__card { background: var(--color-white); border-radius: 10px; padding: 28px 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+    .faq-sidebar__card h3 { font-size: 1.1rem; color: var(--color-navy); margin-bottom: 10px; }
+    .faq-sidebar__card p { font-size: 0.92rem; color: #444; margin-bottom: 16px; line-height: 1.6; }
+    .faq-sidebar__card ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .faq-sidebar__card ul li { font-size: 0.92rem; color: #333; display: flex; align-items: flex-start; gap: 8px; }
+    .faq-sidebar__card ul li::before { content: '●'; color: var(--color-red-primary); font-size: 0.6rem; margin-top: 5px; flex-shrink: 0; }
+    .faq-sidebar__cta { background: var(--color-navy); color: var(--color-white); border-radius: 10px; padding: 28px 24px; }
+    .faq-sidebar__cta h3 { font-size: 1.1rem; color: var(--color-white); margin-bottom: 8px; }
+    .faq-sidebar__cta p { font-size: 0.92rem; color: rgba(255,255,255,0.75); margin-bottom: 20px; }
+    .faq-sidebar__cta .btn-primary { width: 100%; text-align: center; display: block; }
+    .faq-sidebar__phone { display: block; text-align: center; margin-top: 12px; font-weight: 700; font-size: 1.05rem; color: var(--color-white); text-decoration: none; }
+    @media (max-width: 900px) { .page-faqs__grid { grid-template-columns: 1fr; } }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -818,6 +878,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <!-- PAGE HERO -->
   <section class="page-hero">
+    <video class="page-hero__video" autoplay muted loop playsinline preload="none" aria-hidden="true">
+      <source src="https://images.thomasfencear.com/Thomas-Fence-Hero-Video-04-13-2026.mp4" type="video/mp4">
+    </video>
+    <div class="page-hero__overlay" aria-hidden="true"></div>
     <div class="page-hero__inner">
       <div class="page-hero__breadcrumb">
         <a href="/">Home</a><span>›</span>
@@ -944,6 +1008,112 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="cgat-feature__badge-icon">🏅</div>
         <h3>CGAT Certified</h3>
         <p>Certified Gate Automation Technician — American Fence Association</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="page-process">
+    <div class="container">
+      <h2>Our Easy Process</h2>
+      <p>Thomas Fence makes getting a new gate straightforward — from your first call to the finished installation.</p>
+      <div class="process-grid">
+        <div class="process-card">
+          <p class="process-card__num">Step 1</p>
+          <h3>Schedule Your Free Estimate</h3>
+          <p>Call <a href="tel:+14796364732" style="color:rgba(255,255,255,0.85)">(479) 636-4732</a>. One of our gate specialists will visit your property, assess the opening, terrain, and automation needs, and provide a detailed written estimate — free.</p>
+        </div>
+        <div class="process-card">
+          <p class="process-card__num">Step 2</p>
+          <h3>Approve &amp; Sign</h3>
+          <p>Accept by phone, email, or through your sales representative. We send over a contract for your signature. No deposit required for standard gate installations.</p>
+        </div>
+        <div class="process-card">
+          <p class="process-card__num">Step 3</p>
+          <h3>Get on the Schedule</h3>
+          <p>Once signed, your project is in line — typically 1 to 3 weeks out. We call 811 to mark underground utilities before any digging begins.</p>
+        </div>
+        <div class="process-card">
+          <p class="process-card__num">Step 4</p>
+          <h3>Install &amp; Commission</h3>
+          <p>Our crew installs the gate, sets posts in concrete, installs the operator and safety devices, and commissions access control. We walk you through operation before we leave.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS + SIDEBAR -->
+  <section class="page-faqs">
+    <div class="container">
+      <h2>Gate FAQs</h2>
+      <div class="page-faqs__grid">
+        <div class="faq-list">
+
+          <details class="faq-item">
+            <summary>What types of gates does Thomas Fence install?</summary>
+            <div class="faq-item__answer"><p>Thomas Fence installs swing gates, cantilever slide gates, V-track slide gates, vertical pivot gates, and vertical lift gates — in ornamental steel, aluminum, vinyl, chain link, and wood. Every movement style is available for both residential and commercial properties.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can any gate be automated?</summary>
+            <div class="faq-item__answer"><p>Most swing and slide gates can be automated if properly sized and if post framing is adequate. Thomas Fence evaluates automation-readiness during the estimate visit. When we build a new gate, we design it with automation in mind from the start so there are no surprises later.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>What does gate automation include?</summary>
+            <div class="faq-item__answer"><p>A complete automated gate system includes the operator (motor), UL 325-required safety devices (photo eyes, safety edges, or loop detectors depending on gate type), access control (keypad, remote, or phone entry), and all wiring. Thomas Fence handles the complete installation — no subcontracting.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>What is CGAT certification and why does it matter?</summary>
+            <div class="faq-item__answer"><p>The Certified Gate Automation Technician (CGAT) designation is issued by the American Fence Association. It requires demonstrated knowledge of gate operator mechanics, UL 325 safety standards, and access control systems. Automated gates are heavy, fast-moving machines — an improperly installed operator without correct safety devices can cause serious injury. Thomas Fence holds this certification. Most NWA fence contractors do not.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>How long does a gate installation take?</summary>
+            <div class="faq-item__answer"><p>A standard residential gate installation typically takes 1–3 business days. Automated gate systems may take slightly longer depending on access control requirements and concrete curing time for posts. Thomas Fence will give you a timeline estimate before work begins.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Is a deposit required for gate installation?</summary>
+            <div class="faq-item__answer"><p>No deposit is required for standard gate installations. Special order materials or custom metal fabrication may require a deposit before work begins. Thomas Fence will communicate any deposit requirement upfront in your contract.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do I need a permit for a gate in Northwest Arkansas?</summary>
+            <div class="faq-item__answer"><p>Permit requirements vary by city. Most cities in NWA require a permit for any new fence or gate installation. Thomas Fence is happy to advise on the permit process — pulling the permit is the property owner's responsibility. See our <a href="/permits/">Fence Permits page</a> for links to local permit offices.</p></div>
+          </details>
+
+          <details class="faq-item">
+            <summary>What access control options are available?</summary>
+            <div class="faq-item__answer"><p>Thomas Fence installs PIN keypads, remote transmitters, intercom systems, and app-controlled entry (LiftMaster MyQ and similar). We help you choose the right system for your property type, security level, and number of users.</p></div>
+          </details>
+
+        </div>
+
+        <div class="faq-sidebar">
+          <div class="faq-sidebar__cta">
+            <h3>Get a Free Estimate</h3>
+            <p>Contact Thomas Fence to discuss your gate project. CGAT-certified gate automation available.</p>
+            <a href="/contact/" class="btn-primary">Contact Us</a>
+            <a href="tel:+14796364732" class="faq-sidebar__phone">(479) 636-4732</a>
+          </div>
+          <div class="faq-sidebar__card">
+            <h3>Licensed &amp; Certified</h3>
+            <ul>
+              <li>AR License No. 015501</li>
+              <li>AFA Certified Fence Contractor</li>
+              <li>CGAT Certified Gate Automation</li>
+              <li>US Federal Contractor</li>
+              <li>In Business Since 1993</li>
+            </ul>
+          </div>
+          <div class="faq-sidebar__card">
+            <h3>US Federal Contractor</h3>
+            <p>Thomas Fence is registered as a US Federal Contractor and is qualified to bid on government and public fencing projects across Northwest Arkansas.</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
