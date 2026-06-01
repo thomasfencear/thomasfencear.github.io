@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /company/
-Disallow: /resources/
-
 Sitemap: https://thomasfencear.com/sitemap.xml
