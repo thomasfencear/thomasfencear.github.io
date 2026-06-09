@@ -26,256 +26,394 @@
 
   <!-- Schema -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["FenceContractor", "LocalBusiness"],
-        "@id": "https://thomasfencear.com/#business",
-        "name": "Thomas Fence",
-        "legalName": "Paschal Enterprises, Inc.",
-        "url": "https://thomasfencear.com",
-        "telephone": "(479) 636-4732",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "653 Kawneer Dr",
-          "addressLocality": "Springdale",
-          "addressRegion": "AR",
-          "postalCode": "72764",
-          "addressCountry": "US"
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": [
+        "FenceContractor",
+        "LocalBusiness"
+      ],
+      "@id": "https://thomasfencear.com/#business",
+      "name": "Thomas Fence",
+      "legalName": "Paschal Enterprises, Inc.",
+      "url": "https://thomasfencear.com",
+      "telephone": "(479) 636-4732",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "653 Kawneer Dr",
+        "addressLocality": "Springdale",
+        "addressRegion": "AR",
+        "postalCode": "72764",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ThomasFenceAR",
+        "https://www.instagram.com/thomasfencear/",
+        "https://www.pinterest.com/thomasfencear/_saved/",
+        "https://www.yelp.com/biz/thomas-fence-springdale",
+        "https://www.houzz.com/professionals/fencing-and-gate-sales-and-construction/thomas-fence-pfvwus-pf~379386760",
+        "https://www.bbb.org/us/ar/springdale/profile/fence-contractors/thomas-fence-0935-90003692",
+        "https://www.youtube.com/@ThomasFenceArkansas"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "16:00"
+        }
+      ],
+      "hasCredential": [
+        "Arkansas Contractor License No. 015501",
+        "US Federal Contractor Registration",
+        "AFA Certified Fence Contractor",
+        "CGAT Certified Gate Automation Technician"
+      ],
+      "foundingDate": "1993",
+      "email": "sales@thomasfencear.com",
+      "priceRange": "$$",
+      "logo": "https://logo.thomasfencear.com/TF_Logo_White_fixed.svg",
+      "knowsAbout": [
+        "Residential Fencing",
+        "Commercial Fencing",
+        "Vinyl Fence",
+        "Wood Fence",
+        "Chain Link Fence",
+        "Ornamental Steel Fence",
+        "Farm Fencing",
+        "Temporary Fencing",
+        "Gate Automation",
+        "Estate Gates"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://thomasfencear.com/video-gallery/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://thomasfencear.com"
         },
-        "sameAs": [
-          "https://www.facebook.com/ThomasFenceAR",
-          "https://www.instagram.com/thomasfencear/",
-          "https://www.pinterest.com/thomasfencear/_saved/",
-          "https://www.youtube.com/@ThomasFenceArkansas",
-          "https://www.yelp.com/biz/thomas-fence-springdale",
-          "https://www.houzz.com/professionals/fencing-and-gate-sales-and-construction/thomas-fence-pfvwus-pf~379386760",
-          "https://www.bbb.org/us/ar/springdale/profile/fence-contractors/thomas-fence-0935-90003692"
-        ]
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://thomasfencear.com/video-gallery/#breadcrumb",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://thomasfencear.com" },
-          { "@type": "ListItem", "position": 2, "name": "FAQs", "item": "https://thomasfencear.com/faqs/" },
-          { "@type": "ListItem", "position": 3, "name": "Video Gallery", "item": "https://thomasfencear.com/video-gallery/" }
-        ]
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=qmVyFiMl7fk#video",
-        "name": "Automated Cantilever Gate in Action — Bentonville, Arkansas",
-        "description": "Thomas Fence installs an automated cantilever gate at a residential property in Bentonville, Arkansas. Watch the gate in motion.",
-        "thumbnailUrl": "https://img.youtube.com/vi/qmVyFiMl7fk/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/qmVyFiMl7fk",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=wF7Hu-U3zeM#video",
-        "name": "Cantilever Slide Gate",
-        "description": "Thomas Fence cantilever slide gate installation in Northwest Arkansas. Smooth operation, heavy-duty construction.",
-        "thumbnailUrl": "https://img.youtube.com/vi/wF7Hu-U3zeM/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/wF7Hu-U3zeM",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=BDYP8CdhVME#video",
-        "name": "Cantilever R-Panel Gate — Springdale, Arkansas",
-        "description": "Cantilever R-panel security gate installed by Thomas Fence in Springdale, Arkansas. Built for high-security commercial access control.",
-        "thumbnailUrl": "https://img.youtube.com/vi/BDYP8CdhVME/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/BDYP8CdhVME",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=CRrHtojkbaw#video",
-        "name": "Cantilever Chain Link Gate — Fayetteville, Arkansas",
-        "description": "Thomas Fence cantilever chain link gate installation in Fayetteville, Arkansas. No bottom track, smooth operation.",
-        "thumbnailUrl": "https://img.youtube.com/vi/CRrHtojkbaw/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/CRrHtojkbaw",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=q8yF3QqU40I#video",
-        "name": "Why Contractors Choose Cantilever Gates Over Swing Gates",
-        "description": "Thomas Fence explains the key reasons professional gate installers prefer cantilever slide gates over swing gates for most residential and commercial applications.",
-        "thumbnailUrl": "https://img.youtube.com/vi/q8yF3QqU40I/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/q8yF3QqU40I",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=g4M1JleJYPg#video",
-        "name": "Swing Gate",
-        "description": "Thomas Fence automated swing gate installation in Northwest Arkansas. Smooth, reliable access control for residential driveways.",
-        "thumbnailUrl": "https://img.youtube.com/vi/g4M1JleJYPg/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/g4M1JleJYPg",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=Nd0gz9qvF-8#video",
-        "name": "Automatic Ornamental Gate — Fayetteville, Arkansas",
-        "description": "Automatic ornamental iron gate in action at a Fayetteville, Arkansas property, installed by Thomas Fence.",
-        "thumbnailUrl": "https://img.youtube.com/vi/Nd0gz9qvF-8/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/Nd0gz9qvF-8",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=hJKfvD0hhP4#video",
-        "name": "Ornamental Swing Gate",
-        "description": "Ornamental swing gate opening in action — Thomas Fence installation in Northwest Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/hJKfvD0hhP4/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/hJKfvD0hhP4",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=kuBJvkIkorw#video",
-        "name": "Automated Swing Gate — Bentonville, Arkansas",
-        "description": "Thomas Fence automated swing gate installation in Bentonville, Arkansas. Residential driveway gate with smooth automated operation.",
-        "thumbnailUrl": "https://img.youtube.com/vi/kuBJvkIkorw/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/kuBJvkIkorw",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=_gsxnm0gKb0#video",
-        "name": "Chain Link Swing Gate",
-        "description": "Chain link swing gate in action — Thomas Fence installation in Northwest Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/_gsxnm0gKb0/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/_gsxnm0gKb0",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=r_0DHqN3BsI#video",
-        "name": "Swing Gate — Springdale, Arkansas",
-        "description": "Automated swing gate installed by Thomas Fence in Springdale, Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/r_0DHqN3BsI/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/r_0DHqN3BsI",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=Lm2dohl8jTM#video",
-        "name": "Swing Gate — Subdivision — Bentonville, Arkansas",
-        "description": "Automated swing gate for a residential subdivision in Bentonville, Arkansas, installed by Thomas Fence.",
-        "thumbnailUrl": "https://img.youtube.com/vi/Lm2dohl8jTM/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/Lm2dohl8jTM",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=Moql-5bLMzw#video",
-        "name": "Pivot Gate",
-        "description": "Pivot gate in action — Thomas Fence installation in Northwest Arkansas. Pivot gates work where swing and cantilever options aren't feasible.",
-        "thumbnailUrl": "https://img.youtube.com/vi/Moql-5bLMzw/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/Moql-5bLMzw",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=2Q131QLRP-g#video",
-        "name": "Custom Pivot Gate",
-        "description": "Custom pivot gate installation by Thomas Fence in Northwest Arkansas. Engineered for sites where standard swing or cantilever gates aren't an option.",
-        "thumbnailUrl": "https://img.youtube.com/vi/2Q131QLRP-g/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/2Q131QLRP-g",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=y8mQl9OveXU#video",
-        "name": "Quality Farm Gate",
-        "description": "Thomas Fence quality farm gate installation in Northwest Arkansas — heavy-duty construction for agricultural and rural properties.",
-        "thumbnailUrl": "https://img.youtube.com/vi/y8mQl9OveXU/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/y8mQl9OveXU",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=MZcN8RF5JUY#video",
-        "name": "Farm Gate",
-        "description": "Farm gate installation by Thomas Fence in Northwest Arkansas — built for rural and agricultural access control.",
-        "thumbnailUrl": "https://img.youtube.com/vi/MZcN8RF5JUY/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/MZcN8RF5JUY",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=wPH-XfnB6_A#video",
-        "name": "Farm Gate Installation",
-        "description": "Thomas Fence farm gate installation in Northwest Arkansas — watch the finished gate in operation.",
-        "thumbnailUrl": "https://img.youtube.com/vi/wPH-XfnB6_A/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/wPH-XfnB6_A",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=aHRdNy4Gltk#video",
-        "name": "Farm Swing Gate — Fayetteville, Arkansas",
-        "description": "Farm swing gate installed by Thomas Fence at a rural property in Fayetteville, Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/aHRdNy4Gltk/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/aHRdNy4Gltk",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=aC1fU7WwiCU#video",
-        "name": "Farm Swing Gate — Garfield, Arkansas",
-        "description": "Farm swing gate installed by Thomas Fence at a rural property in Garfield, Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/aC1fU7WwiCU/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/aC1fU7WwiCU",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=--NoTqGdW30#video",
-        "name": "Farm Gate System",
-        "description": "Farm gate system in operation — Thomas Fence installation in Northwest Arkansas.",
-        "thumbnailUrl": "https://img.youtube.com/vi/--NoTqGdW30/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/--NoTqGdW30",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
-      },
-      {
-        "@type": "VideoObject",
-        "@id": "https://www.youtube.com/watch?v=i_U3CMSPx9o#video",
-        "name": "Automated Gate Contractor — Springdale, Arkansas",
-        "description": "Thomas Fence automated gate contractor work in Springdale, Arkansas. CGAT-certified installation team.",
-        "thumbnailUrl": "https://img.youtube.com/vi/i_U3CMSPx9o/maxresdefault.jpg",
-        "uploadDate": "2026-05-21T00:00:00+00:00",
-        "embedUrl": "https://www.youtube.com/embed/i_U3CMSPx9o",
-        "publisher": { "@type": "Organization", "name": "Thomas Fence", "@id": "https://thomasfencear.com/#business" }
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "FAQs",
+          "item": "https://thomasfencear.com/faqs/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Video Gallery",
+          "item": "https://thomasfencear.com/video-gallery/"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=qmVyFiMl7fk#video",
+      "name": "Automated Cantilever Gate in Action — Bentonville, Arkansas",
+      "description": "Thomas Fence installs an automated cantilever gate at a residential property in Bentonville, Arkansas. Watch the gate in motion.",
+      "thumbnailUrl": "https://img.youtube.com/vi/qmVyFiMl7fk/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/qmVyFiMl7fk",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=wF7Hu-U3zeM#video",
+      "name": "Cantilever Slide Gate",
+      "description": "Thomas Fence cantilever slide gate installation in Northwest Arkansas. Smooth operation, heavy-duty construction.",
+      "thumbnailUrl": "https://img.youtube.com/vi/wF7Hu-U3zeM/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/wF7Hu-U3zeM",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=BDYP8CdhVME#video",
+      "name": "Cantilever R-Panel Gate — Springdale, Arkansas",
+      "description": "Cantilever R-panel security gate installed by Thomas Fence in Springdale, Arkansas. Built for high-security commercial access control.",
+      "thumbnailUrl": "https://img.youtube.com/vi/BDYP8CdhVME/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/BDYP8CdhVME",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=CRrHtojkbaw#video",
+      "name": "Cantilever Chain Link Gate — Fayetteville, Arkansas",
+      "description": "Thomas Fence cantilever chain link gate installation in Fayetteville, Arkansas. No bottom track, smooth operation.",
+      "thumbnailUrl": "https://img.youtube.com/vi/CRrHtojkbaw/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/CRrHtojkbaw",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=q8yF3QqU40I#video",
+      "name": "Why Contractors Choose Cantilever Gates Over Swing Gates",
+      "description": "Thomas Fence explains the key reasons professional gate installers prefer cantilever slide gates over swing gates for most residential and commercial applications.",
+      "thumbnailUrl": "https://img.youtube.com/vi/q8yF3QqU40I/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/q8yF3QqU40I",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=g4M1JleJYPg#video",
+      "name": "Swing Gate",
+      "description": "Thomas Fence automated swing gate installation in Northwest Arkansas. Smooth, reliable access control for residential driveways.",
+      "thumbnailUrl": "https://img.youtube.com/vi/g4M1JleJYPg/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/g4M1JleJYPg",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=Nd0gz9qvF-8#video",
+      "name": "Automatic Ornamental Gate — Fayetteville, Arkansas",
+      "description": "Automatic ornamental iron gate in action at a Fayetteville, Arkansas property, installed by Thomas Fence.",
+      "thumbnailUrl": "https://img.youtube.com/vi/Nd0gz9qvF-8/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/Nd0gz9qvF-8",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=hJKfvD0hhP4#video",
+      "name": "Ornamental Swing Gate",
+      "description": "Ornamental swing gate opening in action — Thomas Fence installation in Northwest Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/hJKfvD0hhP4/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/hJKfvD0hhP4",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=kuBJvkIkorw#video",
+      "name": "Automated Swing Gate — Bentonville, Arkansas",
+      "description": "Thomas Fence automated swing gate installation in Bentonville, Arkansas. Residential driveway gate with smooth automated operation.",
+      "thumbnailUrl": "https://img.youtube.com/vi/kuBJvkIkorw/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/kuBJvkIkorw",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=_gsxnm0gKb0#video",
+      "name": "Chain Link Swing Gate",
+      "description": "Chain link swing gate in action — Thomas Fence installation in Northwest Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/_gsxnm0gKb0/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/_gsxnm0gKb0",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=r_0DHqN3BsI#video",
+      "name": "Swing Gate — Springdale, Arkansas",
+      "description": "Automated swing gate installed by Thomas Fence in Springdale, Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/r_0DHqN3BsI/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/r_0DHqN3BsI",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=Lm2dohl8jTM#video",
+      "name": "Swing Gate — Subdivision — Bentonville, Arkansas",
+      "description": "Automated swing gate for a residential subdivision in Bentonville, Arkansas, installed by Thomas Fence.",
+      "thumbnailUrl": "https://img.youtube.com/vi/Lm2dohl8jTM/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/Lm2dohl8jTM",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=Moql-5bLMzw#video",
+      "name": "Pivot Gate",
+      "description": "Pivot gate in action — Thomas Fence installation in Northwest Arkansas. Pivot gates work where swing and cantilever options aren't feasible.",
+      "thumbnailUrl": "https://img.youtube.com/vi/Moql-5bLMzw/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/Moql-5bLMzw",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=2Q131QLRP-g#video",
+      "name": "Custom Pivot Gate",
+      "description": "Custom pivot gate installation by Thomas Fence in Northwest Arkansas. Engineered for sites where standard swing or cantilever gates aren't an option.",
+      "thumbnailUrl": "https://img.youtube.com/vi/2Q131QLRP-g/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/2Q131QLRP-g",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=y8mQl9OveXU#video",
+      "name": "Quality Farm Gate",
+      "description": "Thomas Fence quality farm gate installation in Northwest Arkansas — heavy-duty construction for agricultural and rural properties.",
+      "thumbnailUrl": "https://img.youtube.com/vi/y8mQl9OveXU/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/y8mQl9OveXU",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=MZcN8RF5JUY#video",
+      "name": "Farm Gate",
+      "description": "Farm gate installation by Thomas Fence in Northwest Arkansas — built for rural and agricultural access control.",
+      "thumbnailUrl": "https://img.youtube.com/vi/MZcN8RF5JUY/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/MZcN8RF5JUY",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=wPH-XfnB6_A#video",
+      "name": "Farm Gate Installation",
+      "description": "Thomas Fence farm gate installation in Northwest Arkansas — watch the finished gate in operation.",
+      "thumbnailUrl": "https://img.youtube.com/vi/wPH-XfnB6_A/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/wPH-XfnB6_A",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=aHRdNy4Gltk#video",
+      "name": "Farm Swing Gate — Fayetteville, Arkansas",
+      "description": "Farm swing gate installed by Thomas Fence at a rural property in Fayetteville, Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/aHRdNy4Gltk/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/aHRdNy4Gltk",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=aC1fU7WwiCU#video",
+      "name": "Farm Swing Gate — Garfield, Arkansas",
+      "description": "Farm swing gate installed by Thomas Fence at a rural property in Garfield, Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/aC1fU7WwiCU/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/aC1fU7WwiCU",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=--NoTqGdW30#video",
+      "name": "Farm Gate System",
+      "description": "Farm gate system in operation — Thomas Fence installation in Northwest Arkansas.",
+      "thumbnailUrl": "https://img.youtube.com/vi/--NoTqGdW30/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/--NoTqGdW30",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://www.youtube.com/watch?v=i_U3CMSPx9o#video",
+      "name": "Automated Gate Contractor — Springdale, Arkansas",
+      "description": "Thomas Fence automated gate contractor work in Springdale, Arkansas. CGAT-certified installation team.",
+      "thumbnailUrl": "https://img.youtube.com/vi/i_U3CMSPx9o/maxresdefault.jpg",
+      "uploadDate": "2026-05-21T00:00:00+00:00",
+      "embedUrl": "https://www.youtube.com/embed/i_U3CMSPx9o",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Thomas Fence",
+        "@id": "https://thomasfencear.com/#business"
+      }
+    }
+  ]
+}
+</script>
 
   <style>
     :root {

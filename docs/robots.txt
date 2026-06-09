@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://thomasfencear.com/sitemap.xml
+LLMs-txt: https://thomasfencear.com/llms.txt
