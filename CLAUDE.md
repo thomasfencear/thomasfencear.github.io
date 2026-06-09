@@ -103,6 +103,8 @@ grep -rl "pub-1f3d846fdda54894a47ecf31f412181f.r2.dev" . | xargs sed -i 's|pub-1
 | 301 redirect map | `_skills/tf-redirect-map.md` |
 | Nav or footer | `_skills/tf-nav-footer.md` |
 | Rich results / schema audit | `_skills/tf-rich-results.md` |
+| Google Ads, PPC, YouTube ads, LSA | `_skills/tf-ads.md` |
+| robots.txt — any question about changing it | `_skills/tf-robots-txt.md` |
 
 Always load the relevant skill before writing any code. Skills are the source of truth
 for structure, schema, and content rules. Never guess on schema types or redirect destinations.
@@ -334,6 +336,32 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 
 ---
 
+## Google Tag Infrastructure — Locked. Do Not Touch.
+
+### GTM Container
+- Container ID: `GTM-PFPBCGNR`
+- Installed on ALL pages via `<head>` snippet + `<noscript>` body snippet
+- Account owner: sociallysmashing@gmail.com
+- Greg (gregoryvpaschal@gmail.com) is Account Admin
+
+### GA4 Property
+- Measurement ID: `G-RWX69375PZ`
+- Property ID: 533587311
+- Account owner: gregoryvpaschal@gmail.com (Admin)
+- **GA4 is fired EXCLUSIVELY through GTM via the GA4 Configuration tag**
+- **The standalone gtag.js script was REMOVED from all HTML pages** — it was a pre-GTM install
+- Do NOT re-add any standalone `gtag.js` or `G-RWX69375PZ` script tags to any HTML page
+- In Tag Assistant, seeing both `GTM-PFPBCGNR` and `G-RWX69375PZ` is CORRECT and EXPECTED — Tag Assistant displays the GTM container and the GA4 property it manages as two separate items. This is NOT double-firing.
+
+### Google Ads
+- Account: 182-529-2325
+- Advertiser name: Thomas Fence
+- Conversion ID: `AW-18133576656`
+- Advertiser verification: completed June 1, 2026
+- Google Ads conversions are imported from GA4 — no separate Google Ads conversion tags in GTM needed
+
+---
+
 ## Rules Claude Code Cannot Break
 
 1. Never touch the existing thomasfencear.com site or contact DotCom Global Media.
@@ -384,6 +412,22 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 - ✓ BuildZoom entity conflict (Mark Thomas Fence Company LLC) — resolved April 24, 2026
 - ✓ Birdeye entity conflict — resolved May 7, 2026
 - ✓ Manta entity conflict — resolved May 11, 2026
+
+---
+
+---
+
+## Signed Contracts & Agreements
+
+Location: `_contracts/` folder at project root. Gitignored — never committed to the public repo.
+
+| File | Description |
+|---|---|
+| `_contracts/ThomasFence_AI_Authority_Report_March_2026.md` | The March 2026 AI Authority Report — 6-platform analysis that defined the engagement scope |
+| `_contracts/ThomasFence_SiteBuildAgreement_7500_2026_SIGNED.md` | Site Build Agreement — $7,500 one-time fee, signed April 6, 2026. Ref: ZY25F-ECDMV-ZUWTE-AHERY |
+| `_contracts/ThomasFence_ServiceAgreement_5000mo_SIGNED.md` | Monthly Strategy Agreement — $5,000/month, effective April 1, 2026. Ref: Z6PZH-JWGXY-GEZ7R-GRO8N |
+
+Do not reference these files for site build decisions. They are legal records only.
 
 ---
 

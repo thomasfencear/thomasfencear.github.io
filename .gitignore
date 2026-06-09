@@ -1,5 +1,8 @@
 # Private AI instructions
 _skills/
+
+# Signed contracts and agreements — never commit
+_contracts/
 .env
 .env.local
 *.env
