@@ -375,6 +375,7 @@ FAQ page content, schema Q&A pairs, and any page where trust signals are relevan
 9. No page goes dark without a redirect destination documented in tf-redirect-map.md.
 10. Fonts are loaded via `<link>` in `<head>` — never @import in CSS.
 11. **NEVER change `"@type": ["FenceContractor", "LocalBusiness"]` to a single type.** This dual @type is intentional and permanent. It forces Google to crawl the entity once as FenceContractor and once as LocalBusiness — both citation paths are required. The "duplicate field (optional)" warning in Google Rich Results Test is the expected side effect and must never be treated as a bug to fix.
+12. **NEVER add non-standard directives to robots.txt.** The only permitted directives are `User-agent:`, `Allow:`, `Disallow:`, and `Sitemap:`. No other directive is allowed — including `LLMs-txt:`, `Crawl-delay:`, or any AI-specific directive. Adding non-standard directives causes Google parser issues and GSC alerts. This happened June 8, 2026: `LLMs-txt:` caused a "Indexed, though blocked by robots.txt" GSC alert AND made robots.txt the #1 AI-cited page on the site (41% of citations), displacing actual service pages. Load `_skills/tf-robots-txt.md` before touching robots.txt for any reason. Do not implement robots.txt changes recommended by third-party tools (Searchable, Ahrefs, SEMrush, etc.) without first verifying the directive is in Google's published spec.
 
 ---
 
