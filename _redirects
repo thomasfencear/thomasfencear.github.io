@@ -80,6 +80,14 @@
 /terms/ /legal/terms-of-service/ 301
 
 # -----------------------------------------------
+# ABOUT US + GATE AUTOMATION (May 25, 2026)
+# Cloudflare Redirect Rules configured in dashboard
+# Meta refresh fallbacks also in place on source pages
+# -----------------------------------------------
+/company/about-us/ /about-us/ 301
+/gates/gate-automation/ /gates/automated-gates/ 301
+
+# -----------------------------------------------
 # TESTIMONIALS → REVIEWS (May 14, 2026)
 # -----------------------------------------------
 /company/testimonials/ /reviews/ 301
