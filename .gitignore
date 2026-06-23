@@ -20,3 +20,15 @@ docs/**/images/
 _download_report.txt
 download_service_images.py
 wire_service_images.py
+
+# ── Internal notes — live ONLY in the PRIVATE repo: thomasfencear/ThomasFence-Private ──
+# This is the PUBLIC website repo. Never commit memory, sessions, client comms,
+# reports, SOPs, task lists, or working inventories here. (Purged from history June 23, 2026.)
+memory/
+sessions/
+/greg-*
+/session-summary-*
+/notion-reorg-*
+/_sop-*
+/TASK-LIST.txt
+/*.csv
