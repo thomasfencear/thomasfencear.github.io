@@ -64,6 +64,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "https://www.bbb.org/us/ar/springdale/profile/fence-contractors/thomas-fence-0935-90003692",
         "https://www.youtube.com/@ThomasFenceArkansas"
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "6"
+      },
       "review": [
         {
           "@type": "Review",
@@ -217,7 +224,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .page-hero .breadcrumb ol li a:hover { color: var(--color-white); }
     .page-hero .breadcrumb ol li + li::before { content: "›"; margin-right: 8px; }
     .page-hero h1 { font-family: var(--font-heading); font-size: 2.6rem; color: var(--color-white); margin: 0 0 16px; line-height: 1.15; }
-    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.82); margin-bottom: 32px; max-width: 640px; }
+    .page-hero__sub { font-size: 1.1rem; color: rgba(255,255,255,0.82); margin-bottom: 20px; max-width: 640px; }
+    .page-hero__rating { display: inline-flex; align-items: baseline; gap: 8px; font-size: 0.95rem; color: rgba(255,255,255,0.9); }
+    .page-hero__rating .stars { color: #F4B942; font-size: 1rem; letter-spacing: 1px; }
+    .page-hero__rating strong { color: var(--color-white); font-weight: 600; }
 
     /* ── Trust Bar ── */
     .trust-bar { background: var(--color-red-primary); padding: 14px 0; }
@@ -405,6 +415,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </nav>
       <h1>What Our Customers Say</h1>
       <p class="page-hero__sub">Verified Google reviews from homeowners and businesses across Northwest Arkansas.</p>
+      <p class="page-hero__rating"><span class="stars" aria-hidden="true">★★★★★</span> <strong>5.0 average</strong> from 6 verified reviews</p>
     </div>
   </section>
 
