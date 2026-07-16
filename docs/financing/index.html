@@ -257,6 +257,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     }
 
+  
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '\2212'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
   </style>
 <!-- Searchable Analytics -->
 <script>window.sa=window.sa||function(){(sa.q=sa.q||[]).push(arguments)}</script>
@@ -272,6 +284,62 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:title" content="Fence Financing in Northwest Arkansas | Thomas Fence">
 <meta name="twitter:description" content="Finance your fence with Thomas Fence. Loans up to $250,000 through Hearth. No home equity required. See payment options without affecting your credit score.">
 <meta name="twitter:image" content="https://logo.thomasfencear.com/thomas-fence-og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does fence financing work at Thomas Fence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thomas Fence offers financing through Hearth, with monthly payment options for fence and gate projects. The application takes minutes online — apply through our Hearth financing portal and compare your options side by side."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does checking my rate affect my credit score?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Seeing your financing options through Hearth does not impact your credit score."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much can I finance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hearth offers loan amounts up to $250,000, which covers everything from a backyard privacy fence to large commercial and estate projects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a deposit required to start my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — Thomas Fence does not require a deposit, except for special order materials or custom metal work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I pay by credit card?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Credit card payments are accepted with a 3.5% processing fee added."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Get your price first — use the instant fence estimator or request a free estimate — then apply for financing whenever you are ready."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -411,6 +479,56 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
       </div>
     </section>
+
+  <!-- FAQS -->
+  <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>Financing FAQs</h2>
+
+      <details class="faq-item">
+        <summary>How does fence financing work at Thomas Fence?</summary>
+        <div class="faq-item__answer">
+          <p>Thomas Fence offers financing through Hearth, with monthly payment options for fence and gate projects. The application takes minutes online — <a href="https://app.gethearth.com/partners/thomas-fence/darrell/apply" target="_blank" rel="noopener noreferrer">apply through our Hearth financing portal</a> and compare your options side by side.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does checking my rate affect my credit score?</summary>
+        <div class="faq-item__answer">
+          <p>No. Seeing your financing options through Hearth does not impact your credit score.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How much can I finance?</summary>
+        <div class="faq-item__answer">
+          <p>Hearth offers loan amounts up to $250,000, which covers everything from a backyard privacy fence to large commercial and estate projects.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is a deposit required to start my project?</summary>
+        <div class="faq-item__answer">
+          <p>No — Thomas Fence does not require a deposit, except for special order materials or custom metal work.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I pay by credit card?</summary>
+        <div class="faq-item__answer">
+          <p>Yes. Credit card payments are accepted with a 3.5% processing fee added.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I get started?</summary>
+        <div class="faq-item__answer">
+          <p>Get your price first — use the <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer">instant fence estimator</a> or <a href="/contact/">request a free estimate</a> — then <a href="https://app.gethearth.com/partners/thomas-fence/darrell/apply" target="_blank" rel="noopener noreferrer">apply for financing</a> whenever you are ready.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
 
   </main>
 

@@ -219,6 +219,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     }
 
+  
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '\2212'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
   </style>
 <!-- Searchable Analytics -->
 <script>window.sa=window.sa||function(){(sa.q=sa.q||[]).push(arguments)}</script>
@@ -234,6 +246,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:title" content="Fence Warranty | Thomas Fence | Northwest Arkansas">
 <meta name="twitter:description" content="Thomas Fence offers a 1-year workmanship warranty on fence installations in Northwest Arkansas, plus manufacturer warranties on vinyl, steel, and chain link.">
 <meta name="twitter:image" content="https://logo.thomasfencear.com/thomas-fence-og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What warranty does Thomas Fence offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every Thomas Fence installation comes with a 1-year craftsmanship warranty, provided in writing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the craftsmanship warranty cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It covers the quality of our installation work — posts, footings, alignment, gates, and hardware installed by our crew — for one full year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do the fence materials have their own warranties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many do. Thomas Fence installs products from reputable manufacturers, and many of those products carry their own manufacturer warranties in addition to our craftsmanship warranty."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make a warranty claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Contact us or call (479) 636-4732 and describe the issue — we will take it from there."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -358,6 +410,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/contact/" class="btn-primary">Contact Us</a>
       </div>
     </section>
+
+  <!-- FAQS -->
+  <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>Warranty FAQs</h2>
+
+      <details class="faq-item">
+        <summary>What warranty does Thomas Fence offer?</summary>
+        <div class="faq-item__answer">
+          <p>Every Thomas Fence installation comes with a 1-year craftsmanship warranty, provided in writing.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What does the craftsmanship warranty cover?</summary>
+        <div class="faq-item__answer">
+          <p>It covers the quality of our installation work — posts, footings, alignment, gates, and hardware installed by our crew — for one full year.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do the fence materials have their own warranties?</summary>
+        <div class="faq-item__answer">
+          <p>Many do. Thomas Fence installs products from reputable manufacturers, and many of those products carry their own manufacturer warranties in addition to our craftsmanship warranty.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I make a warranty claim?</summary>
+        <div class="faq-item__answer">
+          <p><a href="/contact/">Contact us</a> or call <a href="tel:+14796364732">(479) 636-4732</a> and describe the issue — we will take it from there.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
 
   </main>
 

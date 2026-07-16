@@ -663,6 +663,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       }
     }
 
+  
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '\2212'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
   </style>
 <!-- Searchable Analytics -->
 <script>window.sa=window.sa||function(){(sa.q=sa.q||[]).push(arguments)}</script>
@@ -678,6 +690,54 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:title" content="About Thomas Fence | Family-Owned in Springdale Since 1993">
 <meta name="twitter:description" content="Thomas Fence has served Northwest Arkansas since 1993. Locally owned by Greg and Kate Paschal since 2003. Licensed, AFA certified, based in Springdale, AR.">
 <meta name="twitter:image" content="https://logo.thomasfencear.com/thomas-fence-og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is Thomas Fence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thomas Fence is a Northwest Arkansas fence and gate company founded in 1993 and owned by Greg Paschal since 2003. We build residential, commercial, and farm fencing along with automated gates, from our home base in Springdale."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Thomas Fence licensed and certified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Arkansas Contractor's License No. 015501, held since 2005 and renewed annually. Thomas Fence is also an AFA Certified Fence Contractor with a Certified Gate Automation Technician on staff. See our licensing and credentials page for the full list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Thomas Fence located, and what areas do you serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our office and yard are at 653 Kawneer Dr, Springdale, AR 72764, and we serve all of Northwest Arkansas — see the full service area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kinds of projects does Thomas Fence take on?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Everything from backyard privacy fences to commercial and farm fencing, plus gates and railings including automated gate systems. Browse our fencing services to see the full range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get an estimate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Request a free estimate and we will walk your property line with you, or get an instant number from the fence estimator."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -1025,6 +1085,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
       </div>
     </section>
+
+  <!-- FAQS -->
+  <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>About Thomas Fence FAQs</h2>
+
+      <details class="faq-item">
+        <summary>Who is Thomas Fence?</summary>
+        <div class="faq-item__answer">
+          <p>Thomas Fence is a Northwest Arkansas fence and gate company founded in 1993 and owned by Greg Paschal since 2003. We build residential, commercial, and farm fencing along with automated gates, from our home base in Springdale.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Is Thomas Fence licensed and certified?</summary>
+        <div class="faq-item__answer">
+          <p>Yes — Arkansas Contractor's License No. 015501, held since 2005 and renewed annually. Thomas Fence is also an AFA Certified Fence Contractor with a Certified Gate Automation Technician on staff. See our <a href="/licensing/">licensing and credentials page</a> for the full list.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Where is Thomas Fence located, and what areas do you serve?</summary>
+        <div class="faq-item__answer">
+          <p>Our office and yard are at 653 Kawneer Dr, Springdale, AR 72764, and we serve all of Northwest Arkansas — see the full <a href="/service-area/">service area</a>.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What kinds of projects does Thomas Fence take on?</summary>
+        <div class="faq-item__answer">
+          <p>Everything from backyard privacy fences to commercial and farm fencing, plus <a href="/gates/">gates and railings</a> including automated gate systems. Browse our <a href="/fences/">fencing services</a> to see the full range.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How do I get an estimate?</summary>
+        <div class="faq-item__answer">
+          <p><a href="/contact/">Request a free estimate</a> and we will walk your property line with you, or get an instant number from the <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer">fence estimator</a>.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
 
   </main>
 

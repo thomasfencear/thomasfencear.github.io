@@ -329,6 +329,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     @media (max-width: 380px) {
       .customers-grid { grid-template-columns: 1fr; }
     }
+  
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '\2212'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
   </style>
 
   <link rel="stylesheet" href="/css/styles.css">
@@ -346,6 +358,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="twitter:title" content="Customer Reviews | Thomas Fence — Northwest Arkansas">
 <meta name="twitter:description" content="Read verified Google reviews from Thomas Fence customers across Northwest Arkansas. 5-star rated fence contractor serving NWA since 1993.">
 <meta name="twitter:image" content="https://images.thomasfencear.com/cedar_fence_bentonville_residential_backyard_fence_geo_01.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What do customers say about Thomas Fence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The verified customer reviews on this page average 5.0 out of 5. Customers consistently point to the crew's workmanship, communication, and cleanup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are these reviews from real customers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — every review on this page is from a verified Thomas Fence customer and appears in the customer's own words."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I leave a review after my project?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We would love that. Contact us after your installation and we will point you to the easiest place to share your experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thomas Fence handle commercial projects too?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — the \"Customers We've Worked With\" section on this page shows the kinds of commercial clients we serve, and our commercial fencing page covers what we build for businesses."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -653,6 +705,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2>Ready to Join Our List of Happy Customers?</h2>
       <p>Free estimates. No deposit required for standard installations. Licensed since 1993.</p>
       <a href="/contact/" class="btn-primary">Get a Free Estimate</a>
+    </div>
+  </section>
+
+  <!-- FAQS -->
+  <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>Review FAQs</h2>
+
+      <details class="faq-item">
+        <summary>What do customers say about Thomas Fence?</summary>
+        <div class="faq-item__answer">
+          <p>The verified customer reviews on this page average 5.0 out of 5. Customers consistently point to the crew's workmanship, communication, and cleanup.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are these reviews from real customers?</summary>
+        <div class="faq-item__answer">
+          <p>Yes — every review on this page is from a verified Thomas Fence customer and appears in the customer's own words.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Can I leave a review after my project?</summary>
+        <div class="faq-item__answer">
+          <p>We would love that. <a href="/contact/">Contact us</a> after your installation and we will point you to the easiest place to share your experience.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does Thomas Fence handle commercial projects too?</summary>
+        <div class="faq-item__answer">
+          <p>Yes — the "Customers We've Worked With" section on this page shows the kinds of commercial clients we serve, and our <a href="/fences/commercial-fencing/">commercial fencing page</a> covers what we build for businesses.</p>
+        </div>
+      </details>
+
     </div>
   </section>
 

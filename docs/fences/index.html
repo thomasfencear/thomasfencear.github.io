@@ -676,6 +676,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       .site-nav__links { display: none; }
       .site-header__actions .btn--red { display: none; }
     }
+
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; align-items: center; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '−'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
   </style>
   <style id="tf-footer-css">
     /* Thomas Fence — Unified Footer */
@@ -765,6 +777,78 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "Bella Vista, AR",
     "Siloam Springs, AR",
     "Northwest Arkansas"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What types of fences does Thomas Fence install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thomas Fence installs vinyl, wood, chain link, and ornamental steel fencing, along with residential, commercial, farm, and temporary fence projects across Northwest Arkansas — and we have been doing it since 1993."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does a new fence cost in Northwest Arkansas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every project is different — cost depends on the material, the length of the fence line, gates, and the terrain. The fastest way to get a number is the instant fence estimator on thomasfencear.com, or contact Thomas Fence for a free on-site estimate. There is no deposit required except for special orders or custom metal work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How soon can my fence be installed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Work typically begins 1–3 weeks after you accept your estimate. Before digging, Arkansas law requires a utility locate through Arkansas 811, which takes 2 full business days — Thomas Fence calls that in for you. A typical residential installation then takes 2–3 business days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a permit, and who pulls it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most cities in Northwest Arkansas require a fence permit, and pulling it is the property owner's responsibility. Thomas Fence is happy to help you understand your city's process, with links to local permit offices on the Fence Permits page."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which fence material is right for my property?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on what the fence needs to do. Vinyl offers privacy with almost no maintenance, wood is the classic look for backyards, chain link is the best value for security and pets, and ornamental steel adds curb appeal that lasts for decades. The Thomas Fence team will walk your property line and help you choose during your free estimate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the fence posts set in concrete?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — concrete footings are standard practice on Thomas Fence installations unless otherwise agreed for your project."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What warranty comes with a new fence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every installation comes with a written 1-year workmanship warranty, backed by an Arkansas contractor's license held since 2005."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Thomas Fence offer financing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — financing is available through Hearth, with a quick online application that does not impact your credit score to check your rate. See the Financing page on thomasfencear.com to get started."
+      }
+    }
   ]
 }
 </script>
@@ -1017,6 +1101,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="cta-band__buttons">
       <a class="btn btn--navy" href="/contact/">Get a Free Estimate</a>
       <a class="btn btn--outline-white" href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer">Instant Fence Estimator</a>
+    </div>
+  </section>
+
+  <!-- FAQS -->
+  <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>Fencing FAQs</h2>
+
+      <details class="faq-item">
+        <summary>What types of fences does Thomas Fence install?</summary>
+        <div class="faq-item__answer">
+          <p>Thomas Fence installs <a href="/fences/vinyl-fence/">vinyl</a>, <a href="/fences/wood-fence/">wood</a>, <a href="/fences/chain-link-fence/">chain link</a>, and <a href="/fences/ornamental-steel-fence/">ornamental steel</a> fencing, along with <a href="/fences/residential-fencing/">residential</a>, <a href="/fences/commercial-fencing/">commercial</a>, <a href="/fences/farm-fencing/">farm</a>, and <a href="/fences/temporary-fences/">temporary</a> fence projects across Northwest Arkansas — and we have been doing it since 1993.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How much does a new fence cost in Northwest Arkansas?</summary>
+        <div class="faq-item__answer">
+          <p>Every project is different — cost depends on the material, the length of the fence line, gates, and the terrain. The fastest way to get a number is our <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer">instant fence estimator</a>, or <a href="/contact/">contact us</a> for a free on-site estimate. There is no deposit required except for special orders or custom metal work.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>How soon can my fence be installed?</summary>
+        <div class="faq-item__answer">
+          <p>Work typically begins 1–3 weeks after you accept your estimate. Before digging, Arkansas law requires a utility locate through Arkansas 811, which takes 2 full business days — Thomas Fence calls that in for you. A typical residential installation then takes 2–3 business days.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Do I need a permit, and who pulls it?</summary>
+        <div class="faq-item__answer">
+          <p>Most cities in Northwest Arkansas require a fence permit, and pulling it is the property owner's responsibility. Thomas Fence is happy to help you understand your city's process — see our <a href="/permits/">Fence Permits page</a> for links to local permit offices.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Which fence material is right for my property?</summary>
+        <div class="faq-item__answer">
+          <p>It depends on what the fence needs to do. Vinyl offers privacy with almost no maintenance, wood is the classic look for backyards, chain link is the best value for security and pets, and ornamental steel adds curb appeal that lasts for decades. Our team will walk your property line and help you choose during your free estimate.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Are the fence posts set in concrete?</summary>
+        <div class="faq-item__answer">
+          <p>Yes — concrete footings are standard practice on our installations unless otherwise agreed for your project.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>What warranty comes with a new fence?</summary>
+        <div class="faq-item__answer">
+          <p>Every installation comes with a written 1-year workmanship warranty, backed by an Arkansas contractor's license we have held since 2005. See our <a href="/warranty/">Warranty page</a> for details.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary>Does Thomas Fence offer financing?</summary>
+        <div class="faq-item__answer">
+          <p>Yes — financing is available through Hearth, with a quick online application that does not impact your credit score to check your rate. See our <a href="/financing/">Financing page</a> to get started.</p>
+        </div>
+      </details>
+
     </div>
   </section>
 
