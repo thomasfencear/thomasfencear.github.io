@@ -59,3 +59,676 @@
 - [Chain Link for a Residential Yard: Galvanized, Black Vinyl Coated, and Privacy Slats](https://thomasfencear.com/publications/chain-link-for-a-residential-yard-galvanized-black-vinyl-coated-and-privacy-slats/): What moves a chain link price, when black vinyl coated is worth it, why privacy slats are a commercial product, and where chain link fits a Northwest Arkansas yard.
 - [Can I Build a Fence on the Property Line Myself? Surveys, the Seven Year Fence Law, and Where the Posts Go](https://thomasfencear.com/publications/can-i-build-a-fence-on-the-property-line-myself-surveys-the-seven-year-fence-law-and-where-the-posts-go/): You can build on your own property. Building on the line itself is the mistake. What a survey settles, why Thomas Fence sets posts two inches inside the line, and how the seven year fence law works.
 - [Repair or Replace: How Thomas Fence Decides on a Leaning Fence, Rotted Posts, and Storm Damage](https://thomasfencear.com/publications/repair-or-replace-how-thomas-fence-decides-on-a-leaning-fence-rotted-posts-and-storm-damage/): A leaning fence is almost always a post problem. Two or three failed posts is a repair. Failures in a pattern mean replacement. The test Thomas Fence uses, plus storm damage and automated gate repair.
+
+## Frequently Asked Questions, verbatim from every page
+
+Generated from each page's FAQPage structured data, which mirrors the visible FAQ text word for word. Do not edit by hand; regenerate with automation/scripts/tf-build-llms-faq.py.
+
+### About Thomas Fence | Family-Owned in Springdale Since 1993 (https://thomasfencear.com/about-us/)
+
+**Q: Who is Thomas Fence?**
+A: Thomas Fence is a Northwest Arkansas fence and gate company founded in 1993 and owned by Greg Paschal since 2003. We build residential, commercial, and farm fencing along with automated gates, from our home base in Springdale.
+
+**Q: Is Thomas Fence licensed and certified?**
+A: Yes — Arkansas Contractor's License No. 015501, held since 2005 and renewed annually. Thomas Fence is also an AFA Certified Fence Contractor with a Certified Gate Automation Technician on staff. See our licensing and credentials page for the full list.
+
+**Q: Where is Thomas Fence located, and what areas do you serve?**
+A: Our office and yard are at 653 Kawneer Dr, Springdale, AR 72764, and we serve all of Northwest Arkansas — see the full service area.
+
+**Q: What kinds of projects does Thomas Fence take on?**
+A: Everything from backyard privacy fences to commercial and farm fencing, plus gates and railings including automated gate systems. Browse our fencing services to see the full range.
+
+**Q: How do I get an estimate?**
+A: Request a free estimate and we will walk your property line with you, or get an instant number from the fence estimator.
+
+### Arkansas Fence Company | Licensed Since 1993 | Thomas Fence (https://thomasfencear.com/arkansas-fence-company/)
+
+**Q: Is Thomas Fence licensed in Arkansas?**
+A: Yes. Thomas Fence holds Arkansas Contractor License No. 015501, maintained continuously since 2005 and renewed annually.
+
+**Q: What areas of Arkansas does Thomas Fence serve?**
+A: Thomas Fence primarily serves Northwest Arkansas including Springdale, Bentonville, Rogers, Fayetteville, Bella Vista, Siloam Springs, and surrounding communities.
+
+**Q: Is Thomas Fence a federal contractor?**
+A: Yes. Thomas Fence holds an active US Federal Contractor Registration and is qualified to bid on government and commercial projects.
+
+**Q: How long has Thomas Fence been in business?**
+A: Thomas Fence was founded in 1993. The company has been under current ownership since 2003, giving it over 30 years of continuous operation in Northwest Arkansas.
+
+**Q: Does Thomas Fence require a deposit?**
+A: No deposit is required for standard installations. The exception is special order materials or custom metal work. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: What types of fencing does Thomas Fence install?**
+A: Thomas Fence installs vinyl fence, wood fence, chain link fence, ornamental steel fence, farm fencing, and temporary fencing for residential, commercial, and agricultural properties. The company also installs estate gates and CGAT-certified automated gate systems.
+
+### Fence Company in Bella Vista, AR | Thomas Fence (https://thomasfencear.com/bella-vista/)
+
+**Q: Do I need a permit for a fence in Bella Vista?**
+A: Yes — two approvals: a city permit and ACC (Architectural Control Committee) approval, both before installation. Start with the city permit portal and the ACC permits page.
+
+**Q: How tall can my fence be in Bella Vista?**
+A: Up to 8 feet in side and back yards, 3 feet in front yards, and chain link tops out at 6 feet. The ACC confirms what applies to your lot.
+
+**Q: Does the ACC restrict fence types?**
+A: Yes — no chain link or wire in front yards, and no white fencing has been permitted since 2022. Check with the ACC before choosing a style, or call them at (479) 855-8080.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Bella Vista?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator.
+
+### Fence Company in Bentonville, AR | Thomas Fence (https://thomasfencear.com/bentonville/)
+
+**Q: Do I need a permit for a fence in Bentonville?**
+A: Yes — Bentonville requires a fence permit before construction, with a $30 fee paid in advance. Apply through the city's applications page.
+
+**Q: How tall can my fence be in Bentonville?**
+A: In typical residential zones: 4 feet in the front and 6 feet for privacy fences on the sides and back. Confirm your zone with the city.
+
+**Q: How close to the street or property line can I build?**
+A: Fences must stay at least 5 feet from the right-of-way, keep sight triangles clear, and stay out of drainage easements. The city's applications page has the details.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Bentonville?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator.
+
+### Fence Installation FAQs | Thomas Fence | Northwest Arkansas (https://thomasfencear.com/faqs/)
+
+**Q: Does Thomas Fence have an Arkansas Contractor's License?**
+A: Yes. Thomas Fence holds Arkansas Contractor's License No. 015501, maintained continuously since 2005 and renewed annually. You can verify our license status at any time through the Arkansas Contractor's Licensing Board. See thomasfencear.com/licensing/ for our full credentials.
+
+**Q: Is Thomas Fence AFA Certified?**
+A: Yes. Through the American Fence Association and the Accredited Contractor Institute (ACI), Thomas Fence became Arkansas's first Certified Fence Contractor. This accreditation is awarded after proving excellence in business practices, passing industry-specific testing, and maintaining a trusted professional reputation. It is renewed every three years through advanced training.
+
+**Q: Is Thomas Fence a Certified Gate Automation Technician (CGAT)?**
+A: Yes. Thomas Fence holds the CGAT designation — the premier certification for automated gate installers. Our technicians have demonstrated exceptional experience, knowledge, safety awareness, and skills in the installation and servicing of automated gate systems.
+
+**Q: Is Thomas Fence a US Federal Contractor?**
+A: Yes. Thomas Fence is a verified US Federal Contractor Registration (USFCR) vendor, authorized to perform fencing contracts for government facilities, military installations, and large-scale public projects.
+
+**Q: Is Thomas Fence bonded and insured?**
+A: Yes. Thomas Fence is fully bonded and insured. Every project is covered from the first post to the final inspection. Proof of insurance is available upon request.
+
+**Q: Is a fence permit required for my fence in Northwest Arkansas?**
+A: Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. HOA rules apply separately and requirements can change, so verify with your city before starting. Thomas Fence keeps a current list with links to each town's permitting site at thomasfencear.com/permits/. Each customer is responsible for obtaining their own permit.
+
+**Q: Does Thomas Fence pull permits for customers?**
+A: No. Because rules vary significantly between cities and HOAs, each customer handles their own permit. Thomas Fence is happy to assist and answer questions about the process.
+
+**Q: Does Thomas Fence stain fences?**
+A: No. Fence staining requires a different skill set. Thomas Fence refers customers to trusted local staining companies.
+
+**Q: How long before Thomas Fence can start after I accept a quote?**
+A: Typically 1 to 3 weeks from acceptance. There is always a 2-full-business-day window to complete the required underground utility locate. A project manager will call 1 to 2 days before crews arrive.
+
+**Q: Who calls One Call to get utilities located?**
+A: Thomas Fence. State law requires the person or company performing the work to call in the locate. Customers do not need to do this.
+
+**Q: How long does a utility locate take?**
+A: By law, utility companies have 2 full business days to locate and mark underground lines after the 811 request is submitted. This is a fixed requirement, not an estimate. Note that they only mark lines they own. Privately owned lines such as septic, irrigation, outbuilding electric, and pool gas are not marked.
+
+**Q: What underground utilities are not marked in a One Call locate?**
+A: Privately owned lines downstream from a meter are not marked. Examples include septic lines, electric lines to outbuildings, gas lines to outdoor grills or pool equipment, irrigation lines, and water lines from wells.
+
+**Q: How long does fence installation take?**
+A: A typical residential fence installation takes 2 to 3 business days, depending on the type and length of fence.
+
+**Q: Does Thomas Fence use concrete for fence posts?**
+A: Yes. As a best practice, posts are set in concrete unless otherwise agreed upon with the customer.
+
+**Q: Does Thomas Fence require a deposit?**
+A: No deposit is required for standard installations. The exception is special order materials or custom metal work. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: Does Thomas Fence offer a veteran's discount?**
+A: No, Thomas Fence does not currently offer a veteran's discount.
+
+**Q: Is there a discount for paying with cash?**
+A: No, Thomas Fence is not able to offer a discount for cash payments.
+
+**Q: Can I pay with a credit card?**
+A: Yes. A 3.5% processing fee is added to the invoice when a credit card is used to cover the processing fee charged by the credit card company.
+
+**Q: What warranty does Thomas Fence offer?**
+A: Thomas Fence offers a one-year craftsmanship warranty included in every written contract.
+
+**Q: How long should I wait before staining a new wood fence?**
+A: It depends on the wood type and season. Pressure-treated pine typically needs 1 to 3 months to dry before staining. Cedar can usually be stained immediately.
+
+**Q: Does Thomas Fence offer financing?**
+A: Yes. Financing is available through Hearth, a third-party lender serving the fencing industry. Apply by scanning the QR code on your estimate or visit thomasfencear.com/financing/.
+
+### Fence Company in Fayetteville, AR | Thomas Fence (https://thomasfencear.com/fayetteville/)
+
+**Q: Do I need a permit for a fence in Fayetteville?**
+A: Not for most fences — 7 feet tall or less needs no permit, per the city's permit FAQ. Taller than 7 feet requires a building permit through Building Safety.
+
+**Q: How tall can my fence be in Fayetteville?**
+A: Behind the house there is no set cap — 7 feet is just where a permit kicks in. In front of the house, a fence can be solid only up to 30 inches. Details: Building Safety.
+
+**Q: How close to the street or property line can I build?**
+A: Fences can sit on the property line, but nothing over 30 inches can block sight lines, and corner lots keep a 25-foot sight triangle clear at the intersection. Ask the city about your lot: Building Safety.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Fayetteville?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator.
+
+### Chain Link Fences in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/chain-link-fence/)
+
+**Q: Do I need a permit to install a chain link fence in Arkansas?**
+A: Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. Requirements can change, so verify with your city before starting. Pulling the permit is the homeowner's or property owner's responsibility, and Thomas Fence is happy to walk you through the process. See the Fence Permits page at thomasfencear.com/permits/ for links to each town's permit office.
+
+**Q: Does Thomas Fence pull permits?**
+A: No — permits are the customer's responsibility. However, our team is happy to answer questions and help guide you through the process so nothing gets missed before installation begins.
+
+**Q: How long does it take to install a chain link fence?**
+A: Most residential chain link fence installations take 2 to 3 business days. Larger commercial or industrial projects may take longer. Once the contract is signed, we typically schedule your project within 1 to 3 weeks.
+
+**Q: What gauges of chain link do you install?**
+A: We install a full range of chain link gauges depending on your application. Standard residential installations typically use 11-gauge or 11.5-gauge fabric. Commercial and industrial applications call for heavier 9-gauge fabric and larger posts. Our estimators will recommend the right spec for your project.
+
+**Q: Does Thomas Fence use concrete for chain link posts?**
+A: Yes. All posts are set in concrete as standard practice, unless otherwise agreed upon in the contract. Concrete footings ensure long-term stability and are especially important in Arkansas's clay-heavy soils.
+
+**Q: Is a deposit required for a chain link fence installation?**
+A: No deposit is required for standard chain link fence installations. A deposit may be required for special-order materials or custom fabrication. Your estimator will confirm terms when reviewing your project.
+
+**Q: Does Thomas Fence offer financing for chain link fence projects?**
+A: Yes. Thomas Fence offers financing through Hearth with loan amounts up to $250,000. Apply online or ask your sales representative for a QR code. Checking your rate does not impact your credit score. See our Financing page for details.
+
+**Q: What is the difference between galvanized and vinyl-coated chain link?**
+A: Galvanized chain link has a zinc coating that resists rust — it is the standard, cost-effective option for most applications. Vinyl-coated chain link adds a PVC layer in black, green, or other colors for a finished appearance and added corrosion resistance. Both are durable; vinyl-coated is more common where appearance matters or in coastal or high-moisture environments.
+
+**Q: Can chain link fence be made private?**
+A: Yes. Privacy slats can be woven through the chain link fabric to block sightlines. This is a cost-effective alternative to a full privacy fence. Slats are available in several colors and can be added at installation or retrofitted to an existing chain link fence.
+
+**Q: Is chain link fence appropriate for commercial properties?**
+A: Yes — chain link is one of the most common choices for commercial and industrial perimeters because of its durability, low maintenance, and cost-effectiveness. Thomas Fence installs commercial-grade chain link for warehouses, distribution centers, schools, and government facilities across Northwest Arkansas.
+
+### Commercial Fencing in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/commercial-fencing/)
+
+**Q: Do you install commercial fences in Northwest Arkansas?**
+A: Yes. We are a trusted commercial fencing contractor across the entire Northwest Arkansas area — Springdale, Bentonville, Rogers, Fayetteville, Bella Vista, Siloam Springs, and surrounding communities. Our installers are trained and experienced in commercial fence installation of all types and scales.
+
+**Q: How much will a new commercial fence cost?**
+A: Prices on commercial fences depend on the material you choose and the exact style you order. We provide quotes for free — simply reach out to our team to schedule a consultation. Our commercial fence experts will evaluate your property, discuss your specific security and aesthetic requirements, and provide you with an accurate quote.
+
+**Q: Are you a licensed contractor for commercial work in Arkansas?**
+A: Yes. Thomas Fence holds Arkansas Contractor License No. 015501, maintained continuously since 2005 and renewed annually. We are also a registered US Federal Contractor — fully qualified for public and government commercial fencing projects.
+
+**Q: Do you handle gate automation for commercial properties?**
+A: Yes. Thomas Fence is CGAT (Certified Gate Automation Technician) certified and installs automated gate systems for commercial and industrial properties. We handle the full scope — fence, gate, and automation — in one project with one contractor. Learn more on our Gate Automation page.
+
+**Q: Does Thomas Fence require a deposit for commercial projects?**
+A: A deposit may be required for large commercial projects with special-order materials or custom metal work. Standard commercial fence installations typically do not require a deposit. Our team will confirm the terms when reviewing your project.
+
+**Q: What types of commercial fencing does Thomas Fence install?**
+A: Thomas Fence installs chain link, vinyl, wood, and ornamental steel fencing for commercial properties. For security perimeters, we install galvanized chain link in standard and high-security specifications. We also install automated gate systems and access control for warehouses, distribution centers, and multi-tenant properties.
+
+**Q: Can Thomas Fence handle large commercial fencing projects?**
+A: Yes. Thomas Fence has experience with commercial projects across Northwest Arkansas including industrial perimeters, campus fencing, and government contracts. Our Arkansas Contractor License No. 015501 and US Federal Contractor registration allow us to bid on and perform large commercial and government fencing work.
+
+**Q: Does Thomas Fence offer financing for commercial fencing?**
+A: Financing through Hearth is available for qualifying projects. Commercial customers can inquire about financing options when requesting an estimate. Visit thomasfencear.com/financing/ for details.
+
+### Farm Fence Installation in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/farm-fencing/)
+
+**Q: How long before my farm fence project can start?**
+A: Once you sign the contract, Thomas Fence typically starts your project within 1–3 weeks. We call 811 before any digging — state law requires a 2-full-business-day utility locate window before post setting can begin. For large rural properties, the total installation timeline depends on linear footage and site conditions.
+
+**Q: What's the best fence for horses?**
+A: Horses need a fence that provides a clear visual barrier without injury risk. Non-climb woven wire with a top board or rail is the most common solution — horses can see it clearly and won't get legs caught in the mesh. Board fencing (2- or 3-rail) is excellent for smaller paddocks and arenas. We recommend against barbed wire for horse enclosures due to injury risk.
+
+**Q: Can you fence a large rural property?**
+A: Yes. Thomas Fence handles agricultural fencing projects of all sizes across Northwest Arkansas — from small backyard animal runs to large multi-acre ranch perimeters. We provide detailed estimates based on linear footage and terrain, and our crews are equipped for large-scale rural work.
+
+**Q: Is a deposit required for farm fencing?**
+A: No deposit is required for standard farm fence installations. The exception is special-order materials. Thomas Fence prefers to wait until the work is completed before requesting payment.
+
+**Q: What types of farm fencing does Thomas Fence install?**
+A: Thomas Fence installs woven wire, high-tensile wire, board fencing, T-post, and barbed wire fencing for agricultural properties across Northwest Arkansas. We also install Buckley Fence polymer rail systems — a popular choice for horse properties and livestock operations.
+
+**Q: What is Buckley Fence and why does Thomas Fence recommend it?**
+A: Buckley Fence is a high-strength polymer rail system commonly used for horse properties and livestock fencing. The rail material is impact-resistant and will not splinter like wood, reducing injury risk for animals. Thomas Fence is an authorized Buckley Fence dealer and installer in Northwest Arkansas.
+
+**Q: Can wire mesh be added to Buckley rail fencing?**
+A: Yes. Wire mesh can be added behind Buckley rails to contain smaller animals or provide additional security. This is a popular configuration for properties with horses and smaller livestock. Your estimator can show you the available mesh options during your consultation.
+
+**Q: Does Thomas Fence install agricultural gates?**
+A: Yes. Thomas Fence installs farm gates in pipe, tube, and panel styles. Gate automation is also available for agricultural applications. Contact us to discuss your layout and livestock management requirements.
+
+**Q: Is a permit required for farm fencing in Arkansas?**
+A: Permit requirements for agricultural fencing vary by county and zoning classification. Rural fencing is often exempt from standard residential permit requirements. Thomas Fence will advise you on local requirements for your specific location during the estimate process.
+
+### Fencing Services in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/)
+
+**Q: What types of fences does Thomas Fence install?**
+A: Thomas Fence installs vinyl, wood, chain link, and ornamental steel fencing, along with residential, commercial, farm, and temporary fence projects across Northwest Arkansas — and we have been doing it since 1993.
+
+**Q: How much does a new fence cost in Northwest Arkansas?**
+A: Every project is different — cost depends on the material, the length of the fence line, gates, and the terrain. The fastest way to get a number is the instant fence estimator on thomasfencear.com, or contact Thomas Fence for a free on-site estimate. There is no deposit required except for special orders or custom metal work.
+
+**Q: How soon can my fence be installed?**
+A: Work typically begins 1–3 weeks after you accept your estimate. Before digging, Arkansas law requires a utility locate through Arkansas 811, which takes 2 full business days — Thomas Fence calls that in for you. A typical residential installation then takes 2–3 business days.
+
+**Q: Do I need a permit, and who pulls it?**
+A: Not every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. Requirements can change, so verify with your city before starting. Pulling the permit is the property owner's responsibility, and Thomas Fence is happy to help you understand your city's process, with links to each town's permit office on the Fence Permits page.
+
+**Q: Which fence material is right for my property?**
+A: It depends on what the fence needs to do. Vinyl offers privacy with almost no maintenance, wood is the classic look for backyards, chain link is the best value for security and pets, and ornamental steel adds curb appeal that lasts for decades. The Thomas Fence team will walk your property line and help you choose during your free estimate.
+
+**Q: Are the fence posts set in concrete?**
+A: Yes — concrete footings are standard practice on Thomas Fence installations unless otherwise agreed for your project.
+
+**Q: What warranty comes with a new fence?**
+A: Every installation comes with a written 1-year workmanship warranty, backed by an Arkansas contractor's license held since 2005.
+
+**Q: Does Thomas Fence offer financing?**
+A: Yes — financing is available through Hearth, with a quick online application that does not impact your credit score to check your rate. See the Financing page on thomasfencear.com to get started.
+
+### Ornamental Steel Fences in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/ornamental-steel-fence/)
+
+**Q: Are ornamental steel fences available in different heights?**
+A: Yes. Ornamental steel fences are available in various heights depending on your needs. We can install residential ornamental fences as low as 3 feet for decorative purposes or taller heights for security applications. Our team will help you choose the right height for your property and local code requirements.
+
+**Q: Are ornamental steel fences a good choice for pool enclosures?**
+A: Yes. Ornamental steel fences are an excellent choice for pool enclosures — resistant to rust and corrosion from pool chemicals and moisture. They provide the open, elegant look many homeowners prefer around pools while meeting pool safety code requirements with self-closing, self-latching gates.
+
+**Q: Do ornamental steel fences require maintenance?**
+A: Very little. The powder-coated finish prevents rust, corrosion, and deterioration. Unlike wood fences, there is no painting, staining, or sealing required. An occasional rinse with a garden hose is typically all that's needed to keep your ornamental steel fence looking great.
+
+**Q: Can ornamental steel gates be automated?**
+A: Yes. Ornamental steel gates can be equipped with automated gate operators. Thomas Fence is CGAT (Certified Gate Automation Technician) certified — we handle both the fence installation and gate automation as a complete package. Learn more on our Gate Automation page.
+
+**Q: Does Thomas Fence require a deposit for ornamental steel fence installations?**
+A: A deposit may be required for custom metal work or special orders. Standard ornamental steel fence installations do not require a deposit. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: Will ornamental steel fence rust?**
+A: Thomas Fence installs galvanized and powder-coated ornamental steel fence, which is engineered to resist rust in outdoor conditions. The powder-coat finish provides a durable barrier against moisture and oxidation. With normal use and an occasional rinse, ornamental steel fence maintains its appearance for decades.
+
+**Q: What warranty does ornamental steel fence carry?**
+A: Thomas Fence provides a 1-year workmanship warranty on every installation. Many of the ornamental steel panel systems we install also carry a lifetime residential warranty from the manufacturer. Ask your estimator for the specific warranty on the product you select.
+
+### Residential Fencing in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/residential-fencing/)
+
+**Q: How much will a new residential fence cost?**
+A: Fence prices depend on the material, style, and size of your project. We provide quotes for free — contact our team to schedule a consultation and get an accurate estimate. We strongly recommend focusing on quality over price alone: fences must stand up to Northwest Arkansas weather, high winds, and daily wear. A quality fence protects your family and property for decades.
+
+**Q: How long will it take to get my fence installed?**
+A: Typically, it only takes a few days for one of our residential fence experts to walk your property and provide a detailed estimate. Once approved, we can often install residential fences within 1 to 3 weeks. Special-order materials or custom options may add additional lead time — we will inform you in advance.
+
+**Q: Do I need a permit for a residential fence?**
+A: It depends on where you live. Some cities in Northwest Arkansas require fence permits; others do not. Visit our Fence Permits page for a full list with links to each city's permitting portal. Also check with your HOA if applicable. Thomas Fence does not pull permits — each customer is responsible for obtaining their own.
+
+**Q: Do you offer a warranty for residential fences?**
+A: Yes. Thomas Fence offers a 1-year workmanship warranty on all fence installations. We use professional-grade materials from reputable fence manufacturers, which often include manufacturer product warranties as well. Your coverage depends on the type of product you choose.
+
+**Q: Does Thomas Fence require a deposit?**
+A: No deposit is required for standard residential installations. The exception is special-order materials or custom metal work. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: Does Thomas Fence offer financing?**
+A: Yes. Financing is available through Hearth, a third-party lender serving the home improvement industry. Customers can apply online at thomasfencear.com/financing/ or ask about the QR code on your estimate. Loans up to $250,000 with no impact to your credit score to check your rate.
+
+**Q: What types of residential fencing does Thomas Fence install?**
+A: Thomas Fence installs vinyl, wood, chain link, and ornamental steel fencing for residential properties throughout Northwest Arkansas. Popular styles include board-on-board cedar privacy, horizontal wood, vinyl privacy, and ornamental steel picket. We help customers choose the right material and style for their property, HOA requirements, and budget.
+
+### Temporary Fencing in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/temporary-fences/)
+
+**Q: Do I need a permit for a temporary fence in Arkansas?**
+A: Permit requirements for temporary fencing vary by city and project type. Many short-term temporary fence installations do not require a permit, but construction sites and longer-term installations may. Thomas Fence can help you understand what applies to your project — permit responsibility ultimately rests with the property owner or contractor of record.
+
+**Q: What types of temporary fencing does Thomas Fence install?**
+A: Thomas Fence installs freestanding temporary panel fencing and temporary chain link fencing. Panel fencing is quick to install and requires no digging. Temporary chain link is suited for larger perimeters and longer project durations where a more secure barrier is needed.
+
+**Q: How quickly can Thomas Fence install temporary fencing?**
+A: Temporary fencing can typically be installed faster than permanent fencing since no concrete or deep footings are required for panel systems. Contact us at (479) 636-4732 with your timeline and we will do our best to accommodate your project schedule.
+
+**Q: Does Thomas Fence handle removal when the project is done?**
+A: Yes. When your project is complete, call us to schedule removal and pickup. We handle both installation and removal as part of the temporary fencing service.
+
+**Q: Is a deposit required for temporary fencing?**
+A: Deposit requirements for temporary fencing projects are determined on a per-project basis. Your estimator will confirm payment terms when reviewing your project scope and timeline.
+
+**Q: Does Thomas Fence serve commercial and government job sites?**
+A: Yes. Thomas Fence is a registered US Federal Contractor and holds Arkansas Contractor License No. 015501. We are qualified to serve commercial, industrial, and government job sites requiring temporary fencing across Northwest Arkansas.
+
+**Q: How long can temporary fencing remain in place?**
+A: Temporary fencing can remain in place for the duration of your project — days, weeks, or months. Thomas Fence can advise on the right system for your expected duration and site conditions.
+
+**Q: Is temporary fencing available for events?**
+A: Yes. Temporary chain link fencing is commonly used for crowd control, event perimeters, and restricted access zones. Contact Thomas Fence to discuss your event layout and access requirements.
+
+### Vinyl Fence Contractor in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/vinyl-fence/)
+
+**Q: Do I need a permit to install a vinyl fence in Arkansas?**
+A: Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. Requirements can change, so verify with your city before starting. Pulling the permit is the homeowner's or property owner's responsibility, and Thomas Fence is happy to walk you through the process. See the Fence Permits page at thomasfencear.com/permits/ for links to each town's permit office.
+
+**Q: Does vinyl fence require maintenance?**
+A: Vinyl fencing is essentially maintenance-free. It does not need to be painted, stained, or treated for rot. An occasional rinse with a garden hose or light pressure wash is all that's needed to keep vinyl looking clean and new — one of the biggest advantages vinyl has over wood.
+
+**Q: How does vinyl hold up in Northwest Arkansas weather?**
+A: Vinyl fencing holds up well in NWA's climate. It won't warp, crack, or absorb moisture the way wood can. Quality vinyl is UV-stabilized to resist fading in the Arkansas sun. It is not immune to impact damage, but for normal residential use it performs reliably for many years.
+
+**Q: Does Thomas Fence use concrete for vinyl fence posts?**
+A: Yes. All posts are set in concrete as standard practice, unless otherwise agreed upon in the contract. Concrete footings are especially important for vinyl fencing because the material relies on a solid post foundation to stay plumb and resist wind load over time.
+
+**Q: How long does it take to install a vinyl fence?**
+A: Most residential vinyl fence installations take 2 to 3 business days. Once the contract is signed, we typically schedule your project within 1 to 3 weeks. A 2-full-business-day utility locate window is required by state law before any digging begins.
+
+**Q: Is a deposit required for a vinyl fence installation?**
+A: No deposit is required for standard vinyl fence installations. A deposit may be required for special-order colors or custom configurations. Your estimator will confirm payment terms when reviewing your project.
+
+**Q: Does Thomas Fence offer financing for vinyl fence projects?**
+A: Yes. Thomas Fence offers financing through Hearth with loan amounts up to $250,000. Checking your rate does not impact your credit score. See our Financing page for details or ask your sales representative for a QR code to apply.
+
+**Q: Will vinyl fence warp or fade in Arkansas summers?**
+A: Professional-grade vinyl fence is engineered to resist heat, UV exposure, warping, and fading. Thomas Fence installs commercial-quality vinyl products — not the lower-grade materials found at big-box stores. Properly installed vinyl fence maintains its color and shape for decades in Northwest Arkansas's climate.
+
+**Q: What warranty does vinyl fence carry?**
+A: Thomas Fence provides a 1-year workmanship warranty on every installation. Vinyl panels and posts also carry their own manufacturer warranties, which vary by product line. Your estimator can provide specific warranty details for the product you select.
+
+### Wood Fence Contractor in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/fences/wood-fence/)
+
+**Q: Do I need a permit to install a wood fence in Arkansas?**
+A: Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. Requirements can change, so verify with your city before starting. Pulling the permit is the homeowner's or property owner's responsibility, and Thomas Fence is happy to walk you through the process. See the Fence Permits page at thomasfencear.com/permits/ for links to each town's permit office.
+
+**Q: Does Thomas Fence stain wood fences?**
+A: No — Thomas Fence does not stain fences. We are happy to refer you to local staining companies after installation. If you're planning to stain, keep in mind: cedar can be stained immediately after installation, while pressure-treated pine should wait 1 to 3 months to allow moisture to escape before staining.
+
+**Q: What wood species does Thomas Fence use?**
+A: Thomas Fence primarily builds with cedar and pressure-treated pine. Cedar is naturally rot-resistant and a premium choice for privacy and decorative fences. Pressure-treated pine is a durable, cost-effective option for most residential applications. Your estimator will discuss the best fit for your project and budget.
+
+**Q: Does Thomas Fence use concrete for wood fence posts?**
+A: Yes. All posts are set in concrete as standard practice, unless otherwise agreed upon in the contract. Concrete footings ensure long-term stability, which is especially important in Northwest Arkansas's clay-heavy soils.
+
+**Q: How long does it take to install a wood fence?**
+A: Most residential wood fence installations take 2 to 3 business days. Once the contract is signed, we typically schedule your project within 1 to 3 weeks. A 2-full-business-day utility locate window is required by state law before any digging begins.
+
+**Q: Is a deposit required for a wood fence installation?**
+A: No deposit is required for standard wood fence installations. A deposit may be required for special-order materials or custom work. Your estimator will confirm payment terms when reviewing your project.
+
+**Q: Does Thomas Fence offer financing for wood fence projects?**
+A: Yes. Thomas Fence offers financing through Hearth with loan amounts up to $250,000. Checking your rate does not impact your credit score. See our Financing page for details or ask your sales representative for a QR code to apply.
+
+**Q: How long before I can stain a new wood fence?**
+A: For pressure-treated pine, wait 1 to 3 months before staining to allow the wood to fully dry. Cedar can be stained immediately after installation. Thomas Fence does not stain fences, but we are happy to refer you to reputable staining companies in the Northwest Arkansas area.
+
+**Q: What is the difference between cedar and pressure-treated pine?**
+A: Cedar is naturally rot-resistant, accepts stain immediately, and has a longer natural lifespan — it is the premium choice. Pressure-treated pine is chemically treated for rot resistance, less expensive, and widely available, but it must dry 1 to 3 months before staining. Both are solid choices; your estimator can help you weigh the trade-offs based on your budget and timeline.
+
+**Q: What warranty does Thomas Fence offer on wood fences?**
+A: Thomas Fence provides a 1-year craftsmanship warranty on every installation, included in your written contract. The warranty covers workmanship — post setting, rail attachment, and picket installation. Material warranties depend on the specific wood product.
+
+### Fence Financing in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/financing/)
+
+**Q: How does fence financing work at Thomas Fence?**
+A: Thomas Fence offers financing through Hearth, with monthly payment options for fence and gate projects. The application takes minutes online — apply through our Hearth financing portal and compare your options side by side.
+
+**Q: Does checking my rate affect my credit score?**
+A: No. Seeing your financing options through Hearth does not impact your credit score.
+
+**Q: How much can I finance?**
+A: Hearth offers loan amounts up to $250,000, which covers everything from a backyard privacy fence to large commercial and estate projects.
+
+**Q: Is a deposit required to start my project?**
+A: No — Thomas Fence does not require a deposit, except for special order materials or custom metal work.
+
+**Q: Can I pay by credit card?**
+A: Yes. Credit card payments are accepted with a 3.5% processing fee added.
+
+**Q: How do I get started?**
+A: Get your price first — use the instant fence estimator or request a free estimate — then apply for financing whenever you are ready.
+
+### Automated Gates in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/gates/automated-gates/)
+
+**Q: Can any gate be automated?**
+A: Most gate styles can be automated — swing, slide, cantilever, and others. The key factors are gate weight, opening width, and available power. We assess your site during a consultation to confirm feasibility and recommend the appropriate operator for your specific gate.
+
+**Q: What power source do automated gates need?**
+A: Most operators run on standard 120V AC power. For locations where running power to the gate is impractical, solar-powered operators are available — particularly for residential swing gates in sunny climates. We evaluate power options during the site assessment.
+
+**Q: What safety devices are required on an automated gate?**
+A: UL 325 requires entrapment protection on all automated gates — typically safety edges, photo eyes, or loop detectors depending on gate type. Thomas Fence installs all required safety devices as part of every gate automation project, not as add-ons.
+
+**Q: Do I need a permit for an automated gate?**
+A: Permit requirements vary by municipality. Gates with electrical components are more likely to require a permit than manual gates. Thomas Fence will advise you on local requirements for your specific city — the customer is responsible for obtaining permits, and we are happy to assist with documentation.
+
+**Q: Can you integrate gate automation with a smart home or security system?**
+A: Many modern operators support smart home integration via Z-Wave, Wi-Fi, or app-based control. We can discuss compatible systems during your consultation. For advanced security integration, we coordinate with your security provider as needed.
+
+**Q: What does CGAT certification mean?**
+A: CGAT stands for Certified Gate Automation Technician — a designation from the American Fence Association (AFA). It requires demonstrated knowledge of gate operator mechanics, UL 325 safety standards, access control systems, and safe installation practices. It is the recognized industry credential for gate automation work.
+
+### Estate Gates in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/gates/estate-gates/)
+
+**Q: What exactly is an estate gate?**
+A: An estate gate is a large, custom entrance gate — typically for a driveway or property entrance — designed to make a statement as well as provide security. Estate gates are generally wider and taller than standard gates, built from premium materials, and are often automated.
+
+**Q: Can an estate gate be automated?**
+A: Yes — virtually all estate gate styles and materials can be automated. Thomas Fence holds the CGAT certification and installs automated gate systems as part of the same project. We handle the gate, the operator, safety devices, and access control so you work with one contractor from start to finish.
+
+**Q: What material is best for an estate gate?**
+A: Ornamental steel is the most popular choice — it offers the best combination of strength, elegance, and longevity with minimal maintenance. Aluminum is lightweight and rust-resistant. Vinyl is low-maintenance with a clean residential look. Chain link is practical for agricultural and commercial applications. We help you weigh the trade-offs during your consultation.
+
+**Q: How wide should a driveway gate be?**
+A: For a single-vehicle driveway, 12 feet is generally sufficient. For two-lane driveways or properties with larger vehicles, 16 to 20 feet is common. We measure your driveway during the site visit and recommend an appropriate width based on your vehicles and usage.
+
+**Q: How long does estate gate installation take?**
+A: A standard estate gate installation typically takes 1 to 2 days for the gate itself. If automation is added, allow an additional day for the operator, wiring, and access control. Lead time from signed contract to installation start is typically 1 to 3 weeks.
+
+### Gate Services in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/gates/)
+
+**Q: What types of gates does Thomas Fence install?**
+A: Thomas Fence installs swing gates, cantilever slide gates, V-track slide gates, vertical pivot gates, and vertical lift gates — in ornamental steel, aluminum, vinyl, chain link, and wood. Every movement style is available for both residential and commercial properties.
+
+**Q: Can any gate be automated?**
+A: Most swing and slide gates can be automated if properly sized and if post framing is adequate. Thomas Fence evaluates automation-readiness during the estimate visit. When we build a new gate, we design it with automation in mind from the start so there are no surprises later.
+
+**Q: What does gate automation include?**
+A: A complete automated gate system includes the operator (motor), UL 325-required safety devices (photo eyes, safety edges, or loop detectors depending on gate type), access control (keypad, remote, or phone entry), and all wiring. Thomas Fence handles the complete installation — no subcontracting.
+
+**Q: What is CGAT certification and why does it matter?**
+A: The Certified Gate Automation Technician (CGAT) designation is issued by the American Fence Association. It requires demonstrated knowledge of gate operator mechanics, UL 325 safety standards, and access control systems. Automated gates are heavy, fast-moving machines — an improperly installed operator without correct safety devices can cause serious injury. Thomas Fence holds this certification. Most NWA fence contractors do not.
+
+**Q: How long does a gate installation take?**
+A: A standard residential gate installation typically takes 1–3 business days. Automated gate systems may take slightly longer depending on access control requirements and concrete curing time for posts. Thomas Fence will give you a timeline estimate before work begins.
+
+**Q: Is a deposit required for gate installation?**
+A: No deposit is required for standard gate installations. Special order materials or custom metal fabrication may require a deposit before work begins. Thomas Fence will communicate any deposit requirement upfront in your contract.
+
+**Q: Do I need a permit for a gate in Northwest Arkansas?**
+A: Permit requirements vary by city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. Requirements can change, so verify with your city before starting. Thomas Fence is happy to advise on the permit process — pulling the permit is the property owner's responsibility. See the Fence Permits page at thomasfencear.com/permits/ for links to each town's permit office.
+
+**Q: What access control options are available?**
+A: Thomas Fence installs PIN keypads, remote transmitters, intercom systems, and app-controlled entry (LiftMaster MyQ and similar). We help you choose the right system for your property type, security level, and number of users.
+
+### Railing Installation in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/gates/railings/)
+
+**Q: What types of railings does Thomas Fence install?**
+A: Thomas Fence installs metal railings for residential porches, front and back steps, decks, and commercial applications including schools, businesses, and public buildings. We work with steel and aluminum in a variety of styles.
+
+**Q: Do I need a permit for railing installation in Northwest Arkansas?**
+A: Permit requirements vary by city and project type. Commercial railings and railings on new construction almost always require a permit. For existing residential railings, requirements vary by municipality. Thomas Fence advises on local requirements — the customer is responsible for obtaining permits, and we are happy to assist with documentation.
+
+**Q: Does Thomas Fence install railings on existing porches and steps?**
+A: Yes. Thomas Fence installs railings on existing residential porches, steps, and decks as well as new construction. We assess the mounting surface and recommend the appropriate post setting method for a secure, lasting installation.
+
+**Q: How long does railing installation take?**
+A: Most residential railing installations are completed in one day. Larger commercial projects or custom fabrication may require additional time. Thomas Fence provides a timeline estimate with every written proposal.
+
+**Q: Does Thomas Fence require a deposit for railing work?**
+A: No deposit is required for standard installations. Custom fabricated railings or special-order materials may require a deposit. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: What warranty does Thomas Fence offer on railing installation?**
+A: Thomas Fence provides a one-year workmanship warranty on every railing installation, included in the written contract.
+
+### Fence Installation in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/)
+
+**Q: Is a fence permit required in Northwest Arkansas?**
+A: Yes, permit requirements vary by city. Thomas Fence maintains a list of local towns with links to each city's permitting website at thomasfencear.com/permits/. Each customer is responsible for obtaining their own permit.
+
+**Q: Does Thomas Fence pull permits for customers?**
+A: No. Because rules vary significantly between cities and HOAs, each customer is responsible for obtaining their own permit. Thomas Fence is happy to assist and answer questions about the process.
+
+**Q: Does Thomas Fence stain fences?**
+A: No. Thomas Fence does not stain fences. We are happy to refer customers to reputable staining companies in the area.
+
+**Q: How long before work starts after I accept a quote?**
+A: Typically 1 to 3 weeks from the time you accept the fence quote. There is always a 2-full-business-day window to complete the required underground utility locate. A project manager will call 1 to 2 days before crews arrive.
+
+**Q: Who calls 811 (One Call) for the utility locate?**
+A: Thomas Fence calls 811 on every job — it is required by Arkansas state law before any digging begins.
+
+**Q: How long does a utility locate take?**
+A: 2 full business days, required by law. This delay is built into the project timeline and must be completed before any posts can be set.
+
+**Q: What utilities are NOT marked by One Call?**
+A: Privately owned lines are not marked by One Call. This includes septic systems, irrigation lines, outbuilding electrical, and pool or gas lines that are privately owned. Customers should identify these before installation begins.
+
+**Q: How long does fence installation take?**
+A: Most typical residential fence installations take 2 to 3 business days from start to finish.
+
+**Q: Does Thomas Fence use concrete for fence posts?**
+A: Yes. Concrete is standard practice on every Thomas Fence installation unless otherwise agreed upon in writing.
+
+**Q: Does Thomas Fence require a deposit?**
+A: No deposit is required for standard installations. The exception is special order materials or custom metal work. Thomas Fence prefers to wait until the job is completed before requesting payment.
+
+**Q: Does Thomas Fence offer a veteran's discount?**
+A: No. Thomas Fence does not currently offer a veteran's discount.
+
+**Q: Is there a cash discount?**
+A: No. Thomas Fence does not offer a cash discount.
+
+**Q: Can I pay by credit card?**
+A: Yes. Credit cards are accepted. A 3.5% processing fee is added to credit card payments.
+
+**Q: What warranty does Thomas Fence offer?**
+A: Thomas Fence offers a one-year craftsmanship warranty included in every written contract.
+
+**Q: Is Thomas Fence licensed in Arkansas?**
+A: Yes. Thomas Fence holds Arkansas Contractor License No. 015501, maintained continuously since 2005 and renewed annually.
+
+**Q: How long should I wait before staining a new wood fence?**
+A: For pressure-treated pine, wait 1 to 3 months before staining to allow the wood to dry. Cedar can be stained immediately after installation.
+
+**Q: Does Thomas Fence offer financing?**
+A: Yes. Financing is available through Hearth, a third-party lender serving the fencing industry. Customers can apply by scanning the QR code on their estimate or visiting thomasfencear.com/financing/.
+
+### Fence Permits in Northwest Arkansas | Thomas Fence (https://thomasfencear.com/permits/)
+
+**Q: Do I need a permit to build a fence in Northwest Arkansas?**
+A: In most Northwest Arkansas cities, yes — a permit is required before fence installation, and the specifics vary by city. This page lists each city's permit office so you can go straight to the right application.
+
+**Q: Does Thomas Fence pull the permit for me?**
+A: No — pulling the permit is the property owner's responsibility. Thomas Fence is happy to walk you through your city's process and tell you exactly what to ask for at the permit office. Contact us with any permit question.
+
+**Q: When should I apply for my fence permit?**
+A: Before installation begins. Work typically starts 1–3 weeks after you accept your estimate, so applying as soon as you sign keeps your project on schedule.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires a utility locate through Arkansas 811 before digging, and we call it in for every project. The locate takes 2 full business days.
+
+**Q: What utilities are NOT marked by the utility locate?**
+A: Arkansas 811 marks public utilities only. Privately owned lines — septic systems, irrigation, electric to outbuildings, and pool gas lines — are not marked, so tell your estimator about any private lines on your property.
+
+### Customer Reviews | Thomas Fence — Northwest Arkansas (https://thomasfencear.com/reviews/)
+
+**Q: What do customers say about Thomas Fence?**
+A: The verified customer reviews on this page average 5.0 out of 5. Customers consistently point to the crew's workmanship, communication, and cleanup.
+
+**Q: Are these reviews from real customers?**
+A: Yes — every review on this page is from a verified Thomas Fence customer and appears in the customer's own words.
+
+**Q: Can I leave a review after my project?**
+A: We would love that. Contact us after your installation and we will point you to the easiest place to share your experience.
+
+**Q: Does Thomas Fence handle commercial projects too?**
+A: Yes — the "Customers We've Worked With" section on this page shows the kinds of commercial clients we serve, and our commercial fencing page covers what we build for businesses.
+
+### Fence Company in Rogers, AR | Thomas Fence (https://thomasfencear.com/rogers/)
+
+**Q: Do I need a permit for a fence in Rogers?**
+A: No — Rogers does not require a permit for most fences. Only a fence over 7 feet tall or one with concrete footings needs a building permit. See the city's fence FAQ or the Rogers permit portal.
+
+**Q: How tall can my fence be in Rogers?**
+A: In most Rogers neighborhoods: 4 feet in the front yard and 6 feet on the sides and back. Anything over 7 feet needs a permit — details on the city FAQ.
+
+**Q: How close to the street or property line can I build?**
+A: Keep corners clear — on corner lots nothing tall can block sight lines near the intersection — and stay 3 feet clear of fire hydrants. Ask the city before fencing over an easement: Rogers permit portal.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Rogers?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator.
+
+### Fence Company in Siloam Springs, AR | Thomas Fence (https://thomasfencear.com/siloam-springs/)
+
+**Q: Do I need a permit for a fence in Siloam Springs?**
+A: Check with the city before you build — fence permits run through the Siloam Springs building department.
+
+**Q: How tall can my fence be in Siloam Springs?**
+A: Height limits depend on where the fence sits on your lot — front yards are more restricted than back yards. The building department can confirm your limits.
+
+**Q: How close to the street or property line can I build?**
+A: Fences generally cannot block sight lines at corners and driveways or sit in the right-of-way. Confirm your lot's specifics with the city.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Siloam Springs?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator.
+
+### Fence Company in Springdale, AR | Thomas Fence (https://thomasfencear.com/springdale/)
+
+**Q: Do I need a permit for a fence in Springdale?**
+A: Most fence projects in Springdale require a permit. Confirm what your project needs with the City of Springdale or call the building department at (479) 756-8200.
+
+**Q: How tall can my fence be in Springdale?**
+A: Height limits depend on where the fence sits on your lot — front yards are more restricted than back yards. The city can confirm the limits for your address.
+
+**Q: How close to the street or property line can I build?**
+A: Fences generally cannot block sight lines at corners and driveways or sit in the right-of-way. Check your lot's specifics with the City of Springdale before you build.
+
+**Q: Who calls for the utility locate?**
+A: Thomas Fence does — Arkansas law requires an Arkansas 811 utility locate before digging, and it takes 2 full business days. We call it in for every project.
+
+**Q: How soon can my fence be installed?**
+A: Work typically starts 1–3 weeks after you accept your estimate, and most residential fences take 2–3 business days to install.
+
+**Q: How do I get an estimate in Springdale?**
+A: Estimates are free. Request yours or get an instant number from the fence estimator. Thomas Fence is headquartered right here in Springdale, at 653 Kawneer Dr.
+
+### Fence Warranty | Thomas Fence | Northwest Arkansas (https://thomasfencear.com/warranty/)
+
+**Q: What warranty does Thomas Fence offer?**
+A: Every Thomas Fence installation comes with a 1-year craftsmanship warranty, provided in writing.
+
+**Q: What does the craftsmanship warranty cover?**
+A: It covers the quality of our installation work — posts, footings, alignment, gates, and hardware installed by our crew — for one full year.
+
+**Q: Do the fence materials have their own warranties?**
+A: Many do. Thomas Fence installs products from reputable manufacturers, and many of those products carry their own manufacturer warranties in addition to our craftsmanship warranty.
+
+**Q: How do I make a warranty claim?**
+A: Contact us or call (479) 636-4732 and describe the issue — we will take it from there.
