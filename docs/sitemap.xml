@@ -4,7 +4,7 @@
   <!-- CORE -->
   <url>
     <loc>https://thomasfencear.com/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -38,25 +38,25 @@
   <!-- FENCING HUB + SERVICE PAGES -->
   <url>
     <loc>https://thomasfencear.com/fences/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://thomasfencear.com/fences/vinyl-fence/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://thomasfencear.com/fences/wood-fence/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://thomasfencear.com/fences/chain-link-fence/</loc>
-    <lastmod>2026-07-16</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://thomasfencear.com/fences/commercial-fencing/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -94,7 +94,7 @@
   <!-- GATES HUB + SERVICE PAGES -->
   <url>
     <loc>https://thomasfencear.com/gates/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -120,7 +120,7 @@
   <!-- AUTHORITY HUB -->
   <url>
     <loc>https://thomasfencear.com/arkansas-fence-company/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -174,7 +174,7 @@
   <!-- RESOURCES -->
   <url>
     <loc>https://thomasfencear.com/faqs/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,7 +212,7 @@
   <!-- PUBLICATIONS -->
   <url>
     <loc>https://thomasfencear.com/publications/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -231,6 +231,36 @@
   <url>
     <loc>https://thomasfencear.com/publications/what-is-the-7-year-fence-law-in-northwest-arkansas/</loc>
     <lastmod>2026-08-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/do-i-need-a-permit-for-a-fence-in-springdale-a-town-by-town-guide-for-northwest-arkansas/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/vinyl-or-wood-which-fence-lasts-longer-in-northwest-arkansas/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/chain-link-for-a-residential-yard-galvanized-black-vinyl-coated-and-privacy-slats/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/can-i-build-a-fence-on-the-property-line-myself-surveys-the-seven-year-fence-law-and-where-the-posts-go/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/repair-or-replace-how-thomas-fence-decides-on-a-leaning-fence-rotted-posts-and-storm-damage/</loc>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
