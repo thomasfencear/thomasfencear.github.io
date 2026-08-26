@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://thomasfencear.com/fences/wood-fence/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -212,13 +212,13 @@
   <!-- PUBLICATIONS -->
   <url>
     <loc>https://thomasfencear.com/publications/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://thomasfencear.com/publications/not-all-cedar-fences-are-created-equal-what-you-need-to-know-before-you-buy/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://thomasfencear.com/publications/vinyl-or-wood-which-fence-lasts-longer-in-northwest-arkansas/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -261,6 +261,18 @@
   <url>
     <loc>https://thomasfencear.com/publications/repair-or-replace-how-thomas-fence-decides-on-a-leaning-fence-rotted-posts-and-storm-damage/</loc>
     <lastmod>2026-08-25</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/what-species-of-cedar-is-your-fence-western-red-japanese-and-eastern-red-cedar-in-northwest-arkansas/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/publications/do-you-need-a-contractors-license-to-build-a-fence-in-arkansas/</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
