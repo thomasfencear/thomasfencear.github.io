@@ -220,6 +220,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .lp-local__card p { font-size: 0.95rem; line-height: 1.65; margin: 0; color: #3a3a3a; }
     @media (max-width: 760px) { .lp-local__grid { grid-template-columns: 1fr; } }
 
+    /* ── Hero grid: text left, quote card right; card FIRST on phones ── */
+    .lp-hero > .container { display: grid; grid-template-columns: minmax(0, 1fr) 360px; column-gap: 48px; align-items: start; }
+    .lp-hero > .container > * { grid-column: 1; }
+    .lp-hero__card { grid-column: 2; grid-row: 1 / span 6; background: var(--color-white); color: var(--color-navy); border-radius: 10px; padding: 28px 26px; box-shadow: 0 8px 28px rgba(0,0,0,0.22); border-top: 6px solid var(--color-red-primary); }
+    .lp-hero__card h2 { font-size: 1.45rem; margin: 0 0 6px; color: var(--color-navy); }
+    .lp-hero__card p { font-size: 0.95rem; line-height: 1.6; margin: 0 0 18px; color: #3a3a3a; }
+    .lp-hero__card .lp-btn { display: block; text-align: center; font-weight: 600; font-size: 1.05rem; padding: 15px 18px; border-radius: 6px; text-decoration: none; margin-bottom: 10px; }
+    .lp-btn--call { background: var(--color-red-primary); color: var(--color-white); }
+    .lp-btn--quote { background: var(--color-navy); color: var(--color-white); }
+    .lp-hero__card .lp-hero__card-fine { font-size: 0.82rem; color: #5a5a5a; margin: 8px 0 0; text-align: center; }
+    @media (max-width: 860px) {
+      .lp-hero { padding-top: 24px; }
+      .lp-hero > .container { grid-template-columns: 1fr; row-gap: 0; }
+      .lp-hero__card { grid-column: 1; grid-row: auto; order: -1; margin-bottom: 28px; }
+      .lp-hero > .container > .breadcrumb { display: none; }
+    }
+
+    /* ── Quote pop-up (CSS only, :target) ── */
+    .lp-modal { position: fixed; inset: 0; z-index: 1000; display: none; align-items: center; justify-content: center; padding: 16px; background: rgba(0,48,73,0.82); }
+    .lp-modal:target { display: flex; }
+    .lp-modal__box { position: relative; background: var(--color-white); color: var(--color-navy); border-radius: 10px; width: 100%; max-width: 520px; max-height: 92vh; overflow-y: auto; padding: 32px 28px 28px; box-shadow: 0 12px 40px rgba(0,0,0,0.35); border-top: 6px solid var(--color-red-primary); }
+    .lp-modal__close { position: absolute; top: 10px; right: 14px; font-size: 1.8rem; line-height: 1; color: #5a5a5a; text-decoration: none; }
+    .lp-modal__box h2 { font-size: 1.6rem; margin: 0 0 6px; color: var(--color-navy); }
+    .lp-modal__box > p { font-size: 0.98rem; line-height: 1.6; margin: 0 0 18px; color: #3a3a3a; }
+    .lp-modal__or { text-align: center; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; color: #7a7a7a; margin: 16px 0 12px; }
+    .lp-form { display: flex; flex-direction: column; gap: 12px; }
+    .lp-form label { font-size: 0.85rem; font-weight: 600; color: var(--color-navy); display: block; margin-bottom: 4px; }
+    .lp-form input, .lp-form select { width: 100%; box-sizing: border-box; font: inherit; font-size: 1rem; padding: 12px 12px; border: 1.5px solid #cfd6dc; border-radius: 6px; background: var(--color-white); color: #1a1a1a; }
+    .lp-form input:focus, .lp-form select:focus { outline: 2px solid var(--color-red-primary); border-color: var(--color-red-primary); }
+    .lp-form__row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 480px) { .lp-form__row { grid-template-columns: 1fr; } }
+    .lp-form__submit { font: inherit; font-weight: 600; font-size: 1.05rem; padding: 15px 18px; border: 0; border-radius: 6px; background: var(--color-red-primary); color: var(--color-white); cursor: pointer; }
+    .lp-form__note { font-size: 0.82rem; color: #5a5a5a; margin: 4px 0 0; text-align: center; }
+    .lp-form__hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
     /* ── Love this fence? CTA ── */
     .lp-cta { background: var(--color-red-primary); padding: 80px 0; text-align: center; color: var(--color-white); }
     .lp-cta h2 { color: var(--color-white); font-size: 2.4rem; margin: 0 0 12px; }
@@ -328,9 +363,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="lp-hero__number-label">New homes fenced in Northwest Arkansas last year</p>
         <h1>New in Your Subdivision? Let's Fence Your Yard.</h1>
         <p class="lp-hero__sub">Thomas Fence installs privacy, vinyl, wood, and ornamental fencing for new homes in Your Subdivision, the new-home builder community in Lowell, Arkansas. Our crews are based ten minutes away in Springdale and have fenced 472 new-construction homes across Northwest Arkansas in the last year. Free estimate, no deposit on standard installations.</p>
-        <div class="lp-hero__actions">
-          <a href="tel:+14796364732" class="btn-primary">Call (479) 636-4732</a>
-          <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer" class="btn-secondary--light">Get an Instant Price</a>
+        <div class="lp-hero__card">
+          <h2>Get your free quote right now</h2>
+          <p>Call us, or leave your info and we will be in contact to price your fence. No deposit on standard installations.</p>
+          <a href="tel:+14796364732" class="lp-btn lp-btn--call">Give Us a Call: (479) 636-4732</a>
+          <a href="#quote" class="lp-btn lp-btn--quote">Love This Fence? Get a Free Quote</a>
+          <p class="lp-hero__card-fine">Mon–Fri, 8am–4pm. We respond within one business day.</p>
         </div>
       </div>
     </section>
@@ -423,12 +461,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2>Love this fence?</h2>
         <p>Tell us which one, and we will price it for your lot in Your Subdivision. One call, one visit, and you are on the schedule.</p>
         <div class="lp-cta__actions">
-          <a href="tel:+14796364732" class="lp-cta__call">Call (479) 636-4732</a>
-          <a href="https://thomasfence.mybudgetquote.com/budget" target="_blank" rel="noopener noreferrer" class="lp-cta__quote">Get an Instant Price</a>
+          <a href="tel:+14796364732" class="lp-cta__call">Give Us a Call: (479) 636-4732</a>
+          <a href="#quote" class="lp-cta__quote">Get Your Free Quote Right Now</a>
         </div>
         <p class="lp-cta__fine">Mon–Fri, 8am–4pm. Licensed, insured, and local to Springdale since 1993. 1-year workmanship warranty in writing on every job.</p>
       </div>
     </section>
+
+    <!-- QUOTE POP-UP: opens on #quote, closes on #close. Same Formspree endpoint as /contact/. -->
+    <div id="quote" class="lp-modal" role="dialog" aria-modal="true" aria-labelledby="quote-title">
+      <div class="lp-modal__box">
+        <a href="#close" class="lp-modal__close" aria-label="Close">&times;</a>
+        <h2 id="quote-title">Love this fence? Get your free quote right now.</h2>
+        <p>Give us a call, or put your information here and we will be in contact to price it for your lot.</p>
+        <a href="tel:+14796364732" class="lp-btn lp-btn--call" style="display:block;text-align:center;font-weight:600;padding:15px 18px;border-radius:6px;text-decoration:none;">Give Us a Call: (479) 636-4732</a>
+        <p class="lp-modal__or">or</p>
+        <form class="lp-form" action="https://formspree.io/f/xrerqegb" method="POST">
+          <input type="hidden" name="_subject" value="Free quote request from Lowell new-homes landing page">
+          <input type="hidden" name="source_page" value="Lowell new-homes">
+          <div class="lp-form__row">
+            <div><label for="q-first">First Name</label><input type="text" id="q-first" name="first_name" autocomplete="given-name" required></div>
+            <div><label for="q-last">Last Name</label><input type="text" id="q-last" name="last_name" autocomplete="family-name" required></div>
+          </div>
+          <div class="lp-form__row">
+            <div><label for="q-phone">Phone</label><input type="tel" id="q-phone" name="phone" autocomplete="tel" required></div>
+            <div><label for="q-email">Email</label><input type="email" id="q-email" name="email" autocomplete="email" required></div>
+          </div>
+          <div><label for="q-type">Type of Fence</label>
+            <select id="q-type" name="fence_type" required>
+              <option value="" disabled selected>Select one…</option>
+              <option>Wood Fence</option>
+              <option>Vinyl Fence</option>
+              <option>Ornamental Steel Fence</option>
+              <option>Chain Link Fence</option>
+              <option>Gate</option>
+              <option>Not sure — need advice</option>
+            </select>
+          </div>
+          <div><label for="q-city">City or Subdivision</label><input type="text" id="q-city" name="city" required></div>
+          <div class="lp-form__hp" aria-hidden="true"><label for="q-web">Website</label><input type="text" id="q-web" name="_gotcha" tabindex="-1" autocomplete="off"></div>
+          <button type="submit" class="lp-form__submit">Get My Free Quote</button>
+          <p class="lp-form__note">No deposit required for standard installations. We respond within one business day.</p>
+        </form>
+      </div>
+    </div>
 
   </main>
 
