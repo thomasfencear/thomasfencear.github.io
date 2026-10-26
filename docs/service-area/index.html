@@ -964,6 +964,60 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+<style>
+    .page-faqs { background: var(--color-white); padding: 72px 24px; }
+    .page-faqs__inner { max-width: 900px; margin: 0 auto; }
+    .page-faqs h2 { font-size: 1.9rem; margin-bottom: 32px; color: var(--color-navy); }
+    .faq-item { border-bottom: 1px solid #e5e7eb; }
+    .faq-item summary { list-style: none; padding: 18px 0; cursor: pointer; font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-navy); display: flex; justify-content: space-between; gap: 16px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; font-size: 1.4rem; font-family: var(--font-body); font-weight: 400; color: var(--color-red-primary); flex-shrink: 0; }
+    .faq-item[open] summary::after { content: '\2212'; }
+    .faq-item[open] summary { color: var(--color-red-primary); }
+    .faq-item__answer { padding: 0 0 18px; }
+    .faq-item__answer p { font-size: 0.97rem; margin: 0 0 8px; }
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://thomasfencear.com/service-area/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Which cities does Thomas Fence serve?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Thomas Fence is based in Springdale and serves communities throughout Northwest Arkansas. Its six primary service cities are Springdale, Bentonville, Rogers, Fayetteville, Bella Vista and Siloam Springs. If your city or town is not listed on this page, contact Thomas Fence; it may still be able to help depending on location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a fence permit required for my fence in Northwest Arkansas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. HOA rules apply separately and requirements can change, so verify with your city before starting. Thomas Fence keeps a current list with links to each town's permitting site at thomasfencear.com/permits/. Each customer is responsible for obtaining their own permit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long before Thomas Fence can start after I accept a quote?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically 1 to 3 weeks from acceptance. There is always a 2-full-business-day window to complete the required underground utility locate. A project manager will call 1 to 2 days before crews arrive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does fence installation take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A typical residential fence installation takes 2 to 3 business days, depending on the type and length of fence."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -1218,7 +1272,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </section>
 
   <!-- FOOTER -->
-  <footer class="site-footer">
+    <section class="page-faqs">
+    <div class="page-faqs__inner">
+      <h2>Service Area FAQs</h2>
+      <details class="faq-item">
+        <summary>Which cities does Thomas Fence serve?</summary>
+        <div class="faq-item__answer"><p>Thomas Fence is based in Springdale and serves communities throughout Northwest Arkansas. Its six primary service cities are Springdale, Bentonville, Rogers, Fayetteville, Bella Vista and Siloam Springs. If your city or town is not listed on this page, contact Thomas Fence; it may still be able to help depending on location.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is a fence permit required for my fence in Northwest Arkansas?</summary>
+        <div class="faq-item__answer"><p>Not in every city. Seven Northwest Arkansas cities require a fence permit: Bella Vista, Bentonville, Gravette, Gentry, Lincoln, Prairie Grove and Tontitown. Springdale, Rogers, Fayetteville and Siloam Springs do not. HOA rules apply separately and requirements can change, so verify with your city before starting. Thomas Fence keeps a current list with links to each town&#x27;s permitting site at thomasfencear.com/permits/. Each customer is responsible for obtaining their own permit.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How long before Thomas Fence can start after I accept a quote?</summary>
+        <div class="faq-item__answer"><p>Typically 1 to 3 weeks from acceptance. There is always a 2-full-business-day window to complete the required underground utility locate. A project manager will call 1 to 2 days before crews arrive.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How long does fence installation take?</summary>
+        <div class="faq-item__answer"><p>A typical residential fence installation takes 2 to 3 business days, depending on the type and length of fence.</p></div>
+      </details>
+    </div>
+  </section>
+
+<footer class="site-footer">
     <div class="site-footer__inner">
       <div class="site-footer__grid">
 
