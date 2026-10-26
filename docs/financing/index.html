@@ -367,6 +367,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+<style>
+    .tf-reviews { background: var(--color-off-white, #f7f5f2); padding: 0 0 64px; }
+    .tf-reviews__banner { background: var(--color-navy); color: #fff; text-align: center; padding: 48px 24px 44px; margin-bottom: 48px; }
+    .tf-reviews__banner h2 { font-family: var(--font-heading); font-size: 2.2rem; color: #fff; margin: 0 0 12px; }
+    .tf-reviews__rating { font-size: 1.1rem; margin: 0; }
+    .tf-reviews__rating span { color: #F4B942; font-size: 1.4rem; letter-spacing: 2px; margin-right: 8px; vertical-align: -2px; }
+    .tf-reviews__inner { max-width: 1140px; margin: 0 auto; padding: 0 24px; }
+    .tf-reviews__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    @media (max-width: 860px) { .tf-reviews__grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 560px) { .tf-reviews__grid { grid-template-columns: 1fr; } }
+    .tf-review { background: #fff; border-radius: 10px; border-top: 4px solid var(--color-red-primary); padding: 28px 26px 24px; box-shadow: 0 2px 14px rgba(0,0,0,0.08); display: flex; flex-direction: column; }
+    .tf-review__stars { color: #F4B942; font-size: 1.2rem; letter-spacing: 1px; margin-bottom: 10px; }
+    .tf-review__name { font-weight: 600; font-size: 1rem; color: var(--color-navy); margin-bottom: 2px; }
+    .tf-review__meta { font-size: 0.8rem; color: #888; margin-bottom: 14px; }
+    .tf-review__text { font-size: 0.95rem; line-height: 1.72; color: #2a2a2a; flex-grow: 1; margin: 0; }
+    .tf-reviews__cta { text-align: center; margin-top: 44px; }
+    .tf-reviews__cta p { font-size: 0.95rem; color: #555; margin-bottom: 16px; }
+  </style>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -521,7 +539,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </section>
 
   <!-- FAQS -->
-  <section class="page-faqs">
+    <section class="tf-reviews" id="reviews">
+    <div class="tf-reviews__banner">
+      <h2>What Our Customers Say</h2>
+      <p class="tf-reviews__rating"><span aria-hidden="true">★★★★★</span>Rated 4.8 out of 5 from 156 Google reviews, as of October 25, 2026</p>
+    </div>
+    <div class="tf-reviews__inner">
+      <div class="tf-reviews__grid">
+        <div class="tf-review">
+          <div class="tf-review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="tf-review__name">Alec</div>
+          <div class="tf-review__meta">Google review</div>
+          <p class="tf-review__text">very good work and quality, the best prices more like thomas fence</p>
+        </div>
+        <div class="tf-review">
+          <div class="tf-review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="tf-review__name">Lydia Mahler</div>
+          <div class="tf-review__meta">Google review</div>
+          <p class="tf-review__text">Very impressed with Thomas Fence. Their price seemed fair, they showed up on time, got the job done, and were very polite! Would highly recommend them!</p>
+        </div>
+        <div class="tf-review">
+          <div class="tf-review__stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <div class="tf-review__name">Wesley Matthews</div>
+          <div class="tf-review__meta">Google review</div>
+          <p class="tf-review__text">A good process from A to Z. Reb not only provided a reasonable price estimate on the spot, but he provided clear explanations for the repair portion of the job and solid advice to refine my plans for the installation of the new fence. My needs were relatively small, just 42&#x27; of fence including 10&#x27; of gates and repairing a leaning existing fence. As expected, it took about 3 weeks between the estimate and the job. When Andy and Cashton showed up, we made sure that we agreed on the work to be done, and they got right to work. The effort was interrupted by the rain, so it took a little longer, but I could not be happier with the finished product. They did have to replace a post on the repair portion of the job. This wrinkle was unexpected, but they took it in stride. Andy and Cashton were friendly and found satisfaction in doing the job right. If I need future fence work I would call Thomas Fence again, and I would request Andy and Cashton for the job.</p>
+        </div>
+      </div>
+      <div class="tf-reviews__cta">
+        <p>Selected reviews from our Google Business Profile, shown as written.</p>
+        <a href="https://www.google.com/search?q=thomas+fence+arkansas#lrd=0x87c9155e9bc6c2f7:0xbea7225a0a988210,3,,,," target="_blank" rel="noopener noreferrer" class="btn-primary">Read All Our Reviews on Google &#8599;</a>
+      </div>
+    </div>
+  </section>
+
+<section class="page-faqs">
     <div class="page-faqs__inner">
       <h2>Financing FAQs</h2>
 
