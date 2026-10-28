@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
   <!-- CORE -->
   <url>
@@ -189,6 +189,104 @@
     <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/cantilever-gate/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/q8yF3QqU40I/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Cantilever Gates: Why Contractors Choose Them Over Swing Gates</video:title>
+      <video:description>A Thomas Fence cantilever gate in motion, showing why most installers choose cantilever over swing gates for long-term reliability.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/q8yF3QqU40I</video:player_loc>
+      <video:duration>32</video:duration>
+      <video:publication_date>2026-05-22T05:00:00+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/automated-swing-gate/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/g4M1JleJYPg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Automated Swing Gates by Thomas Fence</video:title>
+      <video:description>An automated swing gate installed by Thomas Fence, opening smoothly on its operator.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/g4M1JleJYPg</video:player_loc>
+      <video:duration>31</video:duration>
+      <video:publication_date>2026-05-24T14:15:20+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/farm-gate/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/y8mQl9OveXU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Farm Gates Built for Northwest Arkansas Properties</video:title>
+      <video:description>A heavy-duty farm gate built and installed by Thomas Fence for agricultural use in Northwest Arkansas.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/y8mQl9OveXU</video:player_loc>
+      <video:duration>17</video:duration>
+      <video:publication_date>2026-05-23T22:00:31+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/ornamental-gate-fayetteville/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Nd0gz9qvF-8/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Automatic Ornamental Gate in Fayetteville, Arkansas</video:title>
+      <video:description>An ornamental iron swing gate with an automatic operator at a Fayetteville, Arkansas property, installed by Thomas Fence.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/Nd0gz9qvF-8</video:player_loc>
+      <video:duration>21</video:duration>
+      <video:publication_date>2026-05-23T10:15:19+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/custom-pivot-gate/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2Q131QLRP-g/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Custom Pivot Gates for Sites Where Swing or Slide Won't Fit</video:title>
+      <video:description>A custom pivot gate engineered by Thomas Fence for a site where standard swing or slide options were not feasible.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/2Q131QLRP-g</video:player_loc>
+      <video:duration>17</video:duration>
+      <video:publication_date>2026-05-23T12:00:15+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/chain-link-swing-gate/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/_gsxnm0gKb0/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Chain Link Swing Gates with Automatic Operators</video:title>
+      <video:description>A chain link swing gate with an automatic operator, installed by Thomas Fence.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/_gsxnm0gKb0</video:player_loc>
+      <video:duration>23</video:duration>
+      <video:publication_date>2026-05-23T07:00:33+00:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://thomasfencear.com/videos/automated-gate-springdale/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/i_U3CMSPx9o/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Automated Gate Contractor in Springdale, Arkansas</video:title>
+      <video:description>A Thomas Fence automated gate installation in Springdale, Arkansas, by CGAT-certified technicians.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/i_U3CMSPx9o</video:player_loc>
+      <video:duration>25</video:duration>
+      <video:publication_date>2026-05-23T18:00:22+00:00</video:publication_date>
+    </video:video>
   </url>
   <url>
     <loc>https://thomasfencear.com/financing/</loc>

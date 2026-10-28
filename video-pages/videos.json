@@ -1,0 +1,131 @@
+{
+  "_about": "One row per video watch page. build_video_pages.py turns each row into docs/videos/<slug>/index.html. Facts come only from the live site (video gallery captions, gate pages) and the YouTube video record. Add a row to add a page. Not served: this folder is outside docs/.",
+  "videos": [
+    {
+      "slug": "cantilever-gate",
+      "youtube_id": "q8yF3QqU40I",
+      "gate_type": "Cantilever Gate",
+      "town": "",
+      "h1": "Cantilever Gates: Why Contractors Choose Them Over Swing Gates",
+      "title": "Cantilever Gate Video | Thomas Fence, Northwest Arkansas",
+      "meta": "Watch a Thomas Fence cantilever gate in motion and see why contractors choose cantilever over swing gates. Free quotes and financing. Call (479) 636-4732.",
+      "hook": "No track in the driveway means nothing to freeze, clog or wear.",
+      "video_description": "A Thomas Fence cantilever gate in motion, showing why most installers choose cantilever over swing gates for long-term reliability.",
+      "what": [
+        "A cantilever gate slides sideways on rollers mounted behind the fence line, with nothing in the driveway to freeze, clog or wear.",
+        "With no bottom rail to collect debris or ice, it is a top choice for residential and commercial driveways. Thomas Fence has installed cantilever gates in Bentonville, Springdale and Fayetteville for commercial and residential entrances."
+      ],
+      "faq_specific": [
+        ["Why choose a cantilever gate over a swing gate?", "A cantilever gate slides sideways on rollers mounted behind the fence line, so there is no track in the driveway to freeze, clog or wear, and it needs no swing space. A swing gate needs clear room for the gate to open."]
+      ]
+    },
+    {
+      "slug": "automated-swing-gate",
+      "youtube_id": "g4M1JleJYPg",
+      "gate_type": "Swing Gate",
+      "town": "",
+      "h1": "Automated Swing Gates by Thomas Fence",
+      "title": "Automated Swing Gate Video | Thomas Fence, Northwest Arkansas",
+      "meta": "Watch a Thomas Fence automated swing gate open. The residential standard for estate entrances across Northwest Arkansas. Free quotes, financing. (479) 636-4732.",
+      "hook": "The classic entrance, opening on its own.",
+      "video_description": "An automated swing gate installed by Thomas Fence, opening smoothly on its operator.",
+      "what": [
+        "Swing gates are the residential standard for estate entrances in Bentonville, Rogers, Springdale and Fayetteville.",
+        "Thomas Fence builds them in ornamental steel and custom entry styles on swing operators, an elegant choice for residential driveways with enough clearance for the gate to open."
+      ],
+      "faq_specific": [
+        ["Is a swing gate right for my driveway?", "Swing gates suit residential driveways with enough clear space for the gate to open. Where that room is not available, a cantilever or pivot gate may fit better. Thomas Fence checks clearance during the site evaluation."]
+      ]
+    },
+    {
+      "slug": "farm-gate",
+      "youtube_id": "y8mQl9OveXU",
+      "gate_type": "Farm Gate",
+      "town": "",
+      "h1": "Farm Gates Built for Northwest Arkansas Properties",
+      "title": "Farm Gate Video | Thomas Fence, Northwest Arkansas",
+      "meta": "See a heavy-duty Thomas Fence farm gate in action. Built for agricultural use, with solar operators where power does not reach. Free quotes. (479) 636-4732.",
+      "hook": "Built for years of daily use, even where the power lines don't reach.",
+      "video_description": "A heavy-duty farm gate built and installed by Thomas Fence for agricultural use in Northwest Arkansas.",
+      "what": [
+        "A heavy-duty farm gate built and installed by Thomas Fence, designed for agricultural use and built to handle years of daily operation.",
+        "Farm gates in Northwest Arkansas often sit where no electrical service reaches the road, and Thomas Fence installs solar powered operators for exactly that."
+      ],
+      "faq_specific": [
+        ["Can a farm gate be automated without power at the road?", "Yes. Farm gates in Northwest Arkansas often sit where no electrical service reaches the road, and Thomas Fence installs solar powered operators for exactly that."]
+      ]
+    },
+    {
+      "slug": "ornamental-gate-fayetteville",
+      "youtube_id": "Nd0gz9qvF-8",
+      "gate_type": "Ornamental Gate",
+      "town": "Fayetteville",
+      "h1": "Automatic Ornamental Gate in Fayetteville, Arkansas",
+      "title": "Ornamental Gate Video, Fayetteville AR | Thomas Fence",
+      "meta": "Watch an automatic ornamental iron swing gate by Thomas Fence at a Fayetteville property. Curb appeal meets access control. Free quotes. (479) 636-4732.",
+      "hook": "Curb appeal meets access control.",
+      "video_description": "An ornamental iron swing gate with an automatic operator at a Fayetteville, Arkansas property, installed by Thomas Fence.",
+      "what": [
+        "An ornamental iron swing gate with an automatic operator at a Fayetteville property: curb appeal meets access control.",
+        "Thomas Fence builds custom entrance gates in ornamental steel, automation-ready on every installation, in custom widths, heights and finishes."
+      ],
+      "faq_specific": [
+        ["Can an ornamental gate match my fence?", "Yes. Thomas Fence installs ornamental steel fence as well as gates, so an automated ornamental gate can be paired with a matching ornamental steel perimeter fence."]
+      ]
+    },
+    {
+      "slug": "custom-pivot-gate",
+      "youtube_id": "2Q131QLRP-g",
+      "gate_type": "Pivot Gate",
+      "town": "",
+      "h1": "Custom Pivot Gates for Sites Where Swing or Slide Won't Fit",
+      "title": "Custom Pivot Gate Video | Thomas Fence, Northwest Arkansas",
+      "meta": "See a custom pivot gate by Thomas Fence, engineered where swing or slide gates would not work. Built for busy self storage and industrial sites. (479) 636-4732.",
+      "hook": "When a swing or slide gate won't fit, a pivot gate will.",
+      "video_description": "A custom pivot gate engineered by Thomas Fence for a site where standard swing or slide options were not feasible.",
+      "what": [
+        "A pivot gate lifts and turns on a single post, which suits self storage and industrial sites that open dozens of times a day and have no room for a slide track.",
+        "This custom pivot gate was engineered for a site where standard swing or slide options were not feasible. Pivot gates open from the center, ideal where a full swing arc or cantilever clearance is not available."
+      ],
+      "faq_specific": [
+        ["When is a pivot gate the right choice?", "When a site has no room for a full swing arc or a slide track. A pivot gate lifts and turns on a single post, which suits self storage and industrial sites that open dozens of times a day."]
+      ]
+    },
+    {
+      "slug": "chain-link-swing-gate",
+      "youtube_id": "_gsxnm0gKb0",
+      "gate_type": "Chain Link Gate",
+      "town": "",
+      "h1": "Chain Link Swing Gates with Automatic Operators",
+      "title": "Chain Link Swing Gate Video | Thomas Fence, Northwest Arkansas",
+      "meta": "Watch a chain link swing gate with an automatic operator by Thomas Fence. Durable, low-maintenance access control. Free quotes, financing. (479) 636-4732.",
+      "hook": "Durable, low-maintenance access control.",
+      "video_description": "A chain link swing gate with an automatic operator, installed by Thomas Fence.",
+      "what": [
+        "A chain link swing gate with an automatic operator: durable, low-maintenance access control for commercial and residential sites.",
+        "Thomas Fence builds chain link gates swinging or sliding, automation-ready on every installation, in custom widths and heights."
+      ],
+      "faq_specific": [
+        ["Can a chain link gate be automated?", "Yes. Thomas Fence builds chain link gates swinging or sliding, and they are automation-ready on every installation."]
+      ]
+    },
+    {
+      "slug": "automated-gate-springdale",
+      "youtube_id": "i_U3CMSPx9o",
+      "gate_type": "Automated Gate",
+      "town": "Springdale",
+      "h1": "Automated Gate Contractor in Springdale, Arkansas",
+      "title": "Automated Gate Video, Springdale AR | Thomas Fence",
+      "meta": "Watch a Thomas Fence automated gate installation in Springdale, Arkansas. CGAT-certified technicians for commercial and industrial access control. (479) 636-4732.",
+      "hook": "CGAT-certified gate automation from Springdale, Thomas Fence's home city.",
+      "video_description": "A Thomas Fence automated gate installation in Springdale, Arkansas, by CGAT-certified technicians.",
+      "what": [
+        "Thomas Fence automated gate installation in Springdale, Arkansas, by CGAT-certified technicians for commercial and industrial access control.",
+        "Access control options include keypads, card readers, remote controls, phone entry systems and intercom integration, matched to your security requirements."
+      ],
+      "faq_specific": [
+        ["What access control options are available?", "Keypads, card readers, remote controls, phone entry systems and intercom integration. Thomas Fence matches the access control method to your security requirements."]
+      ]
+    }
+  ]
+}
